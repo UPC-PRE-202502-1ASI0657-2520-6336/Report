@@ -16,19 +16,19 @@ Profesor: Jorge Luis Delgado Vite
   
 Informe del Trabajo Final - TP
   
-Startup: "Nombre de la Startup"
+Startup: Law Connect
   
-Producto: "Nombre del producto"
+Producto: Law Connect
 
 ### Team Members:
 
 | Member                                | Code       |
 |---------------------------------------|------------|
-| Paitan Pumacahua, Max Anthony         | UXXXXXXXXX |
-| Conde Isla, Camila Alessandra       | UXXXXXXXXX |
+| Paitan Pumacahua, Max Anthony         | U201324454 |
+| Conde Isla, Camila Alessandra       | U202114309 |
 | Pariona Lucas, Jose Manuel         | UXXXXXXXXX |
 | Méndez Vargas, Sebastian       | UXXXXXXXXX |
-| Góngora Sánchez, Marco Antonio          | UXXXXXXXXX |
+| Góngora Sánchez, Marco Antonio          | U20211A085 |
 
   
 **Setiembre del 2025**
@@ -111,7 +111,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   - [1.1.1 Descripción de la Startup]()  
   - [1.1.2 Perfiles de integrantes del equipo]()  
 - [1.2 Solution Profile]()  
-  - [1.2.1 "Nombre del Producto"]()
+  - [1.2.1 Law Connect]()
   - [1.2.2 Antecedentes y problemática]()  
   - [1.2.3 Lean UX Process]()  
       - [1.2.3.1. Lean UX Problem Statements](h)  
@@ -163,7 +163,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 1.2. Solution Profile
 
 <a id="121-nombre-del-producto"></a>
-### 1.2.1 "Nombre del Producto"
+### 1.2.1 Law Connect
 
 <!-- contenido -->
 
