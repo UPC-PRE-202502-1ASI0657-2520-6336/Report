@@ -254,6 +254,44 @@ Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de S
   </tbody>
 </table>
 
+<table style="width:100%; border-collapse:collapse; table-layout:fixed; font-size:14px;">
+  <colgroup>
+    <col style="width:22%">
+    <col style="width:56%">
+    <col style="width:22%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="border:1px solid #444; padding:8px;">EMPRESA</th>
+      <th style="border:1px solid #444; padding:8px;">DESCRIPCIÓN</th>
+      <th style="border:1px solid #444; padding:8px;">IMAGEN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #444; padding:12px; vertical-align:top;"><strong>Legalo.pe</strong></td>
+      <td style="border:1px solid #444; padding:12px;">Marketplace peruano que conecta usuarios con abogados especializados por especialidad y ciudad; permite publicar casos y contactar especialistas, priorizando rapidez y una experiencia de contratación segura.</td>
+      <td style="border:1px solid #444; padding:12px; text-align:center;">
+        <img src="assets/img/chapter-2/competidores/legalo_logo.png" alt="Logo Legalo.pe" style="height:72px; object-fit:contain; display:inline-block;">
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:12px; vertical-align:top;"><strong>Aboga.pe</strong></td>
+      <td style="border:1px solid #444; padding:12px;">Estudio jurídico peruano que ofrece consulta directa en diversas especialidades y, cuando corresponde, deriva internamente al abogado idóneo. Capta y atiende por web, Facebook, teléfono y WhatsApp.</td>
+      <td style="border:1px solid #444; padding:12px; text-align:center;">
+        <img src="assets/img/chapter-2/competidores/aboga_logo.png" alt="Logo Aboga.pe" style="height:72px; object-fit:contain; display:inline-block;">
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:12px; vertical-align:top;"><strong>Legal Partners Peru</strong></td>
+      <td style="border:1px solid #444; padding:12px;">Marketplace automatizado que integra abogados, notarías y centros de conciliación para resolver trámites de principio a fin, facilitando el contacto y el seguimiento en línea.</td>
+      <td style="border:1px solid #444; padding:12px; text-align:center;">
+        <img src="assets/img/chapter-2/competidores/legal-partners-peru_logo.png" alt="Logo Legal Partners Peru" style="height:72px; object-fit:contain; display:inline-block;">
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <a id="211-analisis-competitivo"></a>
 <h3>2.1.1. Análisis competitivo</h3>
 
@@ -385,7 +423,6 @@ Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de S
   </tbody>
 </table>
 
-
 <a id="212-estrategias-y-tacticas-frente-a-competidores"></a>
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -411,7 +448,6 @@ Cómo nos diferenciamos:
 - Frente a **Legalo.pe**: destacaremos *precios visibles y respuesta rápida con pagos/agenda dentro de la plataforma.
 - Frente a **Aboga.pe**: daremos una opción más autoservicio (comparar y elegir en línea) sin depender de llamadas.
 - Frente a **Legal Partners Peru**: iremos simple y rápido en lo principal, sumando notarías/conciliación solo cuando aporte valor real.
-
 
 <a id="22-entrevistas"></a>
 ## 2.2. Entrevistas
@@ -441,13 +477,13 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
 
 En esta sección, mostramos perfiles ficticios que representan a los segmentos de usuarios identificados y entrevistados. Incluimos detalles sobre su demografía, personalidad, motivaciones, preferencias, objetivos, desafíos y comportamientos, además de cómo interactúan con productos similares. Estos datos se basan en las entrevistas realizadas y se han organizado utilizando la herramienta UXPressia.
 
+**User Persona: Abogado**
+
+<img src="assets/img/chapter-2/user-persona/lucía-martínez_user.png" alt="Lucía Martínez" style="object-fit:contain; display:inline-block;">
+
 **User Persona: Cliente que busca asesoría legal**
 
-<img src="assets/img/chapter-2/user-persona/camila-rojas_user.png" alt="Camila Rojas" style="object-fit:contain; display:inline-block;">
-
-**User Persona: Abogado independiente o recién colegiado**
-
-<img src="assets/img/chapter-2/user-persona/diego-salazar_user.png" alt="Diego Salazar" style="object-fit:contain; display:inline-block;">
+<img src="assets/img/chapter-2/user-persona/jean-patrick-sanchez-ríos_user.png" alt="Jean Patrick Sanchez Ríos" style="object-fit:contain; display:inline-block;">
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix
