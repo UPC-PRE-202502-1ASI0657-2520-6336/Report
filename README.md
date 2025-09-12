@@ -157,6 +157,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <a id="112-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2 Perfiles de integrantes del equipo
 
+**1) Pariona Lucas Jose Manuel** - u202119257 (Ingenieria de Software)
+Foto:
+<p align="center">
+    <img src="assets/img/develop/josepariona.png" alt="foto-jude" width="170px"/>
+</p>
+
+Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos intermedios y avanzados en algunos lenguajes de programación. HTML, CSS, JAVASCRIPT (Avanzado) C++, JAVA, PYTHON (Intermedio) Esto con respecto a la programación, además también de conocimientos con desarrollo web y desarrollo de apps. Me considero una persona responsable, que inspira confianza en el trabajo en grupo. Además, soy bastante adaptativo a la presión y los problemas que pueden llegar a pasar.
+
 <!-- contenido -->
 
 <a id="12-solution-profile"></a>
