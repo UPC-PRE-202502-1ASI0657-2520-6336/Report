@@ -27,7 +27,7 @@ Producto: Law Connect
 | Paitan Pumacahua, Max Anthony         | U201324454 |
 | Conde Isla, Camila Alessandra       | U202114309 |
 | Pariona Lucas, Jose Manuel         | UXXXXXXXXX |
-| Méndez Vargas, Sebastian       | UXXXXXXXXX |
+| Méndez Vargas, Sebastian       | U20201F140 |
 | Góngora Sánchez, Marco Antonio          | U20211A085 |
 
   
@@ -152,10 +152,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <a id="111-descripcion-de-la-startup"></a>
 ### 1.1.1 Descripción de la Startup
 
-<!-- contenido -->
+Law Connect es una plataforma digital diseñada para unir a personas que requieren asesoría legal con abogados calificados, creando un espacio donde ambas partes puedan beneficiarse de forma equitativa. Esta iniciativa busca transformar el panorama legal en Perú al promover una mayor descentralización del mercado y permitir que más personas accedan a servicios jurídicos de calidad, tomando como referencia las valoraciones de los propios usuarios.
+
+Gracias a funciones como videollamadas, chats en tiempo real y la posibilidad de agendar reuniones presenciales, la plataforma logra extender su alcance a diferentes regiones del país. Law Connect también tiene un fuerte compromiso social al facilitar oportunidades laborales para abogados que se encuentran desempleados, poniéndolos en contacto directo con quienes necesitan orientación legal. En esencia, se trata de una solución moderna, eficiente e inclusiva para conectar a profesionales del derecho con quienes más los necesitan.
 
 <a id="112-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2 Perfiles de integrantes del equipo
+
+
+
+
 
 <!-- contenido -->
 
