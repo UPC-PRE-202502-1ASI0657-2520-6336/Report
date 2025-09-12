@@ -248,11 +248,52 @@ De esta manera, Law Connect empodera a los usuarios con acceso rápido y confiab
 <a id="1232-lean-ux-assumptions"></a>
 #### 1.2.3.2. Lean UX Assumptions
 
+##### **User Assumptions:** 
+- **¿Quién es el usuario?**  
+El usuario es tanto la persona que enfrenta problemas legales y busca asesoría confiable, como el abogado (en condición de independiente o desempleado) que necesita oportunidades para conectarse con clientes potenciales.
+- **¿Dónde encaja nuestro producto en su vida o trabajo?**  
+Para los clientes, Law Connect encaja en los momentos en que requieren resolver un problema legal y no tienen claridad sobre dónde acudir. Para los abogados, la plataforma se integra en su práctica diaria como un canal digital de captación de clientes y gestión de casos.
+- **¿Qué problemas resuelve nuestro producto?**   
+Resuelve la falta de transparencia y confianza al momento de buscar asesoría legal, y la escasa visibilidad de abogados que buscan empleo o más clientes.  
+- **¿Cuándo y cómo se usa nuestro producto?**  
+Los usuarios con problemas legales lo utilizan al necesitar orientación o contratar un servicio legal; los abogados lo usan de forma continua para visibilizar sus servicios, gestionar consultas y atraer clientes.
+- **¿Qué características son importantes?**  
+Búsqueda rápida de abogados filtrados por especialidad y ubicación, transparencia en credenciales y calificaciones, comunicación integrada (chat, videollamadas), gestión de citas y documentos, y seguridad en la interacción.  
+- **¿Cómo debe verse y comportarse nuestro producto?**  
+Para clientes: interfaz sencilla, confiable y clara que muestre perfiles comparables, precios y calificaciones. Para abogados: herramientas completas para destacar sus servicios, gestionar clientes y mostrar experiencia profesional.  
+
+##### **Business Assumptions:** 
+- **Necesidades y problemas:** Creemos que los clientes necesitan una forma confiable de encontrar asesoría legal y los abogados requieren visibilidad para captar más casos.
+- **Plataforma:** Estas necesidades se resuelven con un marketplace digital que centralice la oferta y demanda legal.
+- **Segmentación:** Los principales usuarios son personas con problemas legales (clientes) y abogados independientes o desempleados.
+- **Comportamientos:** Los clientes esperan transparencia, confianza y rapidez; los abogados esperan captación de clientes y estabilidad en su práctica profesional.
+- **Beneficios:** Los clientes tendrán acceso a asesoría de calidad, y los abogados obtendrán nuevas oportunidades laborales e ingresos estables.
+- **Captación de clientes:** Se logrará mediante marketing digital (para clientes) y campañas dirigidas a colegios de abogados y asociaciones profesionales (para captar abogados).
+- **Modelo de ingresos:** Comisión por cada contratación de servicio, planes premium para abogados (mayor visibilidad, herramientas extra) y alianzas con instituciones educativas.
+- **Competencia:** Firmas de abogados tradicionales y otras plataformas legales online.
+- **Ventaja competitiva:** Transparencia, facilidad de uso, experiencia de usuario, inclusión de abogados independientes y creación de un ecosistema confiable.
+
+##### **Technical Assumptions** 
+- **Tecnología utilizada:** Plataforma web responsive desarrollada con frameworks modernos (React/Angular y Node.js/Spring Boot), base de datos relacional (PostgreSQL) y APIs seguras.
+- **Integraciones:** Pasarelas de pago para honorarios, sistemas de verificación de identidad y validación de títulos profesionales.
+- **Escalabilidad:** Arquitectura en la nube para soportar múltiples usuarios concurrentes, videollamadas y gestión segura de documentos legales.
+- **Seguridad:** Autenticación robusta, encriptación de datos y protección de información sensible y el tratamiento correcto de información sensible.
+
+##### **Market Assumptions:**
+- **Tamaño del mercado:** Existe una gran demanda insatisfecha en el acceso a asesoría legal, especialmente en segmentos que no acuden a estudios tradicionales.
+- **Competencia:** Limitada a estudios jurídicos y algunas plataformas online sin suficiente diferenciación ni transparencia.
+- **Tendencias:** Creciente digitalización de servicios profesionales, demanda de acceso inmediato a soluciones legales y uso de plataformas digitales para contratación de servicios.
+- **Oportunidad:** Democratizar el acceso a la justicia y crear un puente confiable entre la demanda de servicios legales y la oferta de abogados calificados.
+
+##### **Design Assumptions:**
+- **Interacción del usuario:** Los clientes interactuarán principalmente para buscar, comparar y contratar abogados; los abogados para gestionar su perfil, responder consultas y dar seguimiento a casos. No debemos de complicar la interacción con la aplicación web sobrecargando de información al usuario.
+- **Experiencia del usuario:** La plataforma debe transmitir confianza y accesibilidad, mostrando información clara, reseñas verificadas y canales de comunicación directos.
+- **Paleta de colores y tipografía:** Colores institucionales que transmitan seguridad (azules, verdes) y confianza (tonos neutros), con tipografía clara y profesional.
+- **Referencias visuales:** Perfiles de abogados estructurados con secciones claras (experiencia, especialidad, tarifas, reseñas).
+- **Prototipos y pruebas:** Se realizarán pruebas con usuarios reales (clientes y abogados) para validar usabilidad, claridad de la información y facilidad de contratación de estos.
 
 <a id="1233-lean-ux-hypothesis-statements"></a>
 #### 1.2.3.3. Lean UX Hypothesis
-
-
 
 <a id="1234-lean-ux-canvas"></a>
 #### 1.2.3.4. Lean UX Canvas
