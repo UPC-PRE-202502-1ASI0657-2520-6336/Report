@@ -214,7 +214,45 @@ Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de S
 # Capítulo II: Requirements Elicitation & Analysis
 
 <a id="21-competidores"></a>
-## 2.1. Competidores
+<h2>2.1. Competidores</h2>
+
+<table style="width:100%; border-collapse:collapse; table-layout:fixed; font-size:14px;">
+  <colgroup>
+    <col style="width:22%">
+    <col style="width:56%">
+    <col style="width:22%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th style="border:1px solid #444; padding:8px;">EMPRESA</th>
+      <th style="border:1px solid #444; padding:8px;">DESCRIPCIÓN</th>
+      <th style="border:1px solid #444; padding:8px;">IMAGEN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #444; padding:12px; vertical-align:top;"><strong>Legalo.pe</strong></td>
+      <td style="border:1px solid #444; padding:12px;">Marketplace peruano que conecta usuarios con abogados especializados por especialidad y ciudad; permite publicar casos y contactar especialistas, priorizando rapidez y una experiencia de contratación segura.</td>
+      <td style="border:1px solid #444; padding:12px; text-align:center;">
+        <img src="assets/img/chapter-2/competidores/legalo_logo.png" alt="Logo Legalo.pe" style="height:72px; object-fit:contain; display:inline-block;">
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:12px; vertical-align:top;"><strong>Aboga.pe</strong></td>
+      <td style="border:1px solid #444; padding:12px;">Estudio jurídico peruano que ofrece consulta directa en diversas especialidades y, cuando corresponde, deriva internamente al abogado idóneo. Capta y atiende por web, Facebook, teléfono y WhatsApp.</td>
+      <td style="border:1px solid #444; padding:12px; text-align:center;">
+        <img src="assets/img/chapter-2/competidores/aboga_logo.png" alt="Logo Aboga.pe" style="height:72px; object-fit:contain; display:inline-block;">
+      </td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #444; padding:12px; vertical-align:top;"><strong>Legal Partners Peru</strong></td>
+      <td style="border:1px solid #444; padding:12px;">Marketplace automatizado que integra abogados, notarías y centros de conciliación para resolver trámites de principio a fin, facilitando el contacto y el seguimiento en línea.</td>
+      <td style="border:1px solid #444; padding:12px; text-align:center;">
+        <img src="assets/img/chapter-2/competidores/legal-partners-peru_logo.png" alt="Logo Legal Partners Peru" style="height:72px; object-fit:contain; display:inline-block;">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <table style="width:100%; border-collapse:collapse; table-layout:fixed; font-size:14px;">
   <colgroup>
@@ -255,7 +293,7 @@ Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de S
 </table>
 
 <a id="211-analisis-competitivo"></a>
-### 2.1.1. Análisis competitivo
+<h3>2.1.1. Análisis competitivo</h3>
 
 <table style="width:100%; border-collapse:collapse; table-layout:fixed; font-size:14px;">
   <colgroup>
