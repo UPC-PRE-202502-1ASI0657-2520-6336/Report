@@ -394,6 +394,45 @@ Sabremos que estamos en lo correcto cuando al menos el 50% de los usuarios naveg
 <a id="13-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo
 
+### Segmento Objetivo #1: Personas con Problemas Legales
+
+Este grupo está conformado por individuos que necesitan asesoría legal en distintas áreas (civil, laboral, penal, familiar, entre otras) y que no cuentan con un abogado de confianza o acceso fácil a estudios jurídicos. Son usuarios que buscan soluciones rápidas, confiables y transparentes para resolver sus problemas legales.  
+
+Características clave:
+
+- Edad: 18 años a más 
+- Género: Ambos  
+- Contexto: Personas que enfrentan trámites, conflictos o procesos legales y requieren orientación profesional.  
+- Ocupación: Estudiantes universitarios, trabajadores dependientes e independientes, emprendedores; en general, personas en procesos legales personales o laborales.  
+- Uso de tecnología: Usuarios habituales de computadoras y smartphones (redes sociales, plataformas de servicios en línea).
+
+Necesidades:
+
+- Acceso rápido a abogados confiables y especializados en el área legal que necesitan.
+- Transparencia en tarifas, credenciales y experiencia del abogado.
+- Seguridad en la contratación y en el manejo de documentos legales.
+- Canales de comunicación directos (chat, videollamadas) y agenda digital para programar citas.
+- Poder comparar abogados antes de tomar una decisión.
+
+### Segmento Objetivo #2: Abogados 
+
+Este grupo está compuesto por profesionales que buscan incrementar su visibilidad en el mercado legal y captar clientes de manera más eficiente. Incluye abogados jóvenes, desempleados o que trabajan de forma independiente sin pertenecer a grandes estudios jurídicos.
+
+Características clave:
+
+- Edad: 22 años a más
+- Género: Ambos
+- Contexto: Profesionales que ejercen de manera independiente o están iniciando su carrera en el ámbito legal, con necesidad de captar clientes para consolidar su práctica.
+- Ocupación: Abogados recién colegiados, abogados independientes, egresados con poca experiencia, pequeños despachos legales.
+- Uso de tecnología: Nivel medio–alto; habituados al uso de herramientas digitales, redes sociales y plataformas de trabajo remoto.
+
+Necesidades:
+
+- Mayor visibilidad profesional frente a potenciales clientes.
+- Herramientas para gestionar su perfil, citas y comunicación con clientes.
+- Espacios seguros para compartir documentos legales.
+- Sistema de calificaciones y reseñas verificadas que respalden su reputación.
+- Oportunidades para generar ingresos estables y ganar experiencia profesional.
 
 <a id="capitulo-ii-requirements-elicitation--analysis"></a>
 # Capítulo II: Requirements Elicitation & Analysis
