@@ -295,6 +295,94 @@ Para clientes: interfaz sencilla, confiable y clara que muestre perfiles compara
 <a id="1233-lean-ux-hypothesis-statements"></a>
 #### 1.2.3.3. Lean UX Hypothesis
 
+**Hypothesis Statement 01:**  
+Creemos que las personas con problemas legales necesitan una forma confiable de encontrar y comparar abogados en línea.  
+Sabremos que estamos en lo correcto cuando los usuarios realicen búsquedas recurrentes y consulten varios perfiles antes de elegir. 
+
+**Hypothesis Statement 02:**  
+Creemos que mostrar calificaciones y reseñas verificadas de otros clientes aumentará la confianza en la plataforma.  
+Sabremos que estamos en lo correcto cuando los usuarios prioricen abogados con mejores valoraciones y las reseñas sean uno de los apartados más consultados.  
+
+**Hypothesis Statement 03:**  
+Creemos que ofrecer un buscador con filtros por especialidad, ubicación y tarifas facilitará la elección del abogado adecuado.  
+Sabremos que estamos en lo correcto cuando los usuarios utilicen los filtros en más del 70% de las búsquedas realizadas.  
+
+**Hypothesis Statement 04:**  
+Creemos que integrar un sistema de comunicación directa (chat y videollamadas) entre abogado y cliente reducirá la fricción en la contratación.
+Sabremos que estamos en lo correcto cuando los usuarios utilicen estas funciones en lugar de medios externos (WhatsApp, llamadas personales).
+
+**Hypothesis Statement 05:**  
+Creemos que permitir la programación de citas dentro de la plataforma hará más eficiente la coordinación entre abogados y clientes.  
+Sabremos que estamos en lo correcto cuando al menos el 60% de los usuarios agenden reuniones desde la web.  
+
+**Hypothesis Statement 06:**
+Creemos que la validación de títulos profesionales y credenciales aumentará la percepción de seguridad en los usuarios.  
+Sabremos que estamos en lo correcto cuando observemos un incremento en la contratación de abogados con credenciales verificadas.  
+
+**Hypothesis Statement 07:**  
+Creemos que los abogados independientes valorarán la visibilidad que les da la plataforma para captar más clientes.  
+Sabremos que estamos en lo correcto cuando los abogados actualicen y optimicen sus perfiles de forma frecuente.  
+
+**Hypothesis Statement 08:**  
+Creemos que mostrar perfiles completos (experiencia, áreas de práctica, tarifas y disponibilidad) aumentará la conversión de consultas en contrataciones.  
+Sabremos que estamos en lo correcto cuando los usuarios pasen más tiempo explorando perfiles detallados y concreten más contrataciones.  
+
+**Hypothesis Statement 09:**
+Creemos que los clientes prefieren transparencia en las tarifas antes de contratar un abogado.  
+Sabremos que estamos en lo correcto cuando los usuarios opten por abogados con precios claros frente a aquellos que no los muestren.  
+
+**Hypothesis Statement 10:**
+Creemos que un diseño web intuitivo y profesional generará confianza en la primera interacción del usuario.  
+Sabremos que estamos en lo correcto cuando la tasa de abandono en la página de inicio sea baja y la mayoría de los visitantes cree una cuenta.  
+
+**Hypothesis Statement 11:**
+Creemos que integrar notificaciones dentro de la plataforma (recordatorios de citas, mensajes, documentos compartidos) mejorará la coordinación entre ambas partes.  
+Sabremos que estamos en lo correcto cuando los usuarios atiendan sus citas y respondan consultas de manera más puntual.  
+
+**Hypothesis Statement 12:**  
+Creemos que los abogados desempleados verán en la plataforma una vía para generar ingresos estables y ganar experiencia.  
+Sabremos que estamos en lo correcto cuando el número de abogados registrados crezca constantemente y permanezcan activos.  
+
+**Hypothesis Statement 13:**
+Creemos que los usuarios recomendarán la plataforma si perciben rapidez y confianza en la contratación.  
+Sabremos que estamos en lo correcto cuando al menos el 20% de los nuevos clientes lleguen por recomendación directa de otros usuarios.  
+
+**Hypothesis Statement 14:**  
+Creemos que implementar un sistema de verificación de identidad reducirá el riesgo de fraudes en la plataforma.  
+Sabremos que estamos en lo correcto cuando disminuya la cantidad de reportes o disputas sobre falsos perfiles.  
+
+**Hypothesis Statement 15:**
+Creemos que la transparencia en la comunicación abogado–cliente (registro de conversaciones y acuerdos dentro de la web) generará confianza y reducirá conflictos.  
+Sabremos que estamos en lo correcto cuando las disputas entre usuarios sean mínimas y fácilmente resolubles dentro de la plataforma.  
+
+**Hypothesis Statement 16:**
+Creemos que un sistema de categorización por especialidad legal (civil, penal, laboral, etc.) hará más eficiente la búsqueda de asesoría.
+Sabremos que estamos en lo correcto cuando los clientes encuentren abogados adecuados en menos tiempo y con menos pasos.
+
+**Hypothesis Statement 17:**  
+Creemos que proporcionar a los abogados estadísticas de uso (visitas a su perfil, número de consultas recibidas, tasa de conversión) los motivará a permanecer activos.  
+Sabremos que estamos en lo correcto cuando los abogados mejoren sus perfiles y participen más activamente en la plataforma.  
+
+**Hypothesis Statement 18:**  
+Creemos que integrar pasarelas de pago seguras dentro de la aplicación web aumentará la confianza en la contratación en línea.  
+Sabremos que estamos en lo correcto cuando los usuarios prefieran pagar dentro de la plataforma en lugar de medios externos.  
+
+**Hypothesis Statement 19:**  
+Creemos que una sección educativa con guías básicas y consejos legales aumentará el valor percibido de la plataforma.  
+Sabremos que estamos en lo correcto cuando identifiquemos un uso recurrente de esta sección y un mayor tiempo de permanencia en la web.  
+
+**Hypothesis Statement 20:**  
+Creemos que los abogados especializados en nichos específicos (por ejemplo, derecho digital, propiedad intelectual) encontrarán más oportunidades al destacar sus perfiles.  
+Sabremos que estamos en lo correcto cuando dichos abogados reciban más consultas a través de la segmentación de búsqueda.  
+
+**Hypothesis Statement 21:**  
+Creemos que un sistema de soporte al cliente dentro de la plataforma (FAQ, chat de ayuda) reducirá las dudas iniciales de uso.  
+Sabremos que estamos en lo correcto cuando la mayoría de los usuarios logre resolver problemas básicos sin abandonar la aplicación. 
+
+**Hypothesis Statement 22:**  
+Creemos que una interfaz adaptable y responsive permitirá que los usuarios accedan cómodamente desde dispositivos móviles y computadoras.  
+Sabremos que estamos en lo correcto cuando al menos el 50% de los usuarios naveguen desde distintos dispositivos sin inconvenientes.  
+
 <a id="1234-lean-ux-canvas"></a>
 #### 1.2.3.4. Lean UX Canvas
 
