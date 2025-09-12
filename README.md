@@ -100,7 +100,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | - | - | - |
-| Criterio 1 | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br> ... <br><br>**Conde Isla, Camila Alessandra** <br> ... <br><br> **Pariona Lucas, Jose Manuel** <br> ...  <br> <br> **Méndez Vargas, Sebastian** <br> ... <br>  <br> **Góngora Sánchez, Marco Antonio** <br> ... <br> | En conclusión, ... | <br>
+| Criterio 1 | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br> ... <br><br>**Conde Isla, Camila Alessandra** <br> ... <br><br> **Pariona Lucas, Jose Manuel** <br> ...  <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente:
+
+Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general.
+
+Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática.
+
+Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución.
+
+Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario.
+
+Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales.
+
+Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> ... <br> | En conclusión, ... | <br>
 | Criterio 2 | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br> ... <br><br>**Conde Isla, Camila Alessandra** <br> ... <br><br> **Pariona Lucas, Jose Manuel** <br> ...  <br> <br> **Méndez Vargas, Sebastian**  <br> ... <br>  <br> **Góngora Sánchez, Marco Antonio** <br> ... <br> | En conclusión, ... |
 ---  
 # Contenido  
