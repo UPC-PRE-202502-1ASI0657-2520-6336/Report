@@ -152,7 +152,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <a id="111-descripcion-de-la-startup"></a>
 ### 1.1.1 Descripción de la Startup
 
-<!-- contenido -->
+Law Connect es una plataforma digital diseñada para unir a personas que requieren asesoría legal con abogados calificados, creando un espacio donde ambas partes puedan beneficiarse de forma equitativa. Esta iniciativa busca transformar el panorama legal en Perú al promover una mayor descentralización del mercado y permitir que más personas accedan a servicios jurídicos de calidad, tomando como referencia las valoraciones de los propios usuarios.
+
+Gracias a funciones como videollamadas, chats en tiempo real y la posibilidad de agendar reuniones presenciales, la plataforma logra extender su alcance a diferentes regiones del país. Law Connect también tiene un fuerte compromiso social al facilitar oportunidades laborales para abogados que se encuentran desempleados, poniéndolos en contacto directo con quienes necesitan orientación legal. En esencia, se trata de una solución moderna, eficiente e inclusiva para conectar a profesionales del derecho con quienes más los necesitan.
 
 <a id="112-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2 Perfiles de integrantes del equipo
@@ -165,18 +167,68 @@ Foto:
 
 Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos intermedios y avanzados en algunos lenguajes de programación. HTML, CSS, JAVASCRIPT (Avanzado) C++, JAVA, PYTHON (Intermedio) Esto con respecto a la programación, además también de conocimientos con desarrollo web y desarrollo de apps. Me considero una persona responsable, que inspira confianza en el trabajo en grupo. Además, soy bastante adaptativo a la presión y los problemas que pueden llegar a pasar.
 
+**2) Conde Isla Camila Alessandra** - u202114309 (Ingenieria de Software)
+Foto:
+<p align="center">
+  <img src="assets/img/develop/camilaconde.jpg" alt="camila" width="170px"/>
+</p>
+
+Soy Camila Conde, estudiante de la carrera de Ingeniería de Software. Mi motivación para seguir aprendiendo es llegar a crear y diseñar soluciones creativas. Me considero una persona creativa, proactiva, tolerante, respetuosa y apasionada por lo que me gusta. Me comprometo a apoyar en el proceso para poder tener un proyecto final bien planteado para obtener una buena nota
+
+**3) Méndez Vargas Sebastian Orlando** - u20201f140 (Ingernieria de Software)
+Foto:
+
+<p align="center">
+  <img src="assets/img/develop/sebastianmendez.png" alt="sebastian" width="170px"/>
+</p>
+
+Mi nombre es Sebastian Méndez y estudio la carrera de Ingeniería de Software en UPC. Me apasiona el desarrollo web y actualmente estoy realizando prácticas como Frontend Developer y diseñador UX/UI . Cuento con conocimientos en tecnologías como: HTML5, CSS5, JavaScript, TypeScript y C#. En mis ratos libres practico mecanografía, voy al gimnasio o juego algo.
+
+
+
+**4) Góngora Sánchez Marco Antonio** - u20211a085 (Ingenieria de Software)
+Foto:
+
+<p align="center">
+  <img src="assets/img/develop/marcogongora.jpg" alt="marco" width="170px"/>
+</p>
+
+Soy estudiante de la UPC. Estoy en la carrera de Ingeniería de Software ya que siempre me gustó el desarrollo y la comprensión de esta. Tengo conocimientos básicos en C++, Python, Vue y medio-avanzado en Java, SpringBoot y SQL. Con respecto a mis aptitudes es la cooperación en equipo y creatividad tanto en diseño/estilos del software y el flujo técnico de esta.
+
+**5) Paitan Pumacahua Max Anthony** - u201324454 (Ingenieria de Software)
+Foto:
+
+<p align="center">
+  <img src="assets/img/develop/maxpaitan.jpg" alt="max" width="170px"/>
+</p>
+
+Descripción.
+
 <!-- contenido -->
 
 <a id="12-solution-profile"></a>
 ## 1.2. Solution Profile
 
 <a id="121-nombre-del-producto"></a>
-### 1.2.1 Law Connect
+### 1.2.1 Nombre del producto
+
+**Law Connect**
 
 <!-- contenido -->
 
 <a id="122-antecedentes-y-problematica"></a>
 ### 1.2.2 Antecedentes y problemática
+
+Según Vallecilla (2024), hasta febrero del año 2024, la tasa de desempleo en Perú alcanzó el 7.30%. Esta situación afecta también a los egresados de la carrera de derecho, quienes enfrentan desafíos significativos para encontrar un empleo estable debido a la coyuntura actual. Además, las personas con problemas legales enfrentan dificultades para encontrar abogados de calidad, ya que carecen de orientación sobre dónde buscar o cómo encontrarlos.
+| | |
+|-|-|
+|What(Que)| Una solución digital (marketplace legal) que conecta a personas con problemas legales con abogados calificados, abordando dos problemas clave: el desempleo entre abogados egresados y la falta de acceso a asesoría legal de calidad por parte del público general. |
+|When (Cuándo)| En un contexto actual donde, según datos de febrero de 2024, el desempleo en Perú alcanza el 7.30%, afectando significativamente a los egresados de derecho y a las personas con necesidad urgente de asesoría legal. |
+|Where (Dónde)|En Perú, con especial énfasis en regiones fuera de Lima donde el acceso a servicios legales suele ser más limitado y en egresados de Derecho.|
+|Who (Quién)|Egresados de la carrera de derecho que se encuentran en busca de empleo, personas que se encuentran con problemas legales que necesitan ayuda o asistencia legal y desarrolladores que trabajarán en la implementación de la solución.|
+|Why (Por qué)| Para democratizar el acceso a servicios legales de calidad y reducir el desempleo legal mediante una plataforma accesible que conecte oferta y demanda de forma eficiente. |
+|How (Cómo)| A través de una aplicación web con funcionalidades como videollamadas, chat en vivo y opciones para reuniones presenciales, que permita a los usuarios encontrar abogados basados en calificaciones, experiencia y cercanía. |
+|How much (Cuánto)| Actualmente, los abogados desempleados no generan ingresos ni experiencia, mientras que los clientes pierden tiempo y recursos en encontrar asesoría legal confiable. La plataforma busca reducir estos costos económicos y de tiempo para ambos grupos. |
 
 <!-- contenido -->
 
