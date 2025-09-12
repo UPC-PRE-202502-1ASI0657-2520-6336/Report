@@ -159,9 +159,50 @@ Gracias a funciones como videollamadas, chats en tiempo real y la posibilidad de
 <a id="112-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2 Perfiles de integrantes del equipo
 
+**1) Pariona Lucas Jose Manuel** - u202119257 (Ingenieria de Software)
+Foto:
+<p align="center">
+  <img src="assets/img/develop/josepariona.png" alt="foto-jude" width="170px"/>
+</p>
+
+Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Cuento con conocimientos intermedios y avanzados en algunos lenguajes de programación. HTML, CSS, JAVASCRIPT (Avanzado) C++, JAVA, PYTHON (Intermedio) Esto con respecto a la programación, además también de conocimientos con desarrollo web y desarrollo de apps. Me considero una persona responsable, que inspira confianza en el trabajo en grupo. Además, soy bastante adaptativo a la presión y los problemas que pueden llegar a pasar.
+
+**2) Conde Isla Camila Alessandra** - u202114309 (Ingenieria de Software)
+Foto:
+<p align="center">
+  <img src="assets/img/develop/camilaconde.jpg" alt="camila" width="170px"/>
+</p>
+
+Soy Camila Conde, estudiante de la carrera de Ingeniería de Software. Mi motivación para seguir aprendiendo es llegar a crear y diseñar soluciones creativas. Me considero una persona creativa, proactiva, tolerante, respetuosa y apasionada por lo que me gusta. Me comprometo a apoyar en el proceso para poder tener un proyecto final bien planteado para obtener una buena nota
+
+**3) Méndez Vargas Sebastian Orlando** - u20201f140 (Ingernieria de Software)
+Foto:
+
+<p align="center">
+  <img src="assets/img/develop/sebastianmendez.png" alt="sebastian" width="170px"/>
+</p>
+
+Mi nombre es Sebastian Méndez y estudio la carrera de Ingeniería de Software en UPC. Me apasiona el desarrollo web y actualmente estoy realizando prácticas como Frontend Developer y diseñador UX/UI . Cuento con conocimientos en tecnologías como: HTML5, CSS5, JavaScript, TypeScript y C#. En mis ratos libres practico mecanografía, voy al gimnasio o juego algo.
 
 
 
+**4) Góngora Sánchez Marco Antonio** - u20211a085 (Ingenieria de Software)
+Foto:
+
+<p align="center">
+  <img src="assets/img/develop/marcogongora.jpg" alt="marco" width="170px"/>
+</p>
+
+Soy estudiante de la UPC. Estoy en la carrera de Ingeniería de Software ya que siempre me gustó el desarrollo y la comprensión de esta. Tengo conocimientos básicos en C++, Python, Vue y medio-avanzado en Java, SpringBoot y SQL. Con respecto a mis aptitudes es la cooperación en equipo y creatividad tanto en diseño/estilos del software y el flujo técnico de esta.
+
+**5) Paitan Pumacahua Max Anthony** - u201324454 (Ingenieria de Software)
+Foto:
+
+<p align="center">
+  <img src="assets/img/develop/maxpaitan.jpg" alt="max" width="170px"/>
+</p>
+
+Descripción.
 
 <!-- contenido -->
 
