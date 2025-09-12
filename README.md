@@ -238,17 +238,21 @@ Según Vallecilla (2024), hasta febrero del año 2024, la tasa de desempleo en P
 <a id="1231-lean-ux-problem-statements"></a>
 #### 1.2.3.1. Lean UX Problem Statements
 
-<!-- contenido -->
+En el panorama actual de los servicios legales en el Perú, muchas personas que enfrentan problemas jurídicos se encuentran con dificultades significativas para acceder a asesoría legal de calidad. La carencia de orientación sobre dónde buscar abogados confiables, la ausencia de transparencia en precios y credenciales, así como la desconfianza general hacia el sistema legal, generan una experiencia frustrante que retrasa la solución de sus problemas y, en algunos casos, los deja desprotegidos.  
+Al mismo tiempo, los abogados —especialmente los recién egresados o independientes— enfrentan un mercado laboral limitado y saturado. La falta de visibilidad, las pocas oportunidades para ejercer y la competencia desigual con grandes estudios jurídicos les impide acceder a clientes, generar ingresos estables y construir una trayectoria profesional sólida.  
+Esta desconexión entre la demanda de servicios legales y la oferta disponible crea un círculo vicioso: por un lado, los clientes no encuentran fácilmente abogados confiables y, por el otro lado, los abogados no logran acceder a quienes necesitan sus servicios.  
+Para cubrir esta necesidad crítica surge Law Connect como un marketplace digital. La plataforma busca descentralizar y democratizar el acceso a servicios legales, conectando de manera directa a personas con problemas jurídicos con abogados calificados. A través de perfiles transparentes, calificaciones verificadas, herramientas de comunicación (chat, videollamadas y reuniones presenciales) y funcionalidades de gestión de citas y documentos, se busca reducir la brecha de confianza y facilitar la interacción abogado-cliente.  
+De esta manera, Law Connect empodera a los usuarios con acceso rápido y confiable a profesionales legales, al mismo tiempo que otorga a los abogados nuevas oportunidades laborales, incrementando su visibilidad y mejorando su estabilidad financiera.  
+
 
 <a id="1232-lean-ux-assumptions"></a>
 #### 1.2.3.2. Lean UX Assumptions
 
-<!-- contenido -->
 
 <a id="1233-lean-ux-hypothesis-statements"></a>
 #### 1.2.3.3. Lean UX Hypothesis
 
-<!-- contenido -->
+
 
 <a id="1234-lean-ux-canvas"></a>
 #### 1.2.3.4. Lean UX Canvas
