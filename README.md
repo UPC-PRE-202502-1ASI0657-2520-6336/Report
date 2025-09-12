@@ -431,13 +431,13 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
 
 En esta sección, mostramos perfiles ficticios que representan a los segmentos de usuarios identificados y entrevistados. Incluimos detalles sobre su demografía, personalidad, motivaciones, preferencias, objetivos, desafíos y comportamientos, además de cómo interactúan con productos similares. Estos datos se basan en las entrevistas realizadas y se han organizado utilizando la herramienta UXPressia.
 
+**User Persona: Abogado**
+
+<img src="assets/img/chapter-2/user-persona/lucía-martínez_user.png" alt="Lucía Martínez" style="object-fit:contain; display:inline-block;">
+
 **User Persona: Cliente que busca asesoría legal**
 
-<img src="assets/img/chapter-2/user-persona/camila-rojas_user.png" alt="Camila Rojas" style="object-fit:contain; display:inline-block;">
-
-**User Persona: Abogado independiente o recién colegiado**
-
-<img src="assets/img/chapter-2/user-persona/diego-salazar_user.png" alt="Diego Salazar" style="object-fit:contain; display:inline-block;">
+<img src="assets/img/chapter-2/user-persona/jean-patrick-sanchez-ríos_user.png" alt="Jean Patrick Sanchez Ríos" style="object-fit:contain; display:inline-block;">
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix
