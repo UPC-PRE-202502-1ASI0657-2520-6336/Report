@@ -441,18 +441,35 @@ En esta sección, mostramos perfiles ficticios que representan a los segmentos d
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix
+En esta sección se presenta la matriz de tareas del usuario (User Task Matrix), una herramienta enfocada en los segmentos objetivo que permite identificar las acciones clave y necesidades específicas de cada tipo de usuario. Esta matriz facilita la priorización de funcionalidades dentro del product backlog, alineando el desarrollo con lo que realmente aporta valor. Para evaluar cada tarea, se consideran dos dimensiones: la frecuencia de uso (alta, media, baja) y su nivel de importancia (alta, media, baja).
 
 <!-- contenido -->
+<img src="assets/img/chapter-2/user-task/usertaskmatrix.png" alt="user task matrix" style="object-fit:contain; display:inline-block;">
 
 <a id="233-empathy-maps"></a>
 ### 2.3.3. Empathy Maps
 
+Esta sección introduce el Empathy Mapping como una herramienta clave para construir perfiles detallados de los User Personas y profundizar en la comprensión de sus percepciones, emociones y comportamientos. Los diagramas fueron elaborados utilizando la plataforma UXPressia, lo que permitió visualizar de forma clara y estructurada la experiencia del usuario.
+
 <!-- contenido -->
+**Empathy Map: Abogado**
+<img src="assets/img/chapter-2/empathy/EmpathyMapABOGADO.png" alt="empathy map abogado" style="object-fit:contain; display:inline-block;">
+
+**Empathy Map: Cliente**
+<img src="assets/img/chapter-2/empathy/Empathy map.png"
+alt="empathy map cliente" style="object-fit:contain; display:inline-block;">
 
 <a id="234-as-is-scenario-mapping"></a>
 ### 2.3.4. As-Is Scenario Mapping
-
+Esta sección expone los mapeos de escenarios As-Is para ambos segmentos objetivo, con el propósito de identificar y analizar los puntos de interacción actuales entre los usuarios y el sistema. Este ejercicio permite comprender cómo se relacionan con la plataforma en su estado actual, revelando oportunidades de mejora en la experiencia y funcionalidad.
 <!-- contenido -->
+**As-Is Abogado**
+<img src="assets/img/chapter-2/as-is/diagrama - AS IS ABOGADO.jpg"
+alt="as is abogado" style="object-fit:contain; display:inline-block;">
+
+**As-Is Cliente**
+<img src="assets/img/chapter-2/as-is/diagrama - AS IS CLIENTE.jpg"
+alt="as is cliente" style="object-fit:contain; display:inline-block;">
 
 ---
 
