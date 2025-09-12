@@ -275,6 +275,13 @@ Tengo 20 años. En la actualidad estoy estudiando la carrera de Ingeniería de S
 <a id="31-to-be-scenario-mapping"></a>
 ## 3.1. To-Be Scenario Mapping
 
+Esta sección presenta los mapeos de escenarios To-Be para cada segmento objetivo, construidos a partir del análisis previo de los escenarios As-Is. En ellos se proyecta la experiencia de usuario ideal, considerando la resolución de los puntos de dolor y la satisfacción de sus necesidades específicas
+
+**To-Be Abogado**
+<img src="assets/img/chapter-3/diagrama - TO BE ABOGADO.jpg">
+
+**To-Be Cliente**
+<img src="assets/img/chapter-3/diagrama - TO BE CLIENTE.jpg">
 <!-- contenido -->
 
 <a id="32-user-stories"></a>
