@@ -386,14 +386,14 @@ Sabremos que estamos en lo correcto cuando al menos el 50% de los usuarios naveg
 <a id="1234-lean-ux-canvas"></a>
 #### 1.2.3.4. Lean UX Canvas
 
-<!-- contenido -->
+<img src="assets/img/chapter-1/canvas.png" alt="Lean UX Canvas" style="object-fit:contain; display:inline-block;">
+
+[Link del canvas en Miro](https://miro.com/welcomeonboard/VmZwYnlIa1dwWW1iNzlDQlYxcng4RXNWc3YvZ3hVa3FKRTRxY0ZDZXpLaHVjMzh4Mmk2NnpwUG1LQ1JzdFZUTjIrNmZPQ1M0WkFiUkVhcXkyT2ZhSm1JSVMzRnFtLzF6MUxTY25maEVBNFlvRGhlSTN0WlZyeWg3cGs2UHdveVZnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=397889322394)  
+
 
 <a id="13-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo
 
-<!-- contenido -->
-
----
 
 <a id="capitulo-ii-requirements-elicitation--analysis"></a>
 # Capítulo II: Requirements Elicitation & Analysis
