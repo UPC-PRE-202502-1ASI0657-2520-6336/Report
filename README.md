@@ -210,12 +210,25 @@ Descripción.
 ## 1.2. Solution Profile
 
 <a id="121-nombre-del-producto"></a>
-### 1.2.1 Law Connect
+### 1.2.1 Nombre del producto
+
+**Law Connect**
 
 <!-- contenido -->
 
 <a id="122-antecedentes-y-problematica"></a>
 ### 1.2.2 Antecedentes y problemática
+
+Según Vallecilla (2024), hasta febrero del año 2024, la tasa de desempleo en Perú alcanzó el 7.30%. Esta situación afecta también a los egresados de la carrera de derecho, quienes enfrentan desafíos significativos para encontrar un empleo estable debido a la coyuntura actual. Además, las personas con problemas legales enfrentan dificultades para encontrar abogados de calidad, ya que carecen de orientación sobre dónde buscar o cómo encontrarlos.
+| | |
+|-|-|
+|What(Que)| Una solución digital (marketplace legal) que conecta a personas con problemas legales con abogados calificados, abordando dos problemas clave: el desempleo entre abogados egresados y la falta de acceso a asesoría legal de calidad por parte del público general. |
+|When (Cuándo)| En un contexto actual donde, según datos de febrero de 2024, el desempleo en Perú alcanza el 7.30%, afectando significativamente a los egresados de derecho y a las personas con necesidad urgente de asesoría legal. |
+|Where (Dónde)|En Perú, con especial énfasis en regiones fuera de Lima donde el acceso a servicios legales suele ser más limitado y en egresados de Derecho.|
+|Who (Quién)|Egresados de la carrera de derecho que se encuentran en busca de empleo, personas que se encuentran con problemas legales que necesitan ayuda o asistencia legal y desarrolladores que trabajarán en la implementación de la solución.|
+|Why (Por qué)| Para democratizar el acceso a servicios legales de calidad y reducir el desempleo legal mediante una plataforma accesible que conecte oferta y demanda de forma eficiente. |
+|How (Cómo)| A través de una aplicación web con funcionalidades como videollamadas, chat en vivo y opciones para reuniones presenciales, que permita a los usuarios encontrar abogados basados en calificaciones, experiencia y cercanía. |
+|How much (Cuánto)| Actualmente, los abogados desempleados no generan ingresos ni experiencia, mientras que los clientes pierden tiempo y recursos en encontrar asesoría legal confiable. La plataforma busca reducir estos costos económicos y de tiempo para ambos grupos. |
 
 <!-- contenido -->
 
