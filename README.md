@@ -40,7 +40,7 @@ Producto: Law Connect
   
 | Versión | Fecha      | Autor   | Descripción de modificaciones         |
 |---------|------------|---------|---------------------------------------|
-| 1.0     | xx/09/2025 | Paitan Pumacahua, Max Anthony <br>	Conde Isla, Camila Alessandra	<br> Pariona Lucas, Jose Manuel	<br> Méndez Vargas, Sebastian <br> Góngora Sánchez, Marco Antonio | Capítulo I <br> Capítulo II <br> Capítulo III       |
+| 1.0     | 12/09/2025 | Paitan Pumacahua, Max Anthony <br>	Conde Isla, Camila Alessandra	<br> Pariona Lucas, Jose Manuel	<br> Méndez Vargas, Sebastian <br> Góngora Sánchez, Marco Antonio | Capítulo I <br> Capítulo II <br> Capítulo III       |
 
 ---  
 # Project Report Collaboration Insights  
