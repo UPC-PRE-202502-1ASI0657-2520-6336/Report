@@ -514,10 +514,23 @@ Cómo nos diferenciamos:
 
 <!-- contenido -->
 
+**Segmento Objetivo 2: Abogados Buscando Expandir su Clientela**
+<br>
+Entrevista 5: Víctor comentó las dificultades que experimenta en su labor como abogado independiente, principalmente en aspectos de promoción y en la organización de su cartera de clientes. Manifestó interés en contar con una plataforma que le proporcione herramientas completas para administrar sus casos, agendar reuniones y facilitar la comunicación con sus clientes. Destacó que le resultaría muy valioso disponer de funciones que fortalezcan la interacción y la personalización, como recordatorios automáticos o la posibilidad de enviar actualizaciones sobre el estado de los procesos directamente desde la aplicación.
+<br>
+![Impact Mapping](assets/img/chapter-3/entrevista_abogado.png)
+
+Enlace de la entrevista: https://youtu.be/SlU9ImxNps4
+
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas
 
 <!-- contenido -->
+
+**Análisis  del segmento objetivo 2 - Abogados Buscando Expandir su Clientela:**
+<br>
+
+**Entrevista  5:**  Víctor evidencia la necesidad de modernizar su forma de atraer y gestionar clientes. Actualmente siente la presión de actualizar sus métodos de promoción y comunicación, por lo que ve con interés una plataforma que le ofrezca mayor visibilidad y herramientas digitales que lo ayuden a diferenciarse. Para él es fundamental contar con funcionalidades que le permitan administrar casos, programar citas y mantener un contacto directo con sus clientes de manera personalizada. La posibilidad de enviar recordatorios, notificaciones y actualizaciones sobre los procesos resulta clave para fortalecer la relación con su clientela y proyectar una imagen más profesional en un mercado competitivo.
 
 <a id="23-needfinding"></a>
 ## 2.3. Needfinding
@@ -539,18 +552,35 @@ En esta sección, mostramos perfiles ficticios que representan a los segmentos d
 
 <a id="232-user-task-matrix"></a>
 ### 2.3.2. User Task Matrix
+En esta sección se presenta la matriz de tareas del usuario (User Task Matrix), una herramienta enfocada en los segmentos objetivo que permite identificar las acciones clave y necesidades específicas de cada tipo de usuario. Esta matriz facilita la priorización de funcionalidades dentro del product backlog, alineando el desarrollo con lo que realmente aporta valor. Para evaluar cada tarea, se consideran dos dimensiones: la frecuencia de uso (alta, media, baja) y su nivel de importancia (alta, media, baja).
 
 <!-- contenido -->
+<img src="assets/img/chapter-2/user-task/usertaskmatrix.png" alt="user task matrix" style="object-fit:contain; display:inline-block;">
 
 <a id="233-empathy-maps"></a>
 ### 2.3.3. Empathy Maps
 
+Esta sección introduce el Empathy Mapping como una herramienta clave para construir perfiles detallados de los User Personas y profundizar en la comprensión de sus percepciones, emociones y comportamientos. Los diagramas fueron elaborados utilizando la plataforma UXPressia, lo que permitió visualizar de forma clara y estructurada la experiencia del usuario.
+
 <!-- contenido -->
+**Empathy Map: Abogado**
+<img src="assets/img/chapter-2/empathy/EmpathyMapABOGADO.png" alt="empathy map abogado" style="object-fit:contain; display:inline-block;">
+
+**Empathy Map: Cliente**
+<img src="assets/img/chapter-2/empathy/Empathy map.png"
+alt="empathy map cliente" style="object-fit:contain; display:inline-block;">
 
 <a id="234-as-is-scenario-mapping"></a>
 ### 2.3.4. As-Is Scenario Mapping
-
+Esta sección expone los mapeos de escenarios As-Is para ambos segmentos objetivo, con el propósito de identificar y analizar los puntos de interacción actuales entre los usuarios y el sistema. Este ejercicio permite comprender cómo se relacionan con la plataforma en su estado actual, revelando oportunidades de mejora en la experiencia y funcionalidad.
 <!-- contenido -->
+**As-Is Abogado**
+<img src="assets/img/chapter-2/as-is/diagrama - AS IS ABOGADO.jpg"
+alt="as is abogado" style="object-fit:contain; display:inline-block;">
+
+**As-Is Cliente**
+<img src="assets/img/chapter-2/as-is/diagrama - AS IS CLIENTE.jpg"
+alt="as is cliente" style="object-fit:contain; display:inline-block;">
 
 ---
 
