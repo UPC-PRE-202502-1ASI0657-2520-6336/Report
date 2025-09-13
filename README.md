@@ -440,7 +440,14 @@ Cómo nos diferenciamos:
 <a id="222-registro-de-entrevistas"></a>
 ### 2.2.2. Registro de entrevistas
 
-<!-- contenido -->
+**Segmento Objetivo 1: Personas con Problemas Legales**
+<br>
+Entrevista 1: José Carlos usa servicios legales 1 o 2 veces al año y hoy se frustra por precios poco claros, difícil comparación y respuestas lentas (además lo sacan a WhatsApp). Quiere ver precios desde el inicio, filtrar por especialidad y ubicación, agendar y pagar en la misma plataforma, chatear primero y luego tener una videollamada breve. También valora seguimiento del caso, reseñas verificadas y respaldo si algo sale mal. En resumen, busca claridad de costos, rapidez y confianza.
+<br>
+
+![Interview 1](assets/img/chapter-2/interview/entrevista_1.png)
+
+Enlace de la entrevista: https://drive.google.com/file/d/1A09aChTQTjvrbhOoIHXFjrR_yuGJpiNw/view?usp=drive_link
 
 **Segmento Objetivo 2: Abogados Buscando Expandir su Clientela**
 <br>
@@ -453,7 +460,10 @@ Enlace de la entrevista: https://youtu.be/SlU9ImxNps4
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas
 
-<!-- contenido -->
+**Análisis  del segmento objetivo 1 - Personas con Problemas Legales:**
+
+100% de la muestra valora precios visibles, respuesta en minutos y confianza (perfiles verificados, reseñas y respaldo si algo sale mal). Prefiere iniciar por chat y pasar a una videollamada breve, y espera un flujo de inicio a fin: buscar, comparar, agendar, pagar y dar seguimiento en la misma plataforma. Sus principales dolores son precios opacos y demoras; se informa sobre temas legales por Google, redes/videos cortos y referencias.
+
 
 **Análisis  del segmento objetivo 2 - Abogados Buscando Expandir su Clientela:**
 <br>
