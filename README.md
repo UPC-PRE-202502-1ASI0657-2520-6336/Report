@@ -666,41 +666,89 @@ Cómo nos diferenciamos:
 <a id="221-diseno-de-entrevistas"></a>
 ### 2.2.1. Diseño de entrevistas
 
-<!-- contenido -->
+#### Segmento objetivo 1: 
+
+##### Preguntas Generales
+
+- ¿Con qué frecuencia necesita servicios legales?  
+- ¿Cómo describiría su experiencia general al buscar asesoría legal?  
+- ¿Qué medios utiliza habitualmente para informarse sobre cuestiones legales? Preguntas Específicas  
+- ¿Qué características considera esenciales en una plataforma digital para buscar asistencia legal?  
+- ¿Qué dificultades ha encontrado al usar plataformas en línea para asuntos legales?  
+- ¿Cómo prefiere comunicarse con un abogado? ¿a través de una plataforma digital? ¿Chat en vivo, email, llamadas telefónicas?  
+- ¿Hay algún servicio adicional que le gustaría que ofreciera una plataforma de asistencia legal que no haya visto disponible actualmente?  
+
+#### Segmento objetivo 2: 
+
+##### Preguntas Generales
+
+- ¿Qué recursos ha encontrado más útiles en su búsqueda de empleo hasta ahora?
+- ¿Qué desafíos específicos enfrenta al buscar oportunidades laborales en el campo legal?
+- ¿Cómo se mantiene actualizado con las tendencias y cambios en el ámbito legal?
+
+##### Preguntas Específicas
+
+- ¿Qué herramientas digitales considera importantes en una plataforma de empleo para abogados?
+- ¿Qué tipo de apoyo o recursos espera de una plataforma que conecta abogados con clientes?
+- ¿Cómo evalúa las oportunidades de trabajo en términos de desarrollo profesional y estabilidad financiera?
+- ¿Qué funcionalidades adicionales facilitarían su labor diaria como abogado al usar nuestra plataforma?
+- ¿Considera importante la capacitación continua ofrecida por la plataforma? ¿Qué tipo de cursos o formaciones le gustaría recibir?
 
 <a id="222-registro-de-entrevistas"></a>
 ### 2.2.2. Registro de entrevistas
 
-<!-- contenido -->
 **Segmento Objetivo 1: Personas con Problemas Legales**
 <br>
-Entrevista 1: Mario nos comentó que no cuenta con mucha información sobre los temas legales que debe tener en cuenta para su pequeño emprendimiento, y le gustaría contar con alguna solución que le permita escoger al mejor asesor legal para su caso, ya que su último asesor no logró realizar un buen trabajo. Asimismo, nos recomendó que sería una buena idea incluir un sistema de calificaciones y filtros para clasificar a cada asesor que ingrese a nuestra plataforma, además de brindar transparencia durante todo el servicio legal, destacando que el asesor debe contar con una foto propia, una descripción profesional y su especialidad. Por último, argumenta que las sesiones de chat en vivo con cámara brindarían una mayor sensación de seguridad y transparencia a nuestra solución.
+Entrevista 1: José Carlos usa servicios legales 1 o 2 veces al año y hoy se frustra por precios poco claros, difícil comparación y respuestas lentas (además lo sacan a WhatsApp). Quiere ver precios desde el inicio, filtrar por especialidad y ubicación, agendar y pagar en la misma plataforma, chatear primero y luego tener una videollamada breve. También valora seguimiento del caso, reseñas verificadas y respaldo si algo sale mal. En resumen, busca claridad de costos, rapidez y confianza.
 <br>
 
-![Entrevista 1](assets/img/chapter-2/entrevista_mario.png)
+![Interview 1](assets/img/chapter-2/interview/entrevista_1.png)
 
+Enlace de la entrevista: https://drive.google.com/file/d/1A09aChTQTjvrbhOoIHXFjrR_yuGJpiNw/view?usp=drive_link  
+
+<br>
+Entrevista 2: Genaro Ledesma comentó que recurre a servicios legales solo de manera esporádica, aproximadamente una vez al año, en casos como contratos de alquiler o trámites de papeleo. Señaló que la búsqueda de asesoría legal suele ser complicada, ya que muchas veces no sabe dónde acudir y la información en internet no siempre es clara ni confiable. Indicó que suele informarse principalmente en Google, foros y con ChatGPT, además de preguntar a familiares o amigos. Respecto a una plataforma digital, resaltó que sería esencial que fuera fácil de usar, que permita filtrar abogados por características específicas, ver reseñas de clientes y consultar disponibilidad. Mencionó que ha encontrado dificultades como falta de información confiable sobre los abogados y demoras en la comunicación. Prefiere comunicarse primero por chat en vivo, aunque considera que llamadas o reuniones presenciales son mejores para casos más serios. Finalmente, manifestó interés en que la plataforma ofrezca una asesoría rápida inicial y un estimado de costos desde el comienzo para evitar sorpresas.
+<br>
+
+![Interview 2](assets/img/chapter-2/interview/interviewGenaro.png)
+
+Enlace de la entrevista: https://drive.google.com/file/d/1ES7jm2IHyqYFqf6ZRW8h3tzxbntpQFEO/view?usp=sharing
+
+<br>
+Entrevista 3: Nelida Ruiz en una persona que se dedica al alquiler de departamentos que cada seis meses a un año necesita los servicios de un abogado. Su experiencia es mala ya que no encuentra con un abogado que cumpla con sus expectativas, además debe buscar alguno por Facebook o según las recomendaciones de sus conocidos. Lo más importante para ella es que los abogados sean responsables, confiables y que cuenten con referencias para poder contratarlos. En las plataformas se le dificulta encontrar asesoría legal ya que no hay una que sea específica para el rubro. También nos dicen que prefiere los chats en vivo para una atención más personalizada y poder tener un seguimiento del caso.
+<br>
+<img src="assets/img/chapter-2/interview/EntrevistaCamila.png">
+
+Enlace de la entrevista: https://drive.google.com/file/d/1ES7jm2IHyqYFqf6ZRW8h3tzxbntpQFEO/view?usp=sharing 
 
 **Segmento Objetivo 2: Abogados Buscando Expandir su Clientela**
 <br>
-Entrevista 5: Víctor comentó las dificultades que experimenta en su labor como abogado independiente, principalmente en aspectos de promoción y en la organización de su cartera de clientes. Manifestó interés en contar con una plataforma que le proporcione herramientas completas para administrar sus casos, agendar reuniones y facilitar la comunicación con sus clientes. Destacó que le resultaría muy valioso disponer de funciones que fortalezcan la interacción y la personalización, como recordatorios automáticos o la posibilidad de enviar actualizaciones sobre el estado de los procesos directamente desde la aplicación.
+Entrevista 4: Víctor comentó las dificultades que experimenta en su labor como abogado independiente, principalmente en aspectos de promoción y en la organización de su cartera de clientes. Manifestó interés en contar con una plataforma que le proporcione herramientas completas para administrar sus casos, agendar reuniones y facilitar la comunicación con sus clientes. Destacó que le resultaría muy valioso disponer de funciones que fortalezcan la interacción y la personalización, como recordatorios automáticos o la posibilidad de enviar actualizaciones sobre el estado de los procesos directamente desde la aplicación.
 <br>
-![Impact Mapping](assets/img/chapter-3/entrevista_abogado.png)
+![interview 5](assets/img/chapter-2/interview/entrevista_abogado.png)
 
 Enlace de la entrevista: https://youtu.be/SlU9ImxNps4
+
+<br>
+Entrevista 5: Jonathan, quien es relativamente nuevo en la búsqueda de servicios legales, destacó la necesidad de un acceso fácil y directo a asesoría legal. Valora una interfaz intuitiva que simplifique el proceso para aquellos no familiarizados con el sistema legal. Propuso que la aplicación debería tener funcionalidades que eduquen al usuario sobre el proceso legal básico y cómo proceder en distintos escenarios legales. Jonathan también mencionó la importancia de tener opciones de soporte al cliente en la plataforma para resolver cualquier duda que pueda surgir durante el proceso.
+<br>  
+
+![Impact Mapping](assets/img/chapter-2/interview/entrevista_abogado_2.png)  
+
+Enlace de la entrevista: https://www.youtube.com/watch?v=zcJc5LXgo8k
 
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas
 
-<!-- contenido -->
+**Análisis  del segmento objetivo 1 - Personas con Problemas Legales:**
 
-**Análisis del segmento objetivo 1 - Personas con Problemas Legales**
+100% de la muestra valora precios visibles, respuesta en minutos y confianza (perfiles verificados, reseñas y respaldo si algo sale mal). Prefiere iniciar por chat y pasar a una videollamada breve, y espera un flujo de inicio a fin: buscar, comparar, agendar, pagar y dar seguimiento en la misma plataforma. Sus principales dolores son precios opacos y demoras; se informa sobre temas legales por Google, redes/videos cortos y referencias.
 
-**Entrevista 1:**  Mario nos comentó que no cuenta con mucha información sobre los temas legales que debe tener en cuenta para su pequeño emprendimiento, y le gustaría contar con alguna solución que le permita escoger al mejor asesor legal para su caso, ya que su último asesor no logró realizar un buen trabajo. Asimismo, nos recomendó que sería una buena idea incluir un sistema de calificaciones y filtros para clasificar a cada asesor que ingrese a nuestra plataforma, además de brindar transparencia durante todo el servicio legal, destacando que el asesor debe contar con una foto propia, una descripción profesional y su especialidad. Por último, argumenta que las sesiones de chat en vivo con cámara brindarían una mayor sensación de seguridad y transparencia a nuestra solución.
 
 **Análisis  del segmento objetivo 2 - Abogados Buscando Expandir su Clientela:**
 <br>
 
-**Entrevista  5:**  Víctor evidencia la necesidad de modernizar su forma de atraer y gestionar clientes. Actualmente siente la presión de actualizar sus métodos de promoción y comunicación, por lo que ve con interés una plataforma que le ofrezca mayor visibilidad y herramientas digitales que lo ayuden a diferenciarse. Para él es fundamental contar con funcionalidades que le permitan administrar casos, programar citas y mantener un contacto directo con sus clientes de manera personalizada. La posibilidad de enviar recordatorios, notificaciones y actualizaciones sobre los procesos resulta clave para fortalecer la relación con su clientela y proyectar una imagen más profesional en un mercado competitivo.
+El análisis del segmento de abogados muestra que el 100 % de los entrevistados ve valor en contar con una solución digital que facilite su trabajo y la relación con clientes. El 50 % (Víctor) enfrenta dificultades en la promoción y en la organización de su cartera, por lo que demanda una plataforma que centralice la gestión de casos, agende reuniones y envíe recordatorios automáticos o actualizaciones sobre procesos. El otro 50 % (Jonathan) pone énfasis en la necesidad de que la herramienta sea intuitiva y educativa, permitiendo guiar a usuarios poco familiarizados con el sistema legal y brindando soporte en línea para resolver dudas. En conjunto, ambos coinciden en que una aplicación integral con funciones de gestión, comunicación y apoyo al cliente sería clave para optimizar su ejercicio profesional.
 
 <a id="23-needfinding"></a>
 ## 2.3. Needfinding
