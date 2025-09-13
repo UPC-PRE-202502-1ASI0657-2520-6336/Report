@@ -238,29 +238,201 @@ Según Vallecilla (2024), hasta febrero del año 2024, la tasa de desempleo en P
 <a id="1231-lean-ux-problem-statements"></a>
 #### 1.2.3.1. Lean UX Problem Statements
 
-<!-- contenido -->
+En el panorama actual de los servicios legales en el Perú, muchas personas que enfrentan problemas jurídicos se encuentran con dificultades significativas para acceder a asesoría legal de calidad. La carencia de orientación sobre dónde buscar abogados confiables, la ausencia de transparencia en precios y credenciales, así como la desconfianza general hacia el sistema legal, generan una experiencia frustrante que retrasa la solución de sus problemas y, en algunos casos, los deja desprotegidos.  
+Al mismo tiempo, los abogados —especialmente los recién egresados o independientes— enfrentan un mercado laboral limitado y saturado. La falta de visibilidad, las pocas oportunidades para ejercer y la competencia desigual con grandes estudios jurídicos les impide acceder a clientes, generar ingresos estables y construir una trayectoria profesional sólida.  
+Esta desconexión entre la demanda de servicios legales y la oferta disponible crea un círculo vicioso: por un lado, los clientes no encuentran fácilmente abogados confiables y, por el otro lado, los abogados no logran acceder a quienes necesitan sus servicios.  
+Para cubrir esta necesidad crítica surge Law Connect como un marketplace digital. La plataforma busca descentralizar y democratizar el acceso a servicios legales, conectando de manera directa a personas con problemas jurídicos con abogados calificados. A través de perfiles transparentes, calificaciones verificadas, herramientas de comunicación (chat, videollamadas y reuniones presenciales) y funcionalidades de gestión de citas y documentos, se busca reducir la brecha de confianza y facilitar la interacción abogado-cliente.  
+De esta manera, Law Connect empodera a los usuarios con acceso rápido y confiable a profesionales legales, al mismo tiempo que otorga a los abogados nuevas oportunidades laborales, incrementando su visibilidad y mejorando su estabilidad financiera.  
+
 
 <a id="1232-lean-ux-assumptions"></a>
 #### 1.2.3.2. Lean UX Assumptions
 
-<!-- contenido -->
+##### **User Assumptions:** 
+- **¿Quién es el usuario?**  
+El usuario es tanto la persona que enfrenta problemas legales y busca asesoría confiable, como el abogado (en condición de independiente o desempleado) que necesita oportunidades para conectarse con clientes potenciales.
+- **¿Dónde encaja nuestro producto en su vida o trabajo?**  
+Para los clientes, Law Connect encaja en los momentos en que requieren resolver un problema legal y no tienen claridad sobre dónde acudir. Para los abogados, la plataforma se integra en su práctica diaria como un canal digital de captación de clientes y gestión de casos.
+- **¿Qué problemas resuelve nuestro producto?**   
+Resuelve la falta de transparencia y confianza al momento de buscar asesoría legal, y la escasa visibilidad de abogados que buscan empleo o más clientes.  
+- **¿Cuándo y cómo se usa nuestro producto?**  
+Los usuarios con problemas legales lo utilizan al necesitar orientación o contratar un servicio legal; los abogados lo usan de forma continua para visibilizar sus servicios, gestionar consultas y atraer clientes.
+- **¿Qué características son importantes?**  
+Búsqueda rápida de abogados filtrados por especialidad y ubicación, transparencia en credenciales y calificaciones, comunicación integrada (chat, videollamadas), gestión de citas y documentos, y seguridad en la interacción.  
+- **¿Cómo debe verse y comportarse nuestro producto?**  
+Para clientes: interfaz sencilla, confiable y clara que muestre perfiles comparables, precios y calificaciones. Para abogados: herramientas completas para destacar sus servicios, gestionar clientes y mostrar experiencia profesional.  
+
+##### **Business Assumptions:** 
+- **Necesidades y problemas:** Creemos que los clientes necesitan una forma confiable de encontrar asesoría legal y los abogados requieren visibilidad para captar más casos.
+- **Plataforma:** Estas necesidades se resuelven con un marketplace digital que centralice la oferta y demanda legal.
+- **Segmentación:** Los principales usuarios son personas con problemas legales (clientes) y abogados independientes o desempleados.
+- **Comportamientos:** Los clientes esperan transparencia, confianza y rapidez; los abogados esperan captación de clientes y estabilidad en su práctica profesional.
+- **Beneficios:** Los clientes tendrán acceso a asesoría de calidad, y los abogados obtendrán nuevas oportunidades laborales e ingresos estables.
+- **Captación de clientes:** Se logrará mediante marketing digital (para clientes) y campañas dirigidas a colegios de abogados y asociaciones profesionales (para captar abogados).
+- **Modelo de ingresos:** Comisión por cada contratación de servicio, planes premium para abogados (mayor visibilidad, herramientas extra) y alianzas con instituciones educativas.
+- **Competencia:** Firmas de abogados tradicionales y otras plataformas legales online.
+- **Ventaja competitiva:** Transparencia, facilidad de uso, experiencia de usuario, inclusión de abogados independientes y creación de un ecosistema confiable.
+
+##### **Technical Assumptions** 
+- **Tecnología utilizada:** Plataforma web responsive desarrollada con frameworks modernos (React/Angular y Node.js/Spring Boot), base de datos relacional (PostgreSQL) y APIs seguras.
+- **Integraciones:** Pasarelas de pago para honorarios, sistemas de verificación de identidad y validación de títulos profesionales.
+- **Escalabilidad:** Arquitectura en la nube para soportar múltiples usuarios concurrentes, videollamadas y gestión segura de documentos legales.
+- **Seguridad:** Autenticación robusta, encriptación de datos y protección de información sensible y el tratamiento correcto de información sensible.
+
+##### **Market Assumptions:**
+- **Tamaño del mercado:** Existe una gran demanda insatisfecha en el acceso a asesoría legal, especialmente en segmentos que no acuden a estudios tradicionales.
+- **Competencia:** Limitada a estudios jurídicos y algunas plataformas online sin suficiente diferenciación ni transparencia.
+- **Tendencias:** Creciente digitalización de servicios profesionales, demanda de acceso inmediato a soluciones legales y uso de plataformas digitales para contratación de servicios.
+- **Oportunidad:** Democratizar el acceso a la justicia y crear un puente confiable entre la demanda de servicios legales y la oferta de abogados calificados.
+
+##### **Design Assumptions:**
+- **Interacción del usuario:** Los clientes interactuarán principalmente para buscar, comparar y contratar abogados; los abogados para gestionar su perfil, responder consultas y dar seguimiento a casos. No debemos de complicar la interacción con la aplicación web sobrecargando de información al usuario.
+- **Experiencia del usuario:** La plataforma debe transmitir confianza y accesibilidad, mostrando información clara, reseñas verificadas y canales de comunicación directos.
+- **Paleta de colores y tipografía:** Colores institucionales que transmitan seguridad (azules, verdes) y confianza (tonos neutros), con tipografía clara y profesional.
+- **Referencias visuales:** Perfiles de abogados estructurados con secciones claras (experiencia, especialidad, tarifas, reseñas).
+- **Prototipos y pruebas:** Se realizarán pruebas con usuarios reales (clientes y abogados) para validar usabilidad, claridad de la información y facilidad de contratación de estos.
 
 <a id="1233-lean-ux-hypothesis-statements"></a>
 #### 1.2.3.3. Lean UX Hypothesis
 
-<!-- contenido -->
+**Hypothesis Statement 01:**  
+Creemos que las personas con problemas legales necesitan una forma confiable de encontrar y comparar abogados en línea.  
+Sabremos que estamos en lo correcto cuando los usuarios realicen búsquedas recurrentes y consulten varios perfiles antes de elegir. 
+
+**Hypothesis Statement 02:**  
+Creemos que mostrar calificaciones y reseñas verificadas de otros clientes aumentará la confianza en la plataforma.  
+Sabremos que estamos en lo correcto cuando los usuarios prioricen abogados con mejores valoraciones y las reseñas sean uno de los apartados más consultados.  
+
+**Hypothesis Statement 03:**  
+Creemos que ofrecer un buscador con filtros por especialidad, ubicación y tarifas facilitará la elección del abogado adecuado.  
+Sabremos que estamos en lo correcto cuando los usuarios utilicen los filtros en más del 70% de las búsquedas realizadas.  
+
+**Hypothesis Statement 04:**  
+Creemos que integrar un sistema de comunicación directa (chat y videollamadas) entre abogado y cliente reducirá la fricción en la contratación.
+Sabremos que estamos en lo correcto cuando los usuarios utilicen estas funciones en lugar de medios externos (WhatsApp, llamadas personales).
+
+**Hypothesis Statement 05:**  
+Creemos que permitir la programación de citas dentro de la plataforma hará más eficiente la coordinación entre abogados y clientes.  
+Sabremos que estamos en lo correcto cuando al menos el 60% de los usuarios agenden reuniones desde la web.  
+
+**Hypothesis Statement 06:**
+Creemos que la validación de títulos profesionales y credenciales aumentará la percepción de seguridad en los usuarios.  
+Sabremos que estamos en lo correcto cuando observemos un incremento en la contratación de abogados con credenciales verificadas.  
+
+**Hypothesis Statement 07:**  
+Creemos que los abogados independientes valorarán la visibilidad que les da la plataforma para captar más clientes.  
+Sabremos que estamos en lo correcto cuando los abogados actualicen y optimicen sus perfiles de forma frecuente.  
+
+**Hypothesis Statement 08:**  
+Creemos que mostrar perfiles completos (experiencia, áreas de práctica, tarifas y disponibilidad) aumentará la conversión de consultas en contrataciones.  
+Sabremos que estamos en lo correcto cuando los usuarios pasen más tiempo explorando perfiles detallados y concreten más contrataciones.  
+
+**Hypothesis Statement 09:**
+Creemos que los clientes prefieren transparencia en las tarifas antes de contratar un abogado.  
+Sabremos que estamos en lo correcto cuando los usuarios opten por abogados con precios claros frente a aquellos que no los muestren.  
+
+**Hypothesis Statement 10:**
+Creemos que un diseño web intuitivo y profesional generará confianza en la primera interacción del usuario.  
+Sabremos que estamos en lo correcto cuando la tasa de abandono en la página de inicio sea baja y la mayoría de los visitantes cree una cuenta.  
+
+**Hypothesis Statement 11:**
+Creemos que integrar notificaciones dentro de la plataforma (recordatorios de citas, mensajes, documentos compartidos) mejorará la coordinación entre ambas partes.  
+Sabremos que estamos en lo correcto cuando los usuarios atiendan sus citas y respondan consultas de manera más puntual.  
+
+**Hypothesis Statement 12:**  
+Creemos que los abogados desempleados verán en la plataforma una vía para generar ingresos estables y ganar experiencia.  
+Sabremos que estamos en lo correcto cuando el número de abogados registrados crezca constantemente y permanezcan activos.  
+
+**Hypothesis Statement 13:**
+Creemos que los usuarios recomendarán la plataforma si perciben rapidez y confianza en la contratación.  
+Sabremos que estamos en lo correcto cuando al menos el 20% de los nuevos clientes lleguen por recomendación directa de otros usuarios.  
+
+**Hypothesis Statement 14:**  
+Creemos que implementar un sistema de verificación de identidad reducirá el riesgo de fraudes en la plataforma.  
+Sabremos que estamos en lo correcto cuando disminuya la cantidad de reportes o disputas sobre falsos perfiles.  
+
+**Hypothesis Statement 15:**
+Creemos que la transparencia en la comunicación abogado–cliente (registro de conversaciones y acuerdos dentro de la web) generará confianza y reducirá conflictos.  
+Sabremos que estamos en lo correcto cuando las disputas entre usuarios sean mínimas y fácilmente resolubles dentro de la plataforma.  
+
+**Hypothesis Statement 16:**
+Creemos que un sistema de categorización por especialidad legal (civil, penal, laboral, etc.) hará más eficiente la búsqueda de asesoría.
+Sabremos que estamos en lo correcto cuando los clientes encuentren abogados adecuados en menos tiempo y con menos pasos.
+
+**Hypothesis Statement 17:**  
+Creemos que proporcionar a los abogados estadísticas de uso (visitas a su perfil, número de consultas recibidas, tasa de conversión) los motivará a permanecer activos.  
+Sabremos que estamos en lo correcto cuando los abogados mejoren sus perfiles y participen más activamente en la plataforma.  
+
+**Hypothesis Statement 18:**  
+Creemos que integrar pasarelas de pago seguras dentro de la aplicación web aumentará la confianza en la contratación en línea.  
+Sabremos que estamos en lo correcto cuando los usuarios prefieran pagar dentro de la plataforma en lugar de medios externos.  
+
+**Hypothesis Statement 19:**  
+Creemos que una sección educativa con guías básicas y consejos legales aumentará el valor percibido de la plataforma.  
+Sabremos que estamos en lo correcto cuando identifiquemos un uso recurrente de esta sección y un mayor tiempo de permanencia en la web.  
+
+**Hypothesis Statement 20:**  
+Creemos que los abogados especializados en nichos específicos (por ejemplo, derecho digital, propiedad intelectual) encontrarán más oportunidades al destacar sus perfiles.  
+Sabremos que estamos en lo correcto cuando dichos abogados reciban más consultas a través de la segmentación de búsqueda.  
+
+**Hypothesis Statement 21:**  
+Creemos que un sistema de soporte al cliente dentro de la plataforma (FAQ, chat de ayuda) reducirá las dudas iniciales de uso.  
+Sabremos que estamos en lo correcto cuando la mayoría de los usuarios logre resolver problemas básicos sin abandonar la aplicación. 
+
+**Hypothesis Statement 22:**  
+Creemos que una interfaz adaptable y responsive permitirá que los usuarios accedan cómodamente desde dispositivos móviles y computadoras.  
+Sabremos que estamos en lo correcto cuando al menos el 50% de los usuarios naveguen desde distintos dispositivos sin inconvenientes.  
 
 <a id="1234-lean-ux-canvas"></a>
 #### 1.2.3.4. Lean UX Canvas
 
-<!-- contenido -->
+<img src="assets/img/chapter-1/canvas.png" alt="Lean UX Canvas" style="object-fit:contain; display:inline-block;">
+
+[Link del canvas en Miro](https://miro.com/welcomeonboard/VmZwYnlIa1dwWW1iNzlDQlYxcng4RXNWc3YvZ3hVa3FKRTRxY0ZDZXpLaHVjMzh4Mmk2NnpwUG1LQ1JzdFZUTjIrNmZPQ1M0WkFiUkVhcXkyT2ZhSm1JSVMzRnFtLzF6MUxTY25maEVBNFlvRGhlSTN0WlZyeWg3cGs2UHdveVZnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=397889322394)  
+
 
 <a id="13-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo
 
-<!-- contenido -->
+### Segmento Objetivo #1: Personas con Problemas Legales
 
----
+Este grupo está conformado por individuos que necesitan asesoría legal en distintas áreas (civil, laboral, penal, familiar, entre otras) y que no cuentan con un abogado de confianza o acceso fácil a estudios jurídicos. Son usuarios que buscan soluciones rápidas, confiables y transparentes para resolver sus problemas legales.  
+
+Características clave:
+
+- Edad: 18 años a más 
+- Género: Ambos  
+- Contexto: Personas que enfrentan trámites, conflictos o procesos legales y requieren orientación profesional.  
+- Ocupación: Estudiantes universitarios, trabajadores dependientes e independientes, emprendedores; en general, personas en procesos legales personales o laborales.  
+- Uso de tecnología: Usuarios habituales de computadoras y smartphones (redes sociales, plataformas de servicios en línea).
+
+Necesidades:
+
+- Acceso rápido a abogados confiables y especializados en el área legal que necesitan.
+- Transparencia en tarifas, credenciales y experiencia del abogado.
+- Seguridad en la contratación y en el manejo de documentos legales.
+- Canales de comunicación directos (chat, videollamadas) y agenda digital para programar citas.
+- Poder comparar abogados antes de tomar una decisión.
+
+### Segmento Objetivo #2: Abogados 
+
+Este grupo está compuesto por profesionales que buscan incrementar su visibilidad en el mercado legal y captar clientes de manera más eficiente. Incluye abogados jóvenes, desempleados o que trabajan de forma independiente sin pertenecer a grandes estudios jurídicos.
+
+Características clave:
+
+- Edad: 22 años a más
+- Género: Ambos
+- Contexto: Profesionales que ejercen de manera independiente o están iniciando su carrera en el ámbito legal, con necesidad de captar clientes para consolidar su práctica.
+- Ocupación: Abogados recién colegiados, abogados independientes, egresados con poca experiencia, pequeños despachos legales.
+- Uso de tecnología: Nivel medio–alto; habituados al uso de herramientas digitales, redes sociales y plataformas de trabajo remoto.
+
+Necesidades:
+
+- Mayor visibilidad profesional frente a potenciales clientes.
+- Herramientas para gestionar su perfil, citas y comunicación con clientes.
+- Espacios seguros para compartir documentos legales.
+- Sistema de calificaciones y reseñas verificadas que respalden su reputación.
+- Oportunidades para generar ingresos estables y ganar experiencia profesional.
 
 <a id="capitulo-ii-requirements-elicitation--analysis"></a>
 # Capítulo II: Requirements Elicitation & Analysis
