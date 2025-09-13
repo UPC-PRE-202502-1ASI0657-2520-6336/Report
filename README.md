@@ -66,12 +66,13 @@ Se realizaron reuniones periódicas para coordinar el desarrollo de los apartado
 Contributors Insights Report:
 
 ![Impact Mapping](assets/img/develop/insight1.png)
+https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report/graphs/contributors
 
 Networks Insights report:
 
 ![Impact Mapping](assets/img/develop/insight2.png)
 
-
+https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report/network
 
 
 
