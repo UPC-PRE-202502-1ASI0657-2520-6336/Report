@@ -416,10 +416,21 @@ Cómo nos diferenciamos:
 
 <!-- contenido -->
 
+Segmento Objetivo 2: Abogados Buscando Expandir su Clientela
+Entrevista 5: Víctor comentó las dificultades que experimenta en su labor como abogado independiente, principalmente en aspectos de promoción y en la organización de su cartera de clientes. Manifestó interés en contar con una plataforma que le proporcione herramientas completas para administrar sus casos, agendar reuniones y facilitar la comunicación con sus clientes. Destacó que le resultaría muy valioso disponer de funciones que fortalezcan la interacción y la personalización, como recordatorios automáticos o la posibilidad de enviar actualizaciones sobre el estado de los procesos directamente desde la aplicación.
+![Impact Mapping](assets/img/chapter-3/entrevista_abogado.png)
+
+Enlace de la entrevista: https://youtu.be/SlU9ImxNps4
+
 <a id="223-analisis-de-entrevistas"></a>
 ### 2.2.3. Análisis de entrevistas
 
 <!-- contenido -->
+
+Análisis  del segmento objetivo 2 - Abogados Buscando Expandir su Clientela:
+
+
+Entrevista  5:  Víctor evidencia la necesidad de modernizar su forma de atraer y gestionar clientes. Actualmente siente la presión de actualizar sus métodos de promoción y comunicación, por lo que ve con interés una plataforma que le ofrezca mayor visibilidad y herramientas digitales que lo ayuden a diferenciarse. Para él es fundamental contar con funcionalidades que le permitan administrar casos, programar citas y mantener un contacto directo con sus clientes de manera personalizada. La posibilidad de enviar recordatorios, notificaciones y actualizaciones sobre los procesos resulta clave para fortalecer la relación con su clientela y proyectar una imagen más profesional en un mercado competitivo.
 
 <a id="23-needfinding"></a>
 ## 2.3. Needfinding
