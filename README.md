@@ -184,10 +184,12 @@ Soy estudiante de la UPC. Estoy en la carrera de Ingeniería de Software ya que 
 Foto:
 
 <p align="center">
-  <img src="assets/img/develop/maxpaitan.jpg" alt="max" width="170px"/>
+  <img src="assets/img/develop/maxpaitan.png" alt="max" width="170px"/>
 </p>
 
-Descripción.
+Soy Max Anthony y tengo 28 años. Estoy retomando Ingeniería de Software como segunda carrera, ya que siempre tuvo ello como
+objetivo; en la actualidad. Entre mis habilidades están: Ágil capacidad de análisis -tanto individual como también en colectivo-,
+empático en un contexto determinado -tomando decisiones de manera sensata-, y puedo ser tanto gestor como un participante activo dentro de un grupo de trabajo.
 
 <!-- contenido -->
 
