@@ -24,7 +24,7 @@ Producto: Law Connect
 
 | Member                                | Code       |
 |---------------------------------------|------------|
-| Paitan Pumacahua, Max Anthony         | U201324454 |
+| Paitan Pumacahua, Max Anthony         | U201314454 |
 | Conde Isla, Camila Alessandra       | U202114309 |
 | Pariona Lucas, Jose Manuel         | U202119257 |
 | Méndez Vargas, Sebastian       | U20201F140 |
