@@ -45,50 +45,34 @@ Producto: Law Connect
 ---  
 # Project Report Collaboration Insights  
 
-TB1:
+Se presenta el procedimiento seguido para la elaboración del informe en cada una de las entregas, acompañado de capturas de pantalla que evidencian los análisis de colaboración y los registros de commits realizados en GitHub dentro del repositorio correspondiente al informe.
 
-Durante la realizacion del informe ...
+**URL del Repositorio del Informe:** https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report/tree/main
 
-Contribuciones del equipo
+**Entrega N°1: TB1:**
 
+Las tareas correspondientes a la entrega TB1 se completaron en el repositorio de GitHub de la organización del equipo, disponible en el enlace de repositorio del informe.
 
-**Imágen de las contribuciones Max:**
+Para la elaboración del informe se llevaron a cabo las siguientes acciones:
 
+Cada integrante del equipo redactó su parte y elaboró gráficos en formato Markdown de acuerdo con los puntos asignados, registrando posteriormente los avances mediante commits en el repositorio.
 
+Se generaron los artefactos requeridos utilizando las herramientas sugeridas, y las imágenes necesarias se obtuvieron a través de la opción de Issues dentro del repositorio del informe.
 
-**Imágen de los commits Max:**
+Se realizaron reuniones periódicas para coordinar el desarrollo de los apartados del informe, las cuales también sirvieron para compartir el progreso alcanzado en cada etapa.
 
+**Contributors Insigts report:**
 
+Contributors Insights Report:
 
-**Imágen de las contribuciones Camila:**
+![Impact Mapping](assets/img/develop/insight1.png)
 
+Networks Insights report:
 
-
-**Imágen de los commits Camila:**
-
-
-
-**Imágen de las contribuciones Jose:**
-
-
-
-**Imágen de los commits Jose:**
+![Impact Mapping](assets/img/develop/insight2.png)
 
 
 
-**Imágen de las contribuciones Sebastian:**
-
-
-
-**Imágen de los commits Sebastian:**
-
-
-
-**Imágen de las contribuciones Marco:**
-
-
-
-**Imágen de los commits Marco:**
 
 
 
