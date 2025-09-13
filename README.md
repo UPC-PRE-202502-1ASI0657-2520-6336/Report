@@ -670,6 +670,13 @@ Cómo nos diferenciamos:
 ### 2.2.2. Registro de entrevistas
 
 <!-- contenido -->
+**Segmento Objetivo 1: Personas con Problemas Legales**
+<br>
+Entrevista 1: Mario nos comentó que no cuenta con mucha información sobre los temas legales que debe tener en cuenta para su pequeño emprendimiento, y le gustaría contar con alguna solución que le permita escoger al mejor asesor legal para su caso, ya que su último asesor no logró realizar un buen trabajo. Asimismo, nos recomendó que sería una buena idea incluir un sistema de calificaciones y filtros para clasificar a cada asesor que ingrese a nuestra plataforma, además de brindar transparencia durante todo el servicio legal, destacando que el asesor debe contar con una foto propia, una descripción profesional y su especialidad. Por último, argumenta que las sesiones de chat en vivo con cámara brindarían una mayor sensación de seguridad y transparencia a nuestra solución.
+<br>
+
+![Entrevista 1](assets/img/chapter-2/entrevista_mario.png)
+
 
 **Segmento Objetivo 2: Abogados Buscando Expandir su Clientela**
 <br>
@@ -683,6 +690,10 @@ Enlace de la entrevista: https://youtu.be/SlU9ImxNps4
 ### 2.2.3. Análisis de entrevistas
 
 <!-- contenido -->
+
+**Análisis del segmento objetivo 1 - Personas con Problemas Legales**
+
+**Entrevista 1:**  Mario nos comentó que no cuenta con mucha información sobre los temas legales que debe tener en cuenta para su pequeño emprendimiento, y le gustaría contar con alguna solución que le permita escoger al mejor asesor legal para su caso, ya que su último asesor no logró realizar un buen trabajo. Asimismo, nos recomendó que sería una buena idea incluir un sistema de calificaciones y filtros para clasificar a cada asesor que ingrese a nuestra plataforma, además de brindar transparencia durante todo el servicio legal, destacando que el asesor debe contar con una foto propia, una descripción profesional y su especialidad. Por último, argumenta que las sesiones de chat en vivo con cámara brindarían una mayor sensación de seguridad y transparencia a nuestra solución.
 
 **Análisis  del segmento objetivo 2 - Abogados Buscando Expandir su Clientela:**
 <br>
