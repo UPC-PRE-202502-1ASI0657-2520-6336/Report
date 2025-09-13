@@ -180,7 +180,7 @@ Foto:
 
 Soy estudiante de la UPC. Estoy en la carrera de Ingeniería de Software ya que siempre me gustó el desarrollo y la comprensión de esta. Tengo conocimientos básicos en C++, Python, Vue y medio-avanzado en Java, SpringBoot y SQL. Con respecto a mis aptitudes es la cooperación en equipo y creatividad tanto en diseño/estilos del software y el flujo técnico de esta.
 
-**5) Paitan Pumacahua Max Anthony** - u201324454 (Ingenieria de Software)
+**5) Paitan Pumacahua Max Anthony** - u201314454 (Ingenieria de Software)
 Foto:
 
 <p align="center">
