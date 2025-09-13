@@ -442,7 +442,7 @@ Cómo nos diferenciamos:
 
 **Segmento Objetivo 1: Personas con Problemas Legales**
 <br>
-Entrevista 1: José Carlos usa servicios legales 1 o 2 veces al año y hoy se frustra por precios poco claros, difícil comparación y respuestas lentas (además lo sacan a WhatsApp). Quiere ver precios desde el inicio, filtrar por especialidad y ubicación, agendar y pagar en la misma plataforma, chatear primero y luego tener una videollamada breve. También valora seguimiento del caso, reseñas verificadas y respaldo si algo sale mal. En resumen, busca claridad de costos, rapidez y confianza.
+Entrevista 2: José Carlos usa servicios legales 1 o 2 veces al año y hoy se frustra por precios poco claros, difícil comparación y respuestas lentas (además lo sacan a WhatsApp). Quiere ver precios desde el inicio, filtrar por especialidad y ubicación, agendar y pagar en la misma plataforma, chatear primero y luego tener una videollamada breve. También valora seguimiento del caso, reseñas verificadas y respaldo si algo sale mal. En resumen, busca claridad de costos, rapidez y confianza.
 <br>
 
 ![Interview 1](assets/img/chapter-2/interview/entrevista_1.png)
@@ -450,13 +450,19 @@ Entrevista 1: José Carlos usa servicios legales 1 o 2 veces al año y hoy se fr
 Enlace de la entrevista: https://drive.google.com/file/d/1A09aChTQTjvrbhOoIHXFjrR_yuGJpiNw/view?usp=drive_link  
 
 <br>
-Entrevista 2: Genaro Ledesma comentó que recurre a servicios legales solo de manera esporádica, aproximadamente una vez al año, en casos como contratos de alquiler o trámites de papeleo. Señaló que la búsqueda de asesoría legal suele ser complicada, ya que muchas veces no sabe dónde acudir y la información en internet no siempre es clara ni confiable. Indicó que suele informarse principalmente en Google, foros y con ChatGPT, además de preguntar a familiares o amigos. Respecto a una plataforma digital, resaltó que sería esencial que fuera fácil de usar, que permita filtrar abogados por características específicas, ver reseñas de clientes y consultar disponibilidad. Mencionó que ha encontrado dificultades como falta de información confiable sobre los abogados y demoras en la comunicación. Prefiere comunicarse primero por chat en vivo, aunque considera que llamadas o reuniones presenciales son mejores para casos más serios. Finalmente, manifestó interés en que la plataforma ofrezca una asesoría rápida inicial y un estimado de costos desde el comienzo para evitar sorpresas.
+Entrevista 3: Genaro Ledesma comentó que recurre a servicios legales solo de manera esporádica, aproximadamente una vez al año, en casos como contratos de alquiler o trámites de papeleo. Señaló que la búsqueda de asesoría legal suele ser complicada, ya que muchas veces no sabe dónde acudir y la información en internet no siempre es clara ni confiable. Indicó que suele informarse principalmente en Google, foros y con ChatGPT, además de preguntar a familiares o amigos. Respecto a una plataforma digital, resaltó que sería esencial que fuera fácil de usar, que permita filtrar abogados por características específicas, ver reseñas de clientes y consultar disponibilidad. Mencionó que ha encontrado dificultades como falta de información confiable sobre los abogados y demoras en la comunicación. Prefiere comunicarse primero por chat en vivo, aunque considera que llamadas o reuniones presenciales son mejores para casos más serios. Finalmente, manifestó interés en que la plataforma ofrezca una asesoría rápida inicial y un estimado de costos desde el comienzo para evitar sorpresas.
 <br>
 
 ![Interview 2](assets/img/chapter-2/interview/interviewGenaro.png)
 
 Enlace de la entrevista: https://drive.google.com/file/d/1ES7jm2IHyqYFqf6ZRW8h3tzxbntpQFEO/view?usp=sharing
 
+<br>
+Entrevista 4: Nelida Ruiz en una persona que se dedica al alquiler de departamentos que cada seis meses a un año necesita los servicios de un abogado. Su experiencia es mala ya que no encuentra con un abogado que cumpla con sus expectativas, además debe buscar alguno por Facebook o según las recomendaciones de sus conocidos. Lo más importante para ella es que los abogados sean responsables, confiables y que cuenten con referencias para poder contratarlos. En las plataformas se le dificulta encontrar asesoría legal ya que no hay una que sea específica para el rubro. También nos dicen que prefiere los chats en vivo para una atención más personalizada y poder tener un seguimiento del caso.
+<br>
+<img src="assets/img/chapter-2/interview/EntrevistaCamila.png">
+
+Enlace de la entrevista: https://drive.google.com/file/d/1ES7jm2IHyqYFqf6ZRW8h3tzxbntpQFEO/view?usp=sharing 
 
 **Segmento Objetivo 2: Abogados Buscando Expandir su Clientela**
 <br>
