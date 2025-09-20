@@ -2190,23 +2190,34 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 <br>
 # Capítulo IV: Product Architecture Design
 <br>
-**4.1               Desing Concepts, ViewPoints & ER Diagrams**
+
+**4.1 Desing Concepts, ViewPoints & ER Diagrams**
 <br>
-**4.1.1             Principles Statements**
+
+**4.1.1 Principles Statements**
 <br>
-**4.1.2            Approaches Statements Architectural Styles & Patterns**
+
+**4.1.2 Approaches Statements Architectural Styles & Patterns**
 <br>
-**4.1.3              Context Diagram**
+
+**4.1.3 Context Diagram**
 <br>
-**4.1.4                 Approach driven ViewPoints Diagrams**
+
+**4.1.4 Approach driven ViewPoints Diagrams**
 <br>
-**4.1.5               Relational/Non Relational Database Diagram **
+
+**4.1.5 Relational/Non Relational Database Diagram **
 <br>
-**4.1.6              Design Patterns**
+
+**4.1.6 Design Patterns**
 <br>
-**4.1.7               Tactics**
+
+**4.1.7  Tactics**
 <br>
+
 **Concepto:**
+
+<br>
 Las tácticas arquitectónicas son decisiones de diseño concretas que buscan alcanzar ciertos atributos de calidad o ventajas competitivas dentro de la solución. Representan las acciones específicas mediante las cuales se implementan las estrategias generales del sistema.
 
 **Aplicación al proyecto (Law Connect):**
@@ -2226,9 +2237,13 @@ Promociones y referidos: incentivos para adopción y fidelización.
 Contenido de valor: guías legales simples y SEO orgánico.
 
 Paquetes para MYPE/startups: servicios recurrentes con recordatorios automáticos.
-**4.2 Architectural Drivers**
 <br>
+**4.2 Architectural Drivers**
+
+<br>
+
 **Concepto:**
+<br>
 Los drivers arquitectónicos son los factores clave que orientan y limitan las decisiones de diseño. Se derivan de los requisitos funcionales, no funcionales y del contexto del negocio.
 
 **Drivers identificados en Law Connect:**
@@ -2244,9 +2259,13 @@ Restricciones tecnológicas: implementación web primero, con posible extensión
 Condiciones de mercado: competencia de marketplaces legales, necesidad de diferenciación con precios claros y transparencia .
 
 <br>
-**4.1.8                  Design Purpose**
+
+**4.1.8 Design Purpose**
+
 <br>
+
 **Concepto:**
+<br>
 El propósito del diseño es garantizar que la arquitectura soporte los objetivos de negocio y permita una implementación coherente con los modelos definidos.
 
 **Aplicación:**
@@ -2261,9 +2280,13 @@ Asegurar que los componentes arquitectónicos (interfaz web, backend, módulos d
 Reducir riesgos de abandono por desconfianza, asegurando transparencia, credenciales verificadas y experiencia de usuario sencilla .
 
 <br>
-**4.1.9                    Primary Functionality (Primary User Stories)**
+
+**4.1.9 Primary Functionality (Primary User Stories)**
+
 <br>
+
 **Concepto:**
+<br>
 La funcionalidad primaria se describe a través de user stories, que capturan las necesidades centrales que dan forma a la estructura de la aplicación.
 
 **Principales historias de usuario:**
@@ -2288,9 +2311,10 @@ Accesibilidad e internacionalización (HU34, HU35): soporte multilenguaje y nave
 
 <br>
 
-**4.1.10                  Quality Attribute Scenarios**
+**4.1.10 Quality Attribute Scenarios**
 <br>
 **Concepto:**
+<br>
 Un escenario de atributo de calidad describe un requisito no funcional detallado, indicando estímulo, fuente, entorno, artefacto, respuesta y medida de éxito.
 
 **Ejemplos en Law Connect:**
@@ -2339,9 +2363,10 @@ Medida: cumplimiento WCAG 2.1 AA.
 
 <br>
 
-**4.1.11                  Constraints**
+**4.1.11 Constraints**
 <br>
 **Concepto:**
+<br>
 Las restricciones arquitectónicas son factores que limitan las decisiones de diseño y determinan la viabilidad de la solución.
 
 **Restricciones en Law Connect:**
@@ -2361,6 +2386,7 @@ Normativas: cumplimiento de protección de datos personales (Ley peruana + GDPR 
 Limitación inicial: desarrollo web first, app móvil solo en fases futuras .
 
 <br>
+
 **4.1.12 Architectural Concerns**
 <br>
 
@@ -2388,17 +2414,17 @@ Riesgos tecnológicos: dependencia de terceros (pasarela de pago, proveedores de
 <br>
 **4.2.X Iteration N: <Iteration Name>**
 <br>
-**4.2.X.1    Architectural Design Backlog N**
+**4.2.X.1 Architectural Design Backlog N**
 <br>
-**4.2.X.2    Establish Iteration Goal by Selecting Drivers**
+**4.2.X.2 Establish Iteration Goal by Selecting Drivers**
 <br>
-**4.2.X.3    Choose One or More Elements of the System to Refine**
+**4.2.X.3 Choose One or More Elements of the System to Refine**
 <br>
-**4.2.X.4    Choose One or More Design Concepts That Satisfy the Selected Drivers**
+**4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**
 <br>
-**4.2.X.5    Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
+**4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 <br>
-**4.2.X.6    Sketch Views (C4 & UML) and Record Design Decisions**
+**4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**
 <br>
 **4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**
 <br>
