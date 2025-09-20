@@ -2187,7 +2187,7 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 
 <a id="capitulo-iv-product-architecture-design"></a>
 <br>
-# **Capítulo IV: Product Architecture Design**
+# Capítulo IV: Product Architecture Design
 <br>
 **4.1 Desing Concepts, ViewPoints & ER Diagrams**
 <br>
