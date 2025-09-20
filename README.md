@@ -85,8 +85,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | - | - | - |
-| Criterio 1: Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño.<br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> | En conclusión, TB1: En esta etapa, los integrantes reforzaron y actualizaron conocimientos clave de ingeniería de software al aplicarlos directamente en la elaboración del proyecto. A través de actividades como el análisis de competidores, entrevistas, creación de artefactos de Lean UX y desarrollo de la propuesta conceptual, lograron integrar teoría y práctica de manera efectiva. Esto permitió no solo consolidar lo aprendido en el curso, sino también generar bases sólidas para el desarrollo del producto, demostrando que la actualización constante de conceptos es fundamental para afrontar con éxito los retos del proyecto. | <br>
-| Criterio 2: Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian**  <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> | En conclusión, TB1: Los integrantes reconocieron que el aprendizaje permanente es esencial para el ejercicio profesional y para el éxito del proyecto. Durante el desarrollo de esta entrega, se enfrentaron a nuevas metodologías, herramientas y enfoques (como Lean UX, entrevistas a usuarios y construcción de artefactos de diseño), lo que demandó investigar, adaptarse y aprender de manera continua. Este proceso evidenció que la disposición al aprendizaje constante les permite no solo superar dificultades, sino también aportar soluciones innovadoras y alineadas a las necesidades reales del usuario y del mercado. |
+| Criterio 1: Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño.<br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> ***TB2:*** <br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11                  Constraints,  <br>- 4.1.12                  Architectural Concerns <br> | En conclusión, TB1: En esta etapa, los integrantes reforzaron y actualizaron conocimientos clave de ingeniería de software al aplicarlos directamente en la elaboración del proyecto. A través de actividades como el análisis de competidores, entrevistas, creación de artefactos de Lean UX y desarrollo de la propuesta conceptual, lograron integrar teoría y práctica de manera efectiva. Esto permitió no solo consolidar lo aprendido en el curso, sino también generar bases sólidas para el desarrollo del producto, demostrando que la actualización constante de conceptos es fundamental para afrontar con éxito los retos del proyecto.  En conclusión, TB2: En esta etapa, los integrantes profundizaron y actualizaron conocimientos clave de diseño y arquitectura de software al aplicarlos directamente en la construcción de artefactos arquitectónicos. A través de la definición de estilos y patrones, la elaboración de diagramas de contexto, ER, C4 y UML, así como el desarrollo de tácticas y drivers de calidad, lograron conectar teoría y práctica de manera estructurada. Esto no solo consolidó competencias adquiridas previamente, sino que además permitió fortalecer habilidades en el diseño de arquitecturas robustas y escalables, evidenciando que la actualización constante de conocimientos resulta esencial para garantizar la calidad y sostenibilidad de las soluciones propuestas en el proyecto.| <br>
+| Criterio 2: Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian**  <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> <br> ***TB2:*** <br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11                  Constraints,  <br>- 4.1.12                  Architectural Concerns <br> | En conclusión, TB1: Los integrantes reconocieron que el aprendizaje permanente es esencial para el ejercicio profesional y para el éxito del proyecto. Durante el desarrollo de esta entrega, se enfrentaron a nuevas metodologías, herramientas y enfoques (como Lean UX, entrevistas a usuarios y construcción de artefactos de diseño), lo que demandó investigar, adaptarse y aprender de manera continua. Este proceso evidenció que la disposición al aprendizaje constante les permite no solo superar dificultades, sino también aportar soluciones innovadoras y alineadas a las necesidades reales del usuario y del mercado. En conclusión, TB2: Los integrantes reafirmaron que el aprendizaje permanente es imprescindible para el desarrollo profesional y el éxito del proyecto. Durante esta entrega, se enfrentaron a nuevos enfoques de diseño arquitectónico, tales como la aplicación del método ADD, la definición de drivers, la construcción de vistas desde diferentes perspectivas y el uso de patrones de diseño. Este proceso demandó investigar y adaptarse de forma continua, lo que les permitió comprender mejor las implicancias técnicas y prácticas de una arquitectura bien diseñada. En consecuencia, demostraron que mantener una actitud de aprendizaje constante es clave no solo para superar los retos propios del diseño arquitectónico, sino también para generar soluciones innovadoras y alineadas a las necesidades del usuario y del mercado. |
 ---  
 # Contenido  
 ## Tabla de contenidos  
@@ -123,7 +123,32 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 - [3.1. To-Be Scenario Mapping]()  
 - [3.2. User Stories]()  
 - [3.3. Impact Map]()  
-- [3.4. Product Backlog]()  
+- [3.4. Product Backlog]()
+
+  ###  Capítulo IV: Product Architecture Design
+4.1 Desing Concepts, ViewPoints & ER Diagrams
+4.1.1 Principles Statements
+4.1.2 Approaches Statements Architectural Styles & Patterns
+4.1.3  Context Diagram
+4.1.4 Approach driven ViewPoints Diagrams
+4.1.5 Relational/Non Relational Database Diagram 
+4.1.6 Design Patterns
+4.1.7 Tactics
+4.2 Architectural Drivers
+4.1.8 Design Purpose
+4.1.9 Primary Functionality (Primary User Stories)
+4.1.10                  Quality Attribute Scenarios
+4.1.11                  Constraints
+4.1.12                  Architectural Concerns
+4.3 ADD Iterations
+4.2.X Iteration N: <Iteration Name>
+4.2.X.1    Architectural Design Backlog N
+4.2.X.2    Establish Iteration Goal by Selecting Drivers
+4.2.X.3    Choose One or More Elements of the System to Refine
+4.2.X.4    Choose One or More Design Concepts That Satisfy the Selected Drivers
+4.2.X.5    Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+4.2.X.6    Sketch Views (C4 & UML) and Record Design Decisions
+4.2.X.7    Analysis of Current Design and Review Iteration Goal (Kanban Board)
   
   
 ---
@@ -2159,6 +2184,192 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
         <td>1</td>
     </tr>
 </table>
+
+<a id="capitulo-iv-product-architecture-design"></a>
+# Capítulo IV: Product Architecture Design
+4.1 Desing Concepts, ViewPoints & ER Diagrams
+4.1.1 Principles Statements
+4.1.2 Approaches Statements Architectural Styles & Patterns
+4.1.3  Context Diagram
+4.1.4 Approach driven ViewPoints Diagrams
+4.1.5 Relational/Non Relational Database Diagram 
+4.1.6 Design Patterns
+**4.1.7 Tactics**
+
+**Concepto:**
+Las tácticas arquitectónicas son decisiones de diseño concretas que buscan alcanzar ciertos atributos de calidad o ventajas competitivas dentro de la solución. Representan las acciones específicas mediante las cuales se implementan las estrategias generales del sistema.
+
+**Aplicación al proyecto (Law Connect):**
+
+Precio claro y atractivo: mostrar la primera consulta a precio fijo y sin letras pequeñas, facilitando la comparación.
+
+Rapidez y comodidad: agenda integrada, videollamadas inmediatas y respuesta en minutos para reducir fricciones .
+
+Escuchar y mejorar: encuestas cortas y buzón de ideas, priorizando lo más solicitado por los usuarios.
+
+Confianza ante todo: abogados verificados, reseñas visibles y mediación si algo sale mal.
+
+Alianzas estratégicas: con notarías, colegios y universidades para ampliar cobertura.
+
+Promociones y referidos: incentivos para adopción y fidelización.
+
+Contenido de valor: guías legales simples y SEO orgánico.
+
+Paquetes para MYPE/startups: servicios recurrentes con recordatorios automáticos.
+**4.2 Architectural Drivers**
+**Concepto:**
+Los drivers arquitectónicos son los factores clave que orientan y limitan las decisiones de diseño. Se derivan de los requisitos funcionales, no funcionales y del contexto del negocio.
+
+**Drivers identificados en Law Connect:**
+
+Problema de negocio: desempleo en egresados de derecho (7.3% en Perú, 2024) y falta de acceso a asesoría legal confiable .
+
+Requisitos funcionales principales: conexión cliente–abogado, agenda digital, chat y videollamadas, gestión de documentos.
+
+Requisitos de calidad: seguridad de datos, confianza, usabilidad y rapidez de respuesta.
+
+Restricciones tecnológicas: implementación web primero, con posible extensión móvil.
+
+Condiciones de mercado: competencia de marketplaces legales, necesidad de diferenciación con precios claros y transparencia .
+
+
+4.1.8 Design Purpose
+
+**Concepto:**
+El propósito del diseño es garantizar que la arquitectura soporte los objetivos de negocio y permita una implementación coherente con los modelos definidos.
+
+**Aplicación:**
+**El diseño de Law Connect busca:**
+
+Alinear la plataforma con los problemas identificados (dificultad para encontrar asesoría legal y falta de oportunidades laborales para abogados).
+
+Establecer una solución digital confiable que centralice búsqueda, contratación, pagos y comunicación.
+
+Asegurar que los componentes arquitectónicos (interfaz web, backend, módulos de autenticación, motor de agenda, repositorio documental, pasarela de pagos) trabajen en conjunto de manera coherente.
+
+Reducir riesgos de abandono por desconfianza, asegurando transparencia, credenciales verificadas y experiencia de usuario sencilla .
+4.1.9 Primary Functionality (Primary User Stories)
+
+**Concepto:**
+La funcionalidad primaria se describe a través de user stories, que capturan las necesidades centrales que dan forma a la estructura de la aplicación.
+
+**Principales historias de usuario:**
+
+Registro y perfil de abogado (HU01, HU02): creación y gestión de perfil profesional para captar clientes.
+
+Consulta de perfil (HU09): cliente visualiza credenciales, experiencia y calificaciones del abogado.
+
+Agendamiento de citas (HU10, HU22): coordinación de reuniones con confirmación automática.
+
+Gestión de documentos (HU06): abogados y clientes centralizan documentos en la plataforma.
+
+Historial de consultas (HU12): registro de interacciones pasadas para referencia futura.
+
+Acceso rápido a funcionalidades (HU18): navegación simplificada desde landing page.
+
+Disponibilidad de abogados (HU21): consulta de horarios y confirmación inmediata.
+
+Autenticación multifactor y permisos (HU28): seguridad en acceso y datos .
+
+Accesibilidad e internacionalización (HU34, HU35): soporte multilenguaje y navegación inclusiva.
+4.1.10                  Quality Attribute Scenarios
+**Concepto:**
+Un escenario de atributo de calidad describe un requisito no funcional detallado, indicando estímulo, fuente, entorno, artefacto, respuesta y medida de éxito.
+
+**Ejemplos en Law Connect:**
+
+**Disponibilidad y desempeño**
+
+Fuente: cliente accediendo en hora pico.
+
+Estímulo: múltiples usuarios solicitan citas simultáneamente.
+
+Entorno: sistema bajo carga alta.
+
+Artefacto: motor de agenda y backend.
+
+Respuesta: el sistema procesa todas las solicitudes sin caídas.
+
+Medida: 95% de citas registradas en < 2 segundos.
+
+**Seguridad**
+
+Fuente: cliente malintencionado.
+
+Estímulo: intento de acceso a documentos legales privados.
+
+Entorno: sesión autenticada.
+
+Artefacto: repositorio documental.
+
+Respuesta: acceso denegado y registro del intento.
+
+Medida: 100% de intentos no autorizados bloqueados .
+
+**Usabilidad y accesibilidad**
+
+Fuente: usuario con discapacidad visual.
+
+Estímulo: navegación con lector de pantalla.
+
+Entorno: navegador estándar.
+
+Artefacto: interfaz web.
+
+Respuesta: lectura fluida de menús y formularios.
+
+Medida: cumplimiento WCAG 2.1 AA.
+
+4.1.11                  Constraints
+
+**Concepto:**
+Las restricciones arquitectónicas son factores que limitan las decisiones de diseño y determinan la viabilidad de la solución.
+
+**Restricciones en Law Connect:**
+
+Topología de red: servicio centralizado en la nube con acceso seguro por HTTPS.
+
+Proveedor de base de datos: uso de SQL relacional (ej. PostgreSQL) para soportar búsquedas filtradas y escalabilidad.
+
+Entorno web: servidor cloud (AWS/Azure), configuraciones de seguridad (firewall, DMZ).
+
+Servidores: stack estándar (Linux + Nginx/Node.js o Java SpringBoot).
+
+Software de terceros: integración con pasarelas de pago y herramientas de videollamadas.
+
+Normativas: cumplimiento de protección de datos personales (Ley peruana + GDPR si se expande).
+
+Limitación inicial: desarrollo web first, app móvil solo en fases futuras .
+4.1.12                  Architectural Concerns
+
+**Concepto:**
+Las preocupaciones arquitectónicas son los temas críticos que afectan directamente la sostenibilidad, seguridad y usabilidad del sistema.
+
+**Concerns identificados:**
+
+Seguridad: protección de datos legales sensibles y validación de credenciales de abogados.
+
+Confianza: transparencia en precios y verificación de perfiles como factor clave de adopción .
+
+Escalabilidad: capacidad de atender picos de demanda sin degradación del servicio .
+
+Experiencia de usuario: simplicidad en el registro, agendamiento y comunicación.
+
+Integración: necesidad de interoperar con notarías, colegios y servicios externos.
+
+Competencia: riesgo de desintermediación (cliente contacta abogado fuera de la plataforma).
+
+Riesgos tecnológicos: dependencia de terceros (pasarela de pago, proveedores de videollamada).
+4.3 ADD Iterations
+4.2.X Iteration N: <Iteration Name>
+4.2.X.1    Architectural Design Backlog N
+4.2.X.2    Establish Iteration Goal by Selecting Drivers
+4.2.X.3    Choose One or More Elements of the System to Refine
+4.2.X.4    Choose One or More Design Concepts That Satisfy the Selected Drivers
+4.2.X.5    Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+4.2.X.6    Sketch Views (C4 & UML) and Record Design Decisions
+4.2.X.7    Analysis of Current Design and Review Iteration Goal (Kanban Board)  
+
 
 # Conclusiones
 
