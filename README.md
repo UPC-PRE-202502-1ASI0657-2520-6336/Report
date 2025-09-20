@@ -2358,7 +2358,7 @@ Normativas: cumplimiento de protección de datos personales (Ley peruana + GDPR 
 Limitación inicial: desarrollo web first, app móvil solo en fases futuras .
 
 <br>
-**4.1.12                  Architectural Concerns**
+**4.1.12 Architectural Concerns**
 <br>
 
 **Concepto:**
@@ -2395,10 +2395,9 @@ Riesgos tecnológicos: dependencia de terceros (pasarela de pago, proveedores de
 **4.2.X.5    Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 <br>
 **4.2.X.6    Sketch Views (C4 & UML) and Record Design Decisions**
-
 <br>
-**4.2.X.7    Analysis of Current Design and Review Iteration Goal (Kanban Board)**
-
+**4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**
+<br>
 
 # Conclusiones
 
