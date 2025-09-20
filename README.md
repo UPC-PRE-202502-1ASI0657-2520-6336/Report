@@ -2190,21 +2190,21 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 <br>
 # Capítulo IV: Product Architecture Design
 <br>
-**4.1  Desing Concepts, ViewPoints & ER Diagrams**
+**4.1               Desing Concepts, ViewPoints & ER Diagrams**
 <br>
-**4.1.1 Principles Statements**
+**4.1.1             Principles Statements**
 <br>
-**4.1.2 Approaches Statements Architectural Styles & Patterns**
+**4.1.2            Approaches Statements Architectural Styles & Patterns**
 <br>
-**4.1.3  Context Diagram**
+**4.1.3              Context Diagram**
 <br>
-**4.1.4 Approach driven ViewPoints Diagrams**
+**4.1.4                 Approach driven ViewPoints Diagrams**
 <br>
-**4.1.5 Relational/Non Relational Database Diagram **
+**4.1.5               Relational/Non Relational Database Diagram **
 <br>
-**4.1.6 Design Patterns**
+**4.1.6              Design Patterns**
 <br>
-**4.1.7 Tactics**
+**4.1.7               Tactics**
 <br>
 **Concepto:**
 Las tácticas arquitectónicas son decisiones de diseño concretas que buscan alcanzar ciertos atributos de calidad o ventajas competitivas dentro de la solución. Representan las acciones específicas mediante las cuales se implementan las estrategias generales del sistema.
@@ -2244,7 +2244,7 @@ Restricciones tecnológicas: implementación web primero, con posible extensión
 Condiciones de mercado: competencia de marketplaces legales, necesidad de diferenciación con precios claros y transparencia .
 
 <br>
-**4.1.8 Design Purpose**
+**4.1.8                  Design Purpose**
 <br>
 **Concepto:**
 El propósito del diseño es garantizar que la arquitectura soporte los objetivos de negocio y permita una implementación coherente con los modelos definidos.
@@ -2261,7 +2261,7 @@ Asegurar que los componentes arquitectónicos (interfaz web, backend, módulos d
 Reducir riesgos de abandono por desconfianza, asegurando transparencia, credenciales verificadas y experiencia de usuario sencilla .
 
 <br>
-**4.1.9 Primary Functionality (Primary User Stories)**
+**4.1.9                    Primary Functionality (Primary User Stories)**
 <br>
 **Concepto:**
 La funcionalidad primaria se describe a través de user stories, que capturan las necesidades centrales que dan forma a la estructura de la aplicación.
@@ -2287,7 +2287,8 @@ Autenticación multifactor y permisos (HU28): seguridad en acceso y datos .
 Accesibilidad e internacionalización (HU34, HU35): soporte multilenguaje y navegación inclusiva.
 
 <br>
-**4.1.10 Quality Attribute Scenarios**
+
+**4.1.10                  Quality Attribute Scenarios**
 <br>
 **Concepto:**
 Un escenario de atributo de calidad describe un requisito no funcional detallado, indicando estímulo, fuente, entorno, artefacto, respuesta y medida de éxito.
