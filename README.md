@@ -2287,7 +2287,8 @@ Autenticación multifactor y permisos (HU28): seguridad en acceso y datos .
 Accesibilidad e internacionalización (HU34, HU35): soporte multilenguaje y navegación inclusiva.
 
 <br>
-**4.1.10                  Quality Attribute Scenarios**
+**4.1.10 Quality Attribute Scenarios**
+<br>
 **Concepto:**
 Un escenario de atributo de calidad describe un requisito no funcional detallado, indicando estímulo, fuente, entorno, artefacto, respuesta y medida de éxito.
 
