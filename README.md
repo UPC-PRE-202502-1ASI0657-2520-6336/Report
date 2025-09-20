@@ -2365,6 +2365,7 @@ Limitación inicial: desarrollo web first, app móvil solo en fases futuras .
 <br>
 
 **Concepto:**
+<br>
 Las preocupaciones arquitectónicas son los temas críticos que afectan directamente la sostenibilidad, seguridad y usabilidad del sistema.
 
 **Concerns identificados:**
