@@ -2204,7 +2204,7 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 **4.1.6 Design Patterns**
 <br>
 **4.1.7 Tactics**
-
+<br>
 **Concepto:**
 Las tácticas arquitectónicas son decisiones de diseño concretas que buscan alcanzar ciertos atributos de calidad o ventajas competitivas dentro de la solución. Representan las acciones específicas mediante las cuales se implementan las estrategias generales del sistema.
 
@@ -2226,6 +2226,7 @@ Contenido de valor: guías legales simples y SEO orgánico.
 
 Paquetes para MYPE/startups: servicios recurrentes con recordatorios automáticos.
 **4.2 Architectural Drivers**
+<br>
 **Concepto:**
 Los drivers arquitectónicos son los factores clave que orientan y limitan las decisiones de diseño. Se derivan de los requisitos funcionales, no funcionales y del contexto del negocio.
 
@@ -2243,7 +2244,7 @@ Condiciones de mercado: competencia de marketplaces legales, necesidad de difere
 
 <br>
 **4.1.8 Design Purpose**
-
+<br>
 **Concepto:**
 El propósito del diseño es garantizar que la arquitectura soporte los objetivos de negocio y permita una implementación coherente con los modelos definidos.
 
@@ -2260,7 +2261,7 @@ Reducir riesgos de abandono por desconfianza, asegurando transparencia, credenci
 
 <br>
 **4.1.9 Primary Functionality (Primary User Stories)**
-
+<br>
 **Concepto:**
 La funcionalidad primaria se describe a través de user stories, que capturan las necesidades centrales que dan forma a la estructura de la aplicación.
 
@@ -2336,7 +2337,7 @@ Medida: cumplimiento WCAG 2.1 AA.
 <br>
 
 **4.1.11                  Constraints**
-
+<br>
 **Concepto:**
 Las restricciones arquitectónicas son factores que limitan las decisiones de diseño y determinan la viabilidad de la solución.
 
@@ -2358,6 +2359,7 @@ Limitación inicial: desarrollo web first, app móvil solo en fases futuras .
 
 <br>
 **4.1.12                  Architectural Concerns**
+<br>
 
 **Concepto:**
 Las preocupaciones arquitectónicas son los temas críticos que afectan directamente la sostenibilidad, seguridad y usabilidad del sistema.
@@ -2395,7 +2397,7 @@ Riesgos tecnológicos: dependencia de terceros (pasarela de pago, proveedores de
 **4.2.X.6    Sketch Views (C4 & UML) and Record Design Decisions**
 
 <br>
-**4.2.X.7    Analysis of Current Design and Review Iteration Goal (Kanban Board)  **
+**4.2.X.7    Analysis of Current Design and Review Iteration Goal (Kanban Board)**
 
 
 # Conclusiones
