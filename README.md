@@ -2568,8 +2568,33 @@ Acciones Claves
 
 
 
-**4.2.X.3 Choose One or More Elements of the System to Refine**
-<br>
+**4.2.1.3 Choose One or More Elements of the System to Refine**  
+Para continuar con el proceso de desarrollo de la aplicación y basándonos en los objetivos de iteración y los impulsores previamente establecidos en el Architectural Design Backlog, el siguiente paso es seleccionar uno o más elementos del sistema que requieren refinamiento. Estos elementos se eligen con el propósito de mejorar la navegación, el valor informativo y la interacción del usuario en la página de destino (landing page). A continuación, se detallan los elementos seleccionados para el refinamiento:
+
+#### Aplicación Web Frontend (Vista de la Página de Destino):
+
+- **Elemento a Refinar:** La aplicación del lado del cliente que se renderiza en el navegador del usuario, abarcando HTML, CSS y JavaScript.  
+
+- **Razón para el Refinamiento:** Este elemento es el responsable directo de satisfacer los impulsores de HU20 (Diseño atractivo y responsivo) y HU18 (Acceso rápido a funcionalidades principales). La calidad de su implementación impacta directamente la percepción del usuario sobre la usabilidad y el rendimiento, que son atributos de calidad centrales para esta iteración.   
+
+- **Esperado:** Una interfaz de usuario moderna, responsiva e interactiva que se adapte a múltiples dispositivos y proporcione una experiencia de usuario fluida.
+
+#### Subsistema de Entrega de Contenido:
+
+- **Elemento a Refinar:** El componente de backend responsable de gestionar y servir el contenido dinámico de la página de destino.
+
+- **Razón para el Refinamiento:** Es necesario para cumplir con HU16 (Visualización de servicios destacados), HU17 (Testimonios de clientes satisfechos) y HU19 (Información clara y concisa sobre el servicio). Separar la gestión de contenido del código del frontend es una decisión arquitectónica clave para mejorar la Modificabilidad y permitir que personal no técnico actualice el contenido sin necesidad de redesplegar toda la aplicación.
+
+- **Esperado:** Un servicio de backend desacoplado que exponga el contenido de la página de destino a través de una API.
+
+#### API Gateway:
+
+- **Elemento a Refinar:** El punto de entrada único que gestiona todas las solicitudes desde el frontend hacia los servicios de backend.
+
+- **Razón para el Refinamiento:** Proporciona una interfaz estable para el frontend, centraliza preocupaciones transversales como la seguridad y la monitorización, y es esencial para optimizar el rendimiento mediante el almacenamiento en caché. Esto apoya directamente la meta de Disponibilidad y Eficiencia.   
+
+- **Esperado:** Un punto de entrada gestionado que enrute de manera segura y eficiente las solicitudes desde la aplicación frontend hacia el Subsistema de Entrega de Contenido.
+
 **4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**
 <br>
 **4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
