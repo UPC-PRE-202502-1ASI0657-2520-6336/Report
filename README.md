@@ -2595,8 +2595,49 @@ Para continuar con el proceso de desarrollo de la aplicación y basándonos en l
 
 - **Esperado:** Un punto de entrada gestionado que enrute de manera segura y eficiente las solicitudes desde la aplicación frontend hacia el Subsistema de Entrega de Contenido.
 
-**4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**
-<br>
+**4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**  
+Luego de que identificamos los elementos del sistema que requieren refinamiento, el siguiente paso es seleccionar conceptos de diseño adecuados que satisfagan los impulsores arquitectónicos seleccionados. Estos conceptos de diseño son esenciales para guiar el desarrollo del sistema y asegurar que los objetivos de la iteración se cumplan eficientemente. Detallamos los conceptos de diseño seleccionados para cada uno de los impulsores clave:
+
+#### Navegación y Usabilidad
+
+- **Concepto de Diseño:** Arquitectura Basada en Componentes con un Framework de Aplicación de Página Única (SPA)
+
+    - **Descripción:** El frontend se estructurará como una colección de componentes reutilizables y autocontenidos (p. ej., un componente de Testimonio, un componente de Servicio Destacado) orquestados por un framework como React o Angular.
+
+    - **Justificación:** Este concepto respalda directamente HU18 y HU20. Las SPAs proporcionan una experiencia de usuario fluida y sin recargas de página, lo que mejora la Usabilidad. La estructura basada en componentes aumenta la Modificabilidad y la Testeabilidad, ya que los componentes pueden ser desarrollados y probados de forma aislada.
+
+- **Concepto de Diseño:** Diseño Responsivo (Responsive Design)
+
+    - **Descripción:** La interfaz de usuario se implementará utilizando un enfoque mobile-first para asegurar que el diseño se adapte sin problemas a una variedad de dispositivos.
+
+    - **Justificación:** Esta es la táctica principal para cumplir con HU20 (Diseño atractivo y responsivo). Es un pilar de la Usabilidad y Accesibilidad modernas.
+
+#### Contenido Dinámico y Valor Informativo
+
+- **Concepto de Diseño:** Patrón de CMS sin Cabeza (Headless CMS)
+
+    - **Descripción:** El Subsistema de Entrega de Contenido se implementará utilizando una arquitectura de CMS sin cabeza, donde el contenido se gestiona en un backend y se entrega a través de una API a cualquier frontend.
+
+    - **Justificación:** Es la solución ideal para HU16, HU17 y HU19. Mejora drásticamente la Modificabilidad, permitiendo que el personal no técnico actualice el contenido de la página de destino sin necesidad de cambios en el código. Además, prepara la arquitectura para el futuro, ya que el mismo contenido puede ser servido a otros canales (p. ej., una aplicación móvil) a través de la misma API.
+
+#### Disponibilidad y Eficiencia
+
+- **Concepto de Diseño:** Patrón de API Gateway
+
+    - **Descripción:** Se implementará un servicio dedicado que actúa como un proxy inverso, aceptando todas las llamadas de API desde el frontend y enrutándolas al servicio de backend apropiado.
+
+    - **Justificación:** Desacopla el frontend del backend, mejorando la Modificabilidad. Actúa como un punto de control de Seguridad y centraliza la monitorización.
+
+- **Concepto de Diseño:** Almacenamiento en Caché de Respuestas (Response Caching)
+
+    - **Descripción:** El API Gateway se configurará para almacenar en caché las respuestas del Subsistema de Entrega de Contenido.
+
+    - **Justificación:** El contenido de la página de destino (servicios, testimonios) se lee con mucha más frecuencia de lo que se actualiza. El almacenamiento en caché mejora directamente el Rendimiento (al reducir la latencia) y la Disponibilidad (al reducir la carga en el backend), satisfaciendo la meta de eficiencia del backlog.   
+
+#### Objetivo de los Conceptos de Diseño:
+
+Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Diseño Responsivo aseguran una interfaz intuitiva y accesible desde cualquier dispositivo. Para el contenido dinámico, el patrón de CMS sin Cabeza (Headless CMS) permite una gestión de contenido ágil y flexible, mejorando la modificabilidad. Para la disponibilidad y eficiencia, el Patrón de API Gateway junto con el Almacenamiento en Caché de Respuestas optimiza el rendimiento y la escalabilidad del sistema, garantizando una experiencia de usuario rápida y confiable.  
+
 **4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 <br>
 **4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**
