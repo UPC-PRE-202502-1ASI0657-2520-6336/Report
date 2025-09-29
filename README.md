@@ -2197,20 +2197,118 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 **4.1.1 Principles Statements**
 <br>
 
+
+En base a nuestra solución planteada, decidimos establecer los siguientes principios:
+
+- **Accesibilidad legal como prioridad:**
+El sistema debe estar diseñado para facilitar el acceso a servicios legales en todo el país, especialmente en regiones con poca oferta.
+
+- **Descentralización del servicio jurídico:**
+Evitar la concentración del servicio en zonas urbanas, permitiendo que usuarios y abogados se conecten desde cualquier lugar.
+
+- **Interacción basada en confianza y reputación:**
+Las valoraciones de los usuarios deben jugar un papel clave en la visibilidad y posicionamiento de los abogados.
+
+### Principios implícitos
+
+- **Uso de comunicación asincrónica sobre sincrónica:**
+Se debe preferir chats y mensajes que no dependan del tiempo real, para mayor disponibilidad y robustez ante desconexiones.
+
+- **Priorización de la seguridad y privacidad:**
+Dado que se manejará información sensible, se deben aplicar prácticas de seguridad desde el diseño (encriptación, autenticación robusta, control de acceso).
+
+- **Alta disponibilidad y tolerancia a fallos:**
+Asegurar que la plataforma esté disponible en todo momento, especialmente para servicios críticos como la mensajería o las videollamadas.
+
 **4.1.2 Approaches Statements Architectural Styles & Patterns**
 <br>
+
+Para el desarrollo de nuestra plataforma, decidimos utilizar el enfoque de Domain-Driven Design (DDD). Esta metodología permite organizar la estructura del software en función de las reglas y dinámicas propias del ámbito legal, lo que contribuye a construir una solución más coherente, sostenible y alineada con los requerimientos reales del negocio.
+
+### Architectural Styles & Patterns
+
+Para la implementación de Law Connect, se ha optado por utilizar una arquitectura basada en capas, acompañada de los patrones de diseño DAO (Data Access Object) y MVC (Modelo-Vista-Controlador), junto con el uso de APIs REST para la comunicación entre los componentes del sistema.
 
 **4.1.3 Context Diagram**
 <br>
 
+<p align="center">
+  <img src="assets/img/chapter-4/DiagramaDeContexto.png" alt="c4context">
+</p>
+
 **4.1.4 Approach driven ViewPoints Diagrams**
 <br>
 
-**4.1.5 Relational/Non Relational Database Diagram **
-<br>
+**4.1.5 Relational/Non Relational Database Diagram**
+
+### Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/dbdiagram_law_connect.png" alt="db relational">
+</p>
+
+### Non Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/noRelational_dbdiagram_law_connect.png" alt="db norelational">
+</p>
 
 **4.1.6 Design Patterns**
 <br>
+### Factory Method
+Se aplicaría en el alta de usuarios (creación de cuenta, asignación de rol y dejarlo listo para la aplicación) y en la elección del canal de notificación al registrar o agendar una cita.  
+Centralizamos la creación de variantes simples (abogado o cliente / email o SMS) sin acoplar la lógica de instanciación a la capa de aplicación. Esta capa solo debería orquestar casos de uso, no qué clase concreta instanciar ni cómo (validaciones, defaults, dependencias internas). Eso vive en una Factory (o Builder) del dominio/infra.
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/factory_method.png" alt="Factory Method">
+</p>
+
+### Builder
+Se aplicaría en la construcción de `Cita` y `PerfilAbogado` donde existen múltiples parámetros, validaciones e invariantes. Evitaríamos constructores telescópicos y asegurar que el objeto final cumpla reglas de negocio antes de persistir.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/builder.png" alt="Builder">
+</p>
+
+### Command
+Se aplicaría en los casos de uso principales como registrar abogado, agendar cita y subir documentos. Encapsulamos intención, validaciones y efectos de una operación, habilitando decoradores y colas.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/command.png" alt="Command">
+</p>
+
+### State
+Se aplicaría en el ciclo de vida de la `Cita` desde solicitada hasta atendida, incluyendo reprogramaciones y cancelaciones. Definiremos claramente acciones permitidas y transiciones válidas según el estado actual.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/state.png" alt="State">
+</p>
+
+### Chain of Responsibility
+Se aplicaría en la validación del flujo de agendamiento y de pago donde existen múltiples reglas. Estructuramos un pipeline extensible que puede cortar la ejecución al fallar una regla.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/chain_of_responsibility.png" alt="Chain of Responsibility">
+</p>
+
+### Adapter
+Se aplicaría en pasarela de pagos, videollamadas y mensajería (email / SMS) donde los SDKs y APIs difieren. Desacoplaremos la aplicación de APIs externas heterogéneas y facilitaremos su reemplazo.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/adapter.png" alt="Adapter">
+</p>
+
+### Observer
+Se aplicaría en post-acciones tras `CitaCreada`, `PagoConfirmado` y `PerfilVerificado`: notificaciones, websockets, métricas, auditoría. Permitiremos crecer funcionalidades reactivas sin acoplarlas al flujo principal.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/observer.png" alt="Observer">
+</p>
+
+### Strategy
+Se aplicaría en el ordenamiento del catálogo de abogados por precio, rating o distancia, y en la selección del proveedor de MFA. Intercambiaremos algoritmos o proveedores en tiempo de ejecución sin condicionales extensos.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/strategy.png" alt="Strategy">
+</p>
+
 
 **4.1.7  Tactics**
 <br>
@@ -2412,16 +2510,176 @@ Riesgos tecnológicos: dependencia de terceros (pasarela de pago, proveedores de
 <br>
 **4.3 ADD Iterations**
 <br>
-**4.2.X Iteration N: <Iteration Name>**
+**4.2.1 Iteration 1: Quality Improvement**
 <br>
-**4.2.X.1 Architectural Design Backlog N**
+**4.2.1.1 Architectural Design Backlog 1**
 <br>
-**4.2.X.2 Establish Iteration Goal by Selecting Drivers**
+
+Para esta iteración, el enfoque se centrará en mejorar las áreas críticas de navegación, interacción del usuario, y el diseño, lo cual es clave para garantizar una experiencia fluida y confiable en la plataforma. A continuación, se detallan las áreas principales con las historias de usuario, tareas y criterios de aceptación.
+
+**1. Navegación y usabilidad:**
+Esta área busca mejorar la experiencia de navegación del usuario en la landing page, asegurando que la información sea clara y fácil de acceder.
+
+**Historias de Usuario**
+
+HU18 — Acceso rápido a funcionalidades principales
+Como cliente, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.
+HU20 — Diseño atractivo y responsivo
+Como cliente, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.
+
+**Tareas**
+
+- Accesos directos visibles a registro, búsqueda de abogados y contacto, con flujo
+- Layout mobile-first, accesibilidad, experiencia fluida en desktop/tablet/móvil.
+
+**Criterios de Aceptación**
+
+- El acceso debe ser rápido desde la Landing Page hacia la aplicación web.
+- El diseño debe cumplir con los parámetros del prototipo y los fundamentos de diseño
+- Se deben evitar problemas de responsabilidad 
+
+**2. Contenido dinámico y valor informativo:**
+El contenido presentado en la landing page debe ser atractivo y útil, mejorando la conversión de usuarios interesados.
+
+**Historias de Usuario**
+
+HU16 — Visualización de servicios destacados
+Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.
+
+HU19 — Información clara y concisa sobre el servicio
+Como cliente, quiero encontrar una descripción clara y concisa de los servicios ofrecidos en la landing page para entender de qué se trata la plataforma sin complicaciones.
+
+**Tareas**
+- Hero/intro que explique de forma simple qué es la plataforma y beneficios clave, con acceso a más info/FAQ
+- Mostrar cards de servicios más relevantes y populares en la landing, con fallback cuando no haya datos.
+
+**Criterios de Aceptación**
+- Visualización de Servicios Destacados de forma clara e intuitiva.
+- Información relevante sobre los servicios ofrecidos y bien organizada.
+
+
+**3. Interacción del usuario:**
+Mejorar la interacción y la comunicación con los usuarios para facilitar el contacto directo.
+
+**Historias de Usuario**
+
+HU17 — Testimonios de clientes satisfechos
+Como cliente, quiero leer testimonios de otros clientes satisfechos en la landing page para sentirme más confiado al contratar los servicios, lo que me ayudará a tomar una decisión informada.
+
+**Tareas**
+- Sección con testimonios filtrables
+- Secciones Call to action con invitación a contactar.
+
+**Criterios de Aceptación**
+- Visualización correcta de Testimonios reales sobre el uso de la aplicación.
+
+
+
+**4.2.1.2 Establish Iteration Goal by Selecting Drivers**
 <br>
-**4.2.X.3 Choose One or More Elements of the System to Refine**
-<br>
-**4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**
-<br>
+
+En esta iteración, nos centraremos en mejorar las áreas críticas de navegación, interacción del usuario y seguridad de la aplicación para Law Connect. Seleccionaremos drivers clave que aseguren una experiencia fluida y confiable en la plataforma. Los pilares principales serán navegación y usabilidad, seguridad y autenticación, y contenido dinámico.
+
+**Meta de Accesibilidad y Usabilidad**
+
+Objetivo:  El usuario debe comprender de inmediato qué es la plataforma y cuáles son sus beneficios.
+
+Acciones Claves:
+- Encontrar las funcionalidades más importantes como registrarme para comenzar a usar la aplicación web.
+- Mostrar los servicios legales más importantes al entrar al landing page
+
+**Meta de Contenido Dinámico**
+
+Objetivo: Garantizar un diseño atractivo, responsivo y accesible en cualquier dispositivo.
+
+Acciones Claves
+- Proporcionar información detallada y persuasiva sobre las características del servicio.
+- Implementar una sección de testimonios de usuarios previos para ofrecer referencias sobre la experiencia con el producto.
+
+**Meta de Disponibilidad y Eficiencia**
+
+Objetivo: Acceso a funcionalidades principales en un máximo de 3 interacciones desde la landing.
+
+Acciones Claves
+- Seguir el design system diseñado para un mejor flujo de uso del usuario.
+
+**Objetivo de la Iteración:**
+- Meta de Accesibilidad y Usabilidad: Garantizar que los usuarios comprendan de inmediato la propuesta de la plataforma y puedan navegar de forma básica en la landing.
+- Meta de Contenido Dinámico: Consolidar la experiencia del usuario garantizando un diseño atractivo, responsivo y accesible en cualquier dispositivo, con pruebas de usabilidad y accesibilidad.
+- Meta de Disponibilidad y Eficiencia: Ofrecer a los usuarios accesos rápidos e intuitivos a las funcionalidades principales y mostrar los servicios legales destacados en la landing.
+
+
+
+**4.2.1.3 Choose One or More Elements of the System to Refine**  
+Para continuar con el proceso de desarrollo de la aplicación y basándonos en los objetivos de iteración y los impulsores previamente establecidos en el Architectural Design Backlog, el siguiente paso es seleccionar uno o más elementos del sistema que requieren refinamiento. Estos elementos se eligen con el propósito de mejorar la navegación, el valor informativo y la interacción del usuario en la página de destino (landing page). A continuación, se detallan los elementos seleccionados para el refinamiento:
+
+#### Aplicación Web Frontend (Vista de la Página de Destino):
+
+- **Elemento a Refinar:** La aplicación del lado del cliente que se renderiza en el navegador del usuario, abarcando HTML, CSS y JavaScript.  
+
+- **Razón para el Refinamiento:** Este elemento es el responsable directo de satisfacer los impulsores de HU20 (Diseño atractivo y responsivo) y HU18 (Acceso rápido a funcionalidades principales). La calidad de su implementación impacta directamente la percepción del usuario sobre la usabilidad y el rendimiento, que son atributos de calidad centrales para esta iteración.   
+
+- **Esperado:** Una interfaz de usuario moderna, responsiva e interactiva que se adapte a múltiples dispositivos y proporcione una experiencia de usuario fluida.
+
+#### Subsistema de Entrega de Contenido:
+
+- **Elemento a Refinar:** El componente de backend responsable de gestionar y servir el contenido dinámico de la página de destino.
+
+- **Razón para el Refinamiento:** Es necesario para cumplir con HU16 (Visualización de servicios destacados), HU17 (Testimonios de clientes satisfechos) y HU19 (Información clara y concisa sobre el servicio). Separar la gestión de contenido del código del frontend es una decisión arquitectónica clave para mejorar la Modificabilidad y permitir que personal no técnico actualice el contenido sin necesidad de redesplegar toda la aplicación.
+
+- **Esperado:** Un servicio de backend desacoplado que exponga el contenido de la página de destino a través de una API.
+
+#### API Gateway:
+
+- **Elemento a Refinar:** El punto de entrada único que gestiona todas las solicitudes desde el frontend hacia los servicios de backend.
+
+- **Razón para el Refinamiento:** Proporciona una interfaz estable para el frontend, centraliza preocupaciones transversales como la seguridad y la monitorización, y es esencial para optimizar el rendimiento mediante el almacenamiento en caché. Esto apoya directamente la meta de Disponibilidad y Eficiencia.   
+
+- **Esperado:** Un punto de entrada gestionado que enrute de manera segura y eficiente las solicitudes desde la aplicación frontend hacia el Subsistema de Entrega de Contenido.
+
+**4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**  
+Luego de que identificamos los elementos del sistema que requieren refinamiento, el siguiente paso es seleccionar conceptos de diseño adecuados que satisfagan los impulsores arquitectónicos seleccionados. Estos conceptos de diseño son esenciales para guiar el desarrollo del sistema y asegurar que los objetivos de la iteración se cumplan eficientemente. Detallamos los conceptos de diseño seleccionados para cada uno de los impulsores clave:
+
+#### Navegación y Usabilidad
+
+- **Concepto de Diseño:** Arquitectura Basada en Componentes con un Framework de Aplicación de Página Única (SPA)
+
+    - **Descripción:** El frontend se estructurará como una colección de componentes reutilizables y autocontenidos (p. ej., un componente de Testimonio, un componente de Servicio Destacado) orquestados por un framework como React o Angular.
+
+    - **Justificación:** Este concepto respalda directamente HU18 y HU20. Las SPAs proporcionan una experiencia de usuario fluida y sin recargas de página, lo que mejora la Usabilidad. La estructura basada en componentes aumenta la Modificabilidad y la Testeabilidad, ya que los componentes pueden ser desarrollados y probados de forma aislada.
+
+- **Concepto de Diseño:** Diseño Responsivo (Responsive Design)
+
+    - **Descripción:** La interfaz de usuario se implementará utilizando un enfoque mobile-first para asegurar que el diseño se adapte sin problemas a una variedad de dispositivos.
+
+    - **Justificación:** Esta es la táctica principal para cumplir con HU20 (Diseño atractivo y responsivo). Es un pilar de la Usabilidad y Accesibilidad modernas.
+
+#### Contenido Dinámico y Valor Informativo
+
+- **Concepto de Diseño:** Patrón de CMS sin Cabeza (Headless CMS)
+
+    - **Descripción:** El Subsistema de Entrega de Contenido se implementará utilizando una arquitectura de CMS sin cabeza, donde el contenido se gestiona en un backend y se entrega a través de una API a cualquier frontend.
+
+    - **Justificación:** Es la solución ideal para HU16, HU17 y HU19. Mejora drásticamente la Modificabilidad, permitiendo que el personal no técnico actualice el contenido de la página de destino sin necesidad de cambios en el código. Además, prepara la arquitectura para el futuro, ya que el mismo contenido puede ser servido a otros canales (p. ej., una aplicación móvil) a través de la misma API.
+
+#### Disponibilidad y Eficiencia
+
+- **Concepto de Diseño:** Patrón de API Gateway
+
+    - **Descripción:** Se implementará un servicio dedicado que actúa como un proxy inverso, aceptando todas las llamadas de API desde el frontend y enrutándolas al servicio de backend apropiado.
+
+    - **Justificación:** Desacopla el frontend del backend, mejorando la Modificabilidad. Actúa como un punto de control de Seguridad y centraliza la monitorización.
+
+- **Concepto de Diseño:** Almacenamiento en Caché de Respuestas (Response Caching)
+
+    - **Descripción:** El API Gateway se configurará para almacenar en caché las respuestas del Subsistema de Entrega de Contenido.
+
+    - **Justificación:** El contenido de la página de destino (servicios, testimonios) se lee con mucha más frecuencia de lo que se actualiza. El almacenamiento en caché mejora directamente el Rendimiento (al reducir la latencia) y la Disponibilidad (al reducir la carga en el backend), satisfaciendo la meta de eficiencia del backlog.   
+
+#### Objetivo de los Conceptos de Diseño:
+
+Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Diseño Responsivo aseguran una interfaz intuitiva y accesible desde cualquier dispositivo. Para el contenido dinámico, el patrón de CMS sin Cabeza (Headless CMS) permite una gestión de contenido ágil y flexible, mejorando la modificabilidad. Para la disponibilidad y eficiencia, el Patrón de API Gateway junto con el Almacenamiento en Caché de Respuestas optimiza el rendimiento y la escalabilidad del sistema, garantizando una experiencia de usuario rápida y confiable.  
+
 **4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
 <br>
 **4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**
