@@ -2206,8 +2206,17 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 **4.1.4 Approach driven ViewPoints Diagrams**
 <br>
 
-**4.1.5 Relational/Non Relational Database Diagram **
-<br>
+**4.1.5 Relational/Non Relational Database Diagram**
+
+### Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/dbdiagram_law_connect.png" alt="db relational">
+</p>
+
+### Non Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/noRelational_dbdiagram_law_connect.png" alt="db norelational">
+</p>
 
 **4.1.6 Design Patterns**
 <br>
