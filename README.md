@@ -2211,6 +2211,62 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 
 **4.1.6 Design Patterns**
 <br>
+### Factory Method
+Se aplicaría en el alta de usuarios (creación de cuenta, asignación de rol y dejarlo listo para la aplicación) y en la elección del canal de notificación al registrar o agendar una cita.  
+Centralizamos la creación de variantes simples (abogado o cliente / email o SMS) sin acoplar la lógica de instanciación a la capa de aplicación. Esta capa solo debería orquestar casos de uso, no qué clase concreta instanciar ni cómo (validaciones, defaults, dependencias internas). Eso vive en una Factory (o Builder) del dominio/infra.
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/factory_method.png" alt="Factory Method">
+</p>
+
+### Builder
+Se aplicaría en la construcción de `Cita` y `PerfilAbogado` donde existen múltiples parámetros, validaciones e invariantes. Evitaríamos constructores telescópicos y asegurar que el objeto final cumpla reglas de negocio antes de persistir.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/builder.png" alt="Builder">
+</p>
+
+### Command
+Se aplicaría en los casos de uso principales como registrar abogado, agendar cita y subir documentos. Encapsulamos intención, validaciones y efectos de una operación, habilitando decoradores y colas.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/command.png" alt="Command">
+</p>
+
+### State
+Se aplicaría en el ciclo de vida de la `Cita` desde solicitada hasta atendida, incluyendo reprogramaciones y cancelaciones. Definiremos claramente acciones permitidas y transiciones válidas según el estado actual.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/state.png" alt="State">
+</p>
+
+### Chain of Responsibility
+Se aplicaría en la validación del flujo de agendamiento y de pago donde existen múltiples reglas. Estructuramos un pipeline extensible que puede cortar la ejecución al fallar una regla.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/chain_of_responsibility.png" alt="Chain of Responsibility">
+</p>
+
+### Adapter
+Se aplicaría en pasarela de pagos, videollamadas y mensajería (email / SMS) donde los SDKs y APIs difieren. Desacoplaremos la aplicación de APIs externas heterogéneas y facilitaremos su reemplazo.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/adapter.png" alt="Adapter">
+</p>
+
+### Observer
+Se aplicaría en post-acciones tras `CitaCreada`, `PagoConfirmado` y `PerfilVerificado`: notificaciones, websockets, métricas, auditoría. Permitiremos crecer funcionalidades reactivas sin acoplarlas al flujo principal.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/observer.png" alt="Observer">
+</p>
+
+### Strategy
+Se aplicaría en el ordenamiento del catálogo de abogados por precio, rating o distancia, y en la selección del proveedor de MFA. Intercambiaremos algoritmos o proveedores en tiempo de ejecución sin condicionales extensos.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/strategy.png" alt="Strategy">
+</p>
+
 
 **4.1.7  Tactics**
 <br>
