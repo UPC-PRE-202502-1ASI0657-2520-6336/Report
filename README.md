@@ -2720,7 +2720,76 @@ Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Dis
 
   - **Interfaces:** API RESTful expuesta públicamente para el Módulo de Aplicación Frontend. Comunicación interna vía solicitudes HTTPS hacia la API del Módulo de Entrega de Contenido.
 
-**4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**  
+**4.2.1.6 Sketch Views (C4 & UML) and Record Design Decisions**  
+
+### Sketch View C4
+#### Context
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/c4-context-sketch.png" alt="">
+</p>
+
+#### Container
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/c4–container-sketch.png" alt="">
+</p>
+
+### Sketch View UML
+#### Component
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/uml-component-sketch.png" alt="">
+</p>
+
+#### Sequence
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/uml–sequence-sketch.png" alt="">
+</p>
+
+#### Sequence
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/uml–state-sketch.png" alt="">
+</p>
+
+### Record Design Decisions
+**ADR-001 — Commands & Handlers para casos de uso**
+
+**Estado**: Aprobada.
+
+**Contexto**: necesitamos aislar validaciones, transacciones y side-effects por operacion (registrar usuario, agendar cita, subir documentos).
+
+**Decision**: implementar Command + Handler en application layer; habilitar decoradores para auditoria/metricas.
+
+**Consecuencias**: + testabilidad y orden; − boilerplate inicial.
+
+**ADR-002 — Chain of Responsibility para validaciones de agendamiento**
+
+**Estado**: Aprobada.
+
+**Contexto**: reglas escalables (disponibilidad, conflictos, politicas, antifraude).
+
+**Decision**: pipeline ordenado con short-circuit.
+
+**Consecuencias**: + extensibilidad; − necesita trazas claras para diagnostico.
+
+**ADR-003 — State machine para ciclo de vida de cita**
+
+**Estado**: Aprobada.
+
+**Contexto**: evitar transiciones invalidas y reglas duplicadas.
+
+**Decision**: estados SOLICITADA, CONFIRMADA, REPROGRAMADA, CANCELADA, ATENDIDA.
+
+**Consecuencias**: + claridad y control de invariantes; − clases/guards.
+
+
+**ADR-004 — Adapters para proveedores externos (pagos, email, video)**
+
+**Estado**: Aprobada.
+
+**Contexto**: permitir cambiar proveedor sin reescribir casos de uso.
+
+**Decision**: interfaces PaymentAdapter, MailAdapter, VideoCallAdapter con implementaciones por proveedor.
+
+**Consecuencias**: + desacacoplamiento; −capa de mapeo y manejo de errores.
 
 
 
