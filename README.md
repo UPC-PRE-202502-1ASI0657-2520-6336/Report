@@ -2239,6 +2239,20 @@ Para la implementación de Law Connect, se ha optado por utilizar una arquitectu
 **4.1.4 Approach driven ViewPoints Diagrams**
 <br>
 
+### C4 Containers Diagram
+
+<p align="center">
+  <img src="assets/img/chapter-4/DiagramaDeContenedores.png" alt="c4container">
+</p>
+
+### C4 Components Diagram
+
+**Payment Component**
+
+<p align="center">
+  <img src="assets/img/chapter-4/DiagramaDeComponentesPayment.png" alt="c4component">
+</p>
+
 **4.1.5 Relational/Non Relational Database Diagram**
 
 ### Relational
