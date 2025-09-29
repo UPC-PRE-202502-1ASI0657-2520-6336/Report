@@ -2694,8 +2694,32 @@ Luego de que identificamos los elementos del sistema que requieren refinamiento,
 
 Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Diseño Responsivo aseguran una interfaz intuitiva y accesible desde cualquier dispositivo. Para el contenido dinámico, el patrón de CMS sin Cabeza (Headless CMS) permite una gestión de contenido ágil y flexible, mejorando la modificabilidad. Para la disponibilidad y eficiencia, el Patrón de API Gateway junto con el Almacenamiento en Caché de Respuestas optimiza el rendimiento y la escalabilidad del sistema, garantizando una experiencia de usuario rápida y confiable.  
 
-**4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
-<br>
+**4.2.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**  
+
+- **Módulo de Aplicación Frontend (SPA)**  
+
+  - **Elementos Arquitectónicos:**   Componentes de UI (React/Angular), Servicio de Cliente HTTP (Axios/Fetch), Enrutador del lado del cliente (Client-Side Router).
+
+  - **Responsabilidades:** Renderizar la interfaz de usuario de la página de destino, gestionar las interacciones del usuario (clics, navegación), consumir los datos expuestos por el API Gateway y adaptar la vista a diferentes tamaños de pantalla (diseño responsivo).
+
+  - **Interfaces:** API RESTful para la comunicación con el API Gateway, utilizando el protocolo HTTPS para asegurar las solicitudes.
+
+- **Módulo de Entrega de Contenido (CMS Headless)**
+
+  - **Elementos Arquitectónicos:** API de Contenido (RESTful), Base de Datos de Contenido (PostgreSQL), Panel de Administración de Contenido.
+
+  - **Responsabilidades:** Almacenar, gestionar y servir el contenido dinámico de la página de destino, como los servicios destacados (HU16), testimonios (HU17) e información general (HU19). Proporcionar una interfaz para que el personal no técnico pueda actualizar el contenido de forma independiente.
+
+  - **Interfaces:** API RESTful interna para ser consumida por el API Gateway. Interfaz de Administración Web para los gestores de contenido.
+
+- **Módulo de API Gateway**
+
+  - **Elementos Arquitectónicos:** Servidor Proxy Inverso (p. ej., Spring Cloud Gateway), Módulo de Enrutamiento, Módulo de Caché (p. ej., integrado con Redis).
+
+  - **Responsabilidades:** Actuar como el único punto de entrada para todas las solicitudes del frontend. Enrutar las solicitudes de contenido al Módulo de Entrega de Contenido. Implementar el almacenamiento en caché de respuestas para optimizar el rendimiento y reducir la carga en el backend. Centralizar la aplicación de políticas de seguridad básicas.
+
+  - **Interfaces:** API RESTful expuesta públicamente para el Módulo de Aplicación Frontend. Comunicación interna vía solicitudes HTTPS hacia la API del Módulo de Entrega de Contenido.
+
 **4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**
 <br>
 **4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**
