@@ -85,7 +85,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | - | - | - |
-| Criterio 1: Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño.<br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> ***TB2:*** <br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11                  Constraints,  <br>- 4.1.12                  Architectural Concerns <br> | En conclusión, **TB1:** En esta etapa, los integrantes reforzaron y actualizaron conocimientos clave de ingeniería de software al aplicarlos directamente en la elaboración del proyecto. A través de actividades como el análisis de competidores, entrevistas, creación de artefactos de Lean UX y desarrollo de la propuesta conceptual, lograron integrar teoría y práctica de manera efectiva. Esto permitió no solo consolidar lo aprendido en el curso, sino también generar bases sólidas para el desarrollo del producto, demostrando que la actualización constante de conceptos es fundamental para afrontar con éxito los retos del proyecto.  <br> En conclusión, **TB2:** En esta etapa, los integrantes profundizaron y actualizaron conocimientos clave de diseño y arquitectura de software al aplicarlos directamente en la construcción de artefactos arquitectónicos. A través de la definición de estilos y patrones, la elaboración de diagramas de contexto, ER, C4 y UML, así como el desarrollo de tácticas y drivers de calidad, lograron conectar teoría y práctica de manera estructurada. Esto no solo consolidó competencias adquiridas previamente, sino que además permitió fortalecer habilidades en el diseño de arquitecturas robustas y escalables, evidenciando que la actualización constante de conocimientos resulta esencial para garantizar la calidad y sostenibilidad de las soluciones propuestas en el proyecto.| <br>
+| Criterio 1: Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño.<br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> ***TB2:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- 4.2.1.3 Choose One or More Elements of the System to Refine. <br>- 4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers. <br>- 4.2.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board). <br>- 4.2.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- 4.1.6 Design Patterns. <br>- 4.2.X.1 Architectural Design Backlog N. <br>- 4.2.X.2 Establish Iteration Goal by Selecting Drivers. <br><br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11 Constraints,  <br>- 4.1.12 Architectural Concerns <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- 4.1.1 Principles Statements. <br>- 4.1.2 Approaches Statements Architectural Styles & Patterns. <br>- 4.1.3 Context Diagram. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- 4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions. <br>- apoyé en el punto 4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces.  <br> | En conclusión, **TB1:** En esta etapa, los integrantes reforzaron y actualizaron conocimientos clave de ingeniería de software al aplicarlos directamente en la elaboración del proyecto. A través de actividades como el análisis de competidores, entrevistas, creación de artefactos de Lean UX y desarrollo de la propuesta conceptual, lograron integrar teoría y práctica de manera efectiva. Esto permitió no solo consolidar lo aprendido en el curso, sino también generar bases sólidas para el desarrollo del producto, demostrando que la actualización constante de conceptos es fundamental para afrontar con éxito los retos del proyecto.  <br> En conclusión, **TB2:** En esta etapa, los integrantes profundizaron y actualizaron conocimientos clave de diseño y arquitectura de software al aplicarlos directamente en la construcción de artefactos arquitectónicos. A través de la definición de estilos y patrones, la elaboración de diagramas de contexto, ER, C4 y UML, así como el desarrollo de tácticas y drivers de calidad, lograron conectar teoría y práctica de manera estructurada. Esto no solo consolidó competencias adquiridas previamente, sino que además permitió fortalecer habilidades en el diseño de arquitecturas robustas y escalables, evidenciando que la actualización constante de conocimientos resulta esencial para garantizar la calidad y sostenibilidad de las soluciones propuestas en el proyecto.| <br>
 | Criterio 2: Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian**  <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> <br> ***TB2:*** <br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11                  Constraints,  <br>- 4.1.12                  Architectural Concerns <br> | En conclusión, **TB1:** Los integrantes reconocieron que el aprendizaje permanente es esencial para el ejercicio profesional y para el éxito del proyecto. Durante el desarrollo de esta entrega, se enfrentaron a nuevas metodologías, herramientas y enfoques (como Lean UX, entrevistas a usuarios y construcción de artefactos de diseño), lo que demandó investigar, adaptarse y aprender de manera continua. Este proceso evidenció que la disposición al aprendizaje constante les permite no solo superar dificultades, sino también aportar soluciones innovadoras y alineadas a las necesidades reales del usuario y del mercado. <br> En conclusión, **TB2:** Los integrantes reafirmaron que el aprendizaje permanente es imprescindible para el desarrollo profesional y el éxito del proyecto. Durante esta entrega, se enfrentaron a nuevos enfoques de diseño arquitectónico, tales como la aplicación del método ADD, la definición de drivers, la construcción de vistas desde diferentes perspectivas y el uso de patrones de diseño. Este proceso demandó investigar y adaptarse de forma continua, lo que les permitió comprender mejor las implicancias técnicas y prácticas de una arquitectura bien diseñada. En consecuencia, demostraron que mantener una actitud de aprendizaje constante es clave no solo para superar los retos propios del diseño arquitectónico, sino también para generar soluciones innovadoras y alineadas a las necesidades del usuario y del mercado. |
 ---  
 # Contenido  
@@ -2197,20 +2197,132 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 **4.1.1 Principles Statements**
 <br>
 
+
+En base a nuestra solución planteada, decidimos establecer los siguientes principios:
+
+- **Accesibilidad legal como prioridad:**
+El sistema debe estar diseñado para facilitar el acceso a servicios legales en todo el país, especialmente en regiones con poca oferta.
+
+- **Descentralización del servicio jurídico:**
+Evitar la concentración del servicio en zonas urbanas, permitiendo que usuarios y abogados se conecten desde cualquier lugar.
+
+- **Interacción basada en confianza y reputación:**
+Las valoraciones de los usuarios deben jugar un papel clave en la visibilidad y posicionamiento de los abogados.
+
+### Principios implícitos
+
+- **Uso de comunicación asincrónica sobre sincrónica:**
+Se debe preferir chats y mensajes que no dependan del tiempo real, para mayor disponibilidad y robustez ante desconexiones.
+
+- **Priorización de la seguridad y privacidad:**
+Dado que se manejará información sensible, se deben aplicar prácticas de seguridad desde el diseño (encriptación, autenticación robusta, control de acceso).
+
+- **Alta disponibilidad y tolerancia a fallos:**
+Asegurar que la plataforma esté disponible en todo momento, especialmente para servicios críticos como la mensajería o las videollamadas.
+
 **4.1.2 Approaches Statements Architectural Styles & Patterns**
 <br>
+
+Para el desarrollo de nuestra plataforma, decidimos utilizar el enfoque de Domain-Driven Design (DDD). Esta metodología permite organizar la estructura del software en función de las reglas y dinámicas propias del ámbito legal, lo que contribuye a construir una solución más coherente, sostenible y alineada con los requerimientos reales del negocio.
+
+### Architectural Styles & Patterns
+
+Para la implementación de Law Connect, se ha optado por utilizar una arquitectura basada en capas, acompañada de los patrones de diseño DAO (Data Access Object) y MVC (Modelo-Vista-Controlador), junto con el uso de APIs REST para la comunicación entre los componentes del sistema.
 
 **4.1.3 Context Diagram**
 <br>
 
+<p align="center">
+  <img src="assets/img/chapter-4/DiagramaDeContexto.png" alt="c4context">
+</p>
+
 **4.1.4 Approach driven ViewPoints Diagrams**
 <br>
 
-**4.1.5 Relational/Non Relational Database Diagram **
-<br>
+### C4 Containers Diagram
+
+<p align="center">
+  <img src="assets/img/chapter-4/DiagramaDeContenedores.png" alt="c4container">
+</p>
+
+### C4 Components Diagram
+
+**Payment Component**
+
+<p align="center">
+  <img src="assets/img/chapter-4/DiagramaDeComponentesPayment.png" alt="c4component">
+</p>
+
+**4.1.5 Relational/Non Relational Database Diagram**
+
+### Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/dbdiagram_law_connect.png" alt="db relational">
+</p>
+
+### Non Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/noRelational_dbdiagram_law_connect.png" alt="db norelational">
+</p>
 
 **4.1.6 Design Patterns**
 <br>
+### Factory Method
+Se aplicaría en el alta de usuarios (creación de cuenta, asignación de rol y dejarlo listo para la aplicación) y en la elección del canal de notificación al registrar o agendar una cita.  
+Centralizamos la creación de variantes simples (abogado o cliente / email o SMS) sin acoplar la lógica de instanciación a la capa de aplicación. Esta capa solo debería orquestar casos de uso, no qué clase concreta instanciar ni cómo (validaciones, defaults, dependencias internas). Eso vive en una Factory (o Builder) del dominio/infra.
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/factory_method.png" alt="Factory Method">
+</p>
+
+### Builder
+Se aplicaría en la construcción de `Cita` y `PerfilAbogado` donde existen múltiples parámetros, validaciones e invariantes. Evitaríamos constructores telescópicos y asegurar que el objeto final cumpla reglas de negocio antes de persistir.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/builder.png" alt="Builder">
+</p>
+
+### Command
+Se aplicaría en los casos de uso principales como registrar abogado, agendar cita y subir documentos. Encapsulamos intención, validaciones y efectos de una operación, habilitando decoradores y colas.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/command.png" alt="Command">
+</p>
+
+### State
+Se aplicaría en el ciclo de vida de la `Cita` desde solicitada hasta atendida, incluyendo reprogramaciones y cancelaciones. Definiremos claramente acciones permitidas y transiciones válidas según el estado actual.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/state.png" alt="State">
+</p>
+
+### Chain of Responsibility
+Se aplicaría en la validación del flujo de agendamiento y de pago donde existen múltiples reglas. Estructuramos un pipeline extensible que puede cortar la ejecución al fallar una regla.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/chain_of_responsibility.png" alt="Chain of Responsibility">
+</p>
+
+### Adapter
+Se aplicaría en pasarela de pagos, videollamadas y mensajería (email / SMS) donde los SDKs y APIs difieren. Desacoplaremos la aplicación de APIs externas heterogéneas y facilitaremos su reemplazo.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/adapter.png" alt="Adapter">
+</p>
+
+### Observer
+Se aplicaría en post-acciones tras `CitaCreada`, `PagoConfirmado` y `PerfilVerificado`: notificaciones, websockets, métricas, auditoría. Permitiremos crecer funcionalidades reactivas sin acoplarlas al flujo principal.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/observer.png" alt="Observer">
+</p>
+
+### Strategy
+Se aplicaría en el ordenamiento del catálogo de abogados por precio, rating o distancia, y en la selección del proveedor de MFA. Intercambiaremos algoritmos o proveedores en tiempo de ejecución sin condicionales extensos.
+
+<p align="center">
+  <img src="assets/img/chapter-4/pattern-design/strategy.png" alt="Strategy">
+</p>
+
 
 **4.1.7  Tactics**
 <br>
@@ -2412,22 +2524,279 @@ Riesgos tecnológicos: dependencia de terceros (pasarela de pago, proveedores de
 <br>
 **4.3 ADD Iterations**
 <br>
-**4.2.X Iteration N: <Iteration Name>**
+**4.2.1 Iteration 1: Quality Improvement**
 <br>
-**4.2.X.1 Architectural Design Backlog N**
+**4.2.1.1 Architectural Design Backlog 1**
 <br>
-**4.2.X.2 Establish Iteration Goal by Selecting Drivers**
+
+Para esta iteración, el enfoque se centrará en mejorar las áreas críticas de navegación, interacción del usuario, y el diseño, lo cual es clave para garantizar una experiencia fluida y confiable en la plataforma. A continuación, se detallan las áreas principales con las historias de usuario, tareas y criterios de aceptación.
+
+**1. Navegación y usabilidad:**
+Esta área busca mejorar la experiencia de navegación del usuario en la landing page, asegurando que la información sea clara y fácil de acceder.
+
+**Historias de Usuario**
+
+HU18 — Acceso rápido a funcionalidades principales
+Como cliente, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.
+HU20 — Diseño atractivo y responsivo
+Como cliente, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.
+
+**Tareas**
+
+- Accesos directos visibles a registro, búsqueda de abogados y contacto, con flujo
+- Layout mobile-first, accesibilidad, experiencia fluida en desktop/tablet/móvil.
+
+**Criterios de Aceptación**
+
+- El acceso debe ser rápido desde la Landing Page hacia la aplicación web.
+- El diseño debe cumplir con los parámetros del prototipo y los fundamentos de diseño
+- Se deben evitar problemas de responsabilidad 
+
+**2. Contenido dinámico y valor informativo:**
+El contenido presentado en la landing page debe ser atractivo y útil, mejorando la conversión de usuarios interesados.
+
+**Historias de Usuario**
+
+HU16 — Visualización de servicios destacados
+Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.
+
+HU19 — Información clara y concisa sobre el servicio
+Como cliente, quiero encontrar una descripción clara y concisa de los servicios ofrecidos en la landing page para entender de qué se trata la plataforma sin complicaciones.
+
+**Tareas**
+- Hero/intro que explique de forma simple qué es la plataforma y beneficios clave, con acceso a más info/FAQ
+- Mostrar cards de servicios más relevantes y populares en la landing, con fallback cuando no haya datos.
+
+**Criterios de Aceptación**
+- Visualización de Servicios Destacados de forma clara e intuitiva.
+- Información relevante sobre los servicios ofrecidos y bien organizada.
+
+
+**3. Interacción del usuario:**
+Mejorar la interacción y la comunicación con los usuarios para facilitar el contacto directo.
+
+**Historias de Usuario**
+
+HU17 — Testimonios de clientes satisfechos
+Como cliente, quiero leer testimonios de otros clientes satisfechos en la landing page para sentirme más confiado al contratar los servicios, lo que me ayudará a tomar una decisión informada.
+
+**Tareas**
+- Sección con testimonios filtrables
+- Secciones Call to action con invitación a contactar.
+
+**Criterios de Aceptación**
+- Visualización correcta de Testimonios reales sobre el uso de la aplicación.
+
+
+
+**4.2.1.2 Establish Iteration Goal by Selecting Drivers**
 <br>
-**4.2.X.3 Choose One or More Elements of the System to Refine**
-<br>
-**4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**
-<br>
-**4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**
-<br>
-**4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**
-<br>
-**4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**
-<br>
+
+En esta iteración, nos centraremos en mejorar las áreas críticas de navegación, interacción del usuario y seguridad de la aplicación para Law Connect. Seleccionaremos drivers clave que aseguren una experiencia fluida y confiable en la plataforma. Los pilares principales serán navegación y usabilidad, seguridad y autenticación, y contenido dinámico.
+
+**Meta de Accesibilidad y Usabilidad**
+
+Objetivo:  El usuario debe comprender de inmediato qué es la plataforma y cuáles son sus beneficios.
+
+Acciones Claves:
+- Encontrar las funcionalidades más importantes como registrarme para comenzar a usar la aplicación web.
+- Mostrar los servicios legales más importantes al entrar al landing page
+
+**Meta de Contenido Dinámico**
+
+Objetivo: Garantizar un diseño atractivo, responsivo y accesible en cualquier dispositivo.
+
+Acciones Claves
+- Proporcionar información detallada y persuasiva sobre las características del servicio.
+- Implementar una sección de testimonios de usuarios previos para ofrecer referencias sobre la experiencia con el producto.
+
+**Meta de Disponibilidad y Eficiencia**
+
+Objetivo: Acceso a funcionalidades principales en un máximo de 3 interacciones desde la landing.
+
+Acciones Claves
+- Seguir el design system diseñado para un mejor flujo de uso del usuario.
+
+**Objetivo de la Iteración:**
+- Meta de Accesibilidad y Usabilidad: Garantizar que los usuarios comprendan de inmediato la propuesta de la plataforma y puedan navegar de forma básica en la landing.
+- Meta de Contenido Dinámico: Consolidar la experiencia del usuario garantizando un diseño atractivo, responsivo y accesible en cualquier dispositivo, con pruebas de usabilidad y accesibilidad.
+- Meta de Disponibilidad y Eficiencia: Ofrecer a los usuarios accesos rápidos e intuitivos a las funcionalidades principales y mostrar los servicios legales destacados en la landing.
+
+
+
+**4.2.1.3 Choose One or More Elements of the System to Refine**  
+Para continuar con el proceso de desarrollo de la aplicación y basándonos en los objetivos de iteración y los impulsores previamente establecidos en el Architectural Design Backlog, el siguiente paso es seleccionar uno o más elementos del sistema que requieren refinamiento. Estos elementos se eligen con el propósito de mejorar la navegación, el valor informativo y la interacción del usuario en la página de destino (landing page). A continuación, se detallan los elementos seleccionados para el refinamiento:
+
+#### Aplicación Web Frontend (Vista de la Página de Destino):
+
+- **Elemento a Refinar:** La aplicación del lado del cliente que se renderiza en el navegador del usuario, abarcando HTML, CSS y JavaScript.  
+
+- **Razón para el Refinamiento:** Este elemento es el responsable directo de satisfacer los impulsores de HU20 (Diseño atractivo y responsivo) y HU18 (Acceso rápido a funcionalidades principales). La calidad de su implementación impacta directamente la percepción del usuario sobre la usabilidad y el rendimiento, que son atributos de calidad centrales para esta iteración.   
+
+- **Esperado:** Una interfaz de usuario moderna, responsiva e interactiva que se adapte a múltiples dispositivos y proporcione una experiencia de usuario fluida.
+
+#### Subsistema de Entrega de Contenido:
+
+- **Elemento a Refinar:** El componente de backend responsable de gestionar y servir el contenido dinámico de la página de destino.
+
+- **Razón para el Refinamiento:** Es necesario para cumplir con HU16 (Visualización de servicios destacados), HU17 (Testimonios de clientes satisfechos) y HU19 (Información clara y concisa sobre el servicio). Separar la gestión de contenido del código del frontend es una decisión arquitectónica clave para mejorar la Modificabilidad y permitir que personal no técnico actualice el contenido sin necesidad de redesplegar toda la aplicación.
+
+- **Esperado:** Un servicio de backend desacoplado que exponga el contenido de la página de destino a través de una API.
+
+#### API Gateway:
+
+- **Elemento a Refinar:** El punto de entrada único que gestiona todas las solicitudes desde el frontend hacia los servicios de backend.
+
+- **Razón para el Refinamiento:** Proporciona una interfaz estable para el frontend, centraliza preocupaciones transversales como la seguridad y la monitorización, y es esencial para optimizar el rendimiento mediante el almacenamiento en caché. Esto apoya directamente la meta de Disponibilidad y Eficiencia.   
+
+- **Esperado:** Un punto de entrada gestionado que enrute de manera segura y eficiente las solicitudes desde la aplicación frontend hacia el Subsistema de Entrega de Contenido.
+
+**4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**  
+Luego de que identificamos los elementos del sistema que requieren refinamiento, el siguiente paso es seleccionar conceptos de diseño adecuados que satisfagan los impulsores arquitectónicos seleccionados. Estos conceptos de diseño son esenciales para guiar el desarrollo del sistema y asegurar que los objetivos de la iteración se cumplan eficientemente. Detallamos los conceptos de diseño seleccionados para cada uno de los impulsores clave:
+
+#### Navegación y Usabilidad
+
+- **Concepto de Diseño:** Arquitectura Basada en Componentes con un Framework de Aplicación de Página Única (SPA)
+
+    - **Descripción:** El frontend se estructurará como una colección de componentes reutilizables y autocontenidos (p. ej., un componente de Testimonio, un componente de Servicio Destacado) orquestados por un framework como React o Angular.
+
+    - **Justificación:** Este concepto respalda directamente HU18 y HU20. Las SPAs proporcionan una experiencia de usuario fluida y sin recargas de página, lo que mejora la Usabilidad. La estructura basada en componentes aumenta la Modificabilidad y la Testeabilidad, ya que los componentes pueden ser desarrollados y probados de forma aislada.
+
+- **Concepto de Diseño:** Diseño Responsivo (Responsive Design)
+
+    - **Descripción:** La interfaz de usuario se implementará utilizando un enfoque mobile-first para asegurar que el diseño se adapte sin problemas a una variedad de dispositivos.
+
+    - **Justificación:** Esta es la táctica principal para cumplir con HU20 (Diseño atractivo y responsivo). Es un pilar de la Usabilidad y Accesibilidad modernas.
+
+#### Contenido Dinámico y Valor Informativo
+
+- **Concepto de Diseño:** Patrón de CMS sin Cabeza (Headless CMS)
+
+    - **Descripción:** El Subsistema de Entrega de Contenido se implementará utilizando una arquitectura de CMS sin cabeza, donde el contenido se gestiona en un backend y se entrega a través de una API a cualquier frontend.
+
+    - **Justificación:** Es la solución ideal para HU16, HU17 y HU19. Mejora drásticamente la Modificabilidad, permitiendo que el personal no técnico actualice el contenido de la página de destino sin necesidad de cambios en el código. Además, prepara la arquitectura para el futuro, ya que el mismo contenido puede ser servido a otros canales (p. ej., una aplicación móvil) a través de la misma API.
+
+#### Disponibilidad y Eficiencia
+
+- **Concepto de Diseño:** Patrón de API Gateway
+
+    - **Descripción:** Se implementará un servicio dedicado que actúa como un proxy inverso, aceptando todas las llamadas de API desde el frontend y enrutándolas al servicio de backend apropiado.
+
+    - **Justificación:** Desacopla el frontend del backend, mejorando la Modificabilidad. Actúa como un punto de control de Seguridad y centraliza la monitorización.
+
+- **Concepto de Diseño:** Almacenamiento en Caché de Respuestas (Response Caching)
+
+    - **Descripción:** El API Gateway se configurará para almacenar en caché las respuestas del Subsistema de Entrega de Contenido.
+
+    - **Justificación:** El contenido de la página de destino (servicios, testimonios) se lee con mucha más frecuencia de lo que se actualiza. El almacenamiento en caché mejora directamente el Rendimiento (al reducir la latencia) y la Disponibilidad (al reducir la carga en el backend), satisfaciendo la meta de eficiencia del backlog.   
+
+#### Objetivo de los Conceptos de Diseño:
+
+Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Diseño Responsivo aseguran una interfaz intuitiva y accesible desde cualquier dispositivo. Para el contenido dinámico, el patrón de CMS sin Cabeza (Headless CMS) permite una gestión de contenido ágil y flexible, mejorando la modificabilidad. Para la disponibilidad y eficiencia, el Patrón de API Gateway junto con el Almacenamiento en Caché de Respuestas optimiza el rendimiento y la escalabilidad del sistema, garantizando una experiencia de usuario rápida y confiable.  
+
+**4.2.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces**  
+
+- **Módulo de Aplicación Frontend (SPA)**  
+
+  - **Elementos Arquitectónicos:**   Componentes de UI (React/Angular), Servicio de Cliente HTTP (Axios/Fetch), Enrutador del lado del cliente (Client-Side Router).
+
+  - **Responsabilidades:** Renderizar la interfaz de usuario de la página de destino, gestionar las interacciones del usuario (clics, navegación), consumir los datos expuestos por el API Gateway y adaptar la vista a diferentes tamaños de pantalla (diseño responsivo).
+
+  - **Interfaces:** API RESTful para la comunicación con el API Gateway, utilizando el protocolo HTTPS para asegurar las solicitudes.
+
+- **Módulo de Entrega de Contenido (CMS Headless)**
+
+  - **Elementos Arquitectónicos:** API de Contenido (RESTful), Base de Datos de Contenido (PostgreSQL), Panel de Administración de Contenido.
+
+  - **Responsabilidades:** Almacenar, gestionar y servir el contenido dinámico de la página de destino, como los servicios destacados (HU16), testimonios (HU17) e información general (HU19). Proporcionar una interfaz para que el personal no técnico pueda actualizar el contenido de forma independiente.
+
+  - **Interfaces:** API RESTful interna para ser consumida por el API Gateway. Interfaz de Administración Web para los gestores de contenido.
+
+- **Módulo de API Gateway**
+
+  - **Elementos Arquitectónicos:** Servidor Proxy Inverso (p. ej., Spring Cloud Gateway), Módulo de Enrutamiento, Módulo de Caché (p. ej., integrado con Redis).
+
+  - **Responsabilidades:** Actuar como el único punto de entrada para todas las solicitudes del frontend. Enrutar las solicitudes de contenido al Módulo de Entrega de Contenido. Implementar el almacenamiento en caché de respuestas para optimizar el rendimiento y reducir la carga en el backend. Centralizar la aplicación de políticas de seguridad básicas.
+
+  - **Interfaces:** API RESTful expuesta públicamente para el Módulo de Aplicación Frontend. Comunicación interna vía solicitudes HTTPS hacia la API del Módulo de Entrega de Contenido.
+
+**4.2.1.6 Sketch Views (C4 & UML) and Record Design Decisions**  
+
+### Sketch View C4
+#### Context
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/c4-context-sketch.png" alt="">
+</p>
+
+#### Container
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/c4–container-sketch.png" alt="">
+</p>
+
+### Sketch View UML
+#### Component
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/uml-component-sketch.png" alt="">
+</p>
+
+#### Sequence
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/uml–sequence-sketch.png" alt="">
+</p>
+
+#### Sequence
+<p align="center">
+  <img src="assets/img/chapter-4/sketch-views/uml–state-sketch.png" alt="">
+</p>
+
+### Record Design Decisions
+**ADR-001 — Commands & Handlers para casos de uso**
+
+**Estado**: Aprobada.
+
+**Contexto**: necesitamos aislar validaciones, transacciones y side-effects por operacion (registrar usuario, agendar cita, subir documentos).
+
+**Decision**: implementar Command + Handler en application layer; habilitar decoradores para auditoria/metricas.
+
+**Consecuencias**: + testabilidad y orden; − boilerplate inicial.
+
+**ADR-002 — Chain of Responsibility para validaciones de agendamiento**
+
+**Estado**: Aprobada.
+
+**Contexto**: reglas escalables (disponibilidad, conflictos, politicas, antifraude).
+
+**Decision**: pipeline ordenado con short-circuit.
+
+**Consecuencias**: + extensibilidad; − necesita trazas claras para diagnostico.
+
+**ADR-003 — State machine para ciclo de vida de cita**
+
+**Estado**: Aprobada.
+
+**Contexto**: evitar transiciones invalidas y reglas duplicadas.
+
+**Decision**: estados SOLICITADA, CONFIRMADA, REPROGRAMADA, CANCELADA, ATENDIDA.
+
+**Consecuencias**: + claridad y control de invariantes; − clases/guards.
+
+
+**ADR-004 — Adapters para proveedores externos (pagos, email, video)**
+
+**Estado**: Aprobada.
+
+**Contexto**: permitir cambiar proveedor sin reescribir casos de uso.
+
+**Decision**: interfaces PaymentAdapter, MailAdapter, VideoCallAdapter con implementaciones por proveedor.
+
+**Consecuencias**: + desacacoplamiento; −capa de mapeo y manejo de errores.
+
+
+
+**4.2.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**  
+<img src="assets/img/chapter-4/kanban.png" alt="kanban" style="object-fit:contain; display:inline-block;">
+
+[Link del kanban](https://hdarklesqc123.atlassian.net/jira/software/projects/CPG/boards/1?atlOrigin=eyJpIjoiYzU3NDNlODYxZGVmNGU5MmE2OWRmMTQxYTYxODEzMjMiLCJwIjoiaiJ9) 
 
 # Conclusiones
 
