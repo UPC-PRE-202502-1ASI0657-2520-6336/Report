@@ -2197,6 +2197,29 @@ En esta sección, se plantearon metas de negocio utilizando los criterios SMART 
 **4.1.1 Principles Statements**
 <br>
 
+
+En base a nuestra solución planteada, decidimos establecer los siguientes principios:
+
+- **Accesibilidad legal como prioridad:**
+El sistema debe estar diseñado para facilitar el acceso a servicios legales en todo el país, especialmente en regiones con poca oferta.
+
+- **Descentralización del servicio jurídico:**
+Evitar la concentración del servicio en zonas urbanas, permitiendo que usuarios y abogados se conecten desde cualquier lugar.
+
+- **Interacción basada en confianza y reputación:**
+Las valoraciones de los usuarios deben jugar un papel clave en la visibilidad y posicionamiento de los abogados.
+
+### Principios implícitos
+
+- **Uso de comunicación asincrónica sobre sincrónica:**
+Se debe preferir chats y mensajes que no dependan del tiempo real, para mayor disponibilidad y robustez ante desconexiones.
+
+- **Priorización de la seguridad y privacidad:**
+Dado que se manejará información sensible, se deben aplicar prácticas de seguridad desde el diseño (encriptación, autenticación robusta, control de acceso).
+
+- **Alta disponibilidad y tolerancia a fallos:**
+Asegurar que la plataforma esté disponible en todo momento, especialmente para servicios críticos como la mensajería o las videollamadas.
+
 **4.1.2 Approaches Statements Architectural Styles & Patterns**
 <br>
 
