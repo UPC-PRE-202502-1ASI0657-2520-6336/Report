@@ -2720,10 +2720,14 @@ Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Dis
 
   - **Interfaces:** API RESTful expuesta públicamente para el Módulo de Aplicación Frontend. Comunicación interna vía solicitudes HTTPS hacia la API del Módulo de Entrega de Contenido.
 
-**4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**
-<br>
-**4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**
-<br>
+**4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions**  
+
+
+
+**4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**  
+<img src="assets/img/chapter-4/kanban.png" alt="kanban" style="object-fit:contain; display:inline-block;">
+
+[Link del kanban](https://hdarklesqc123.atlassian.net/jira/software/projects/CPG/boards/1?atlOrigin=eyJpIjoiYzU3NDNlODYxZGVmNGU5MmE2OWRmMTQxYTYxODEzMjMiLCJwIjoiaiJ9) 
 
 # Conclusiones
 
