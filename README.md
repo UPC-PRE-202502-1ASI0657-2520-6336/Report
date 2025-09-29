@@ -2232,6 +2232,10 @@ Para la implementación de Law Connect, se ha optado por utilizar una arquitectu
 **4.1.3 Context Diagram**
 <br>
 
+<p align="center">
+  <img src="assets/img/chapter-4/DiagramaDeContexto.png" alt="c4context">
+</p>
+
 **4.1.4 Approach driven ViewPoints Diagrams**
 <br>
 
