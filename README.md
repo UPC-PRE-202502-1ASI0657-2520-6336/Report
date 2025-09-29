@@ -2724,7 +2724,7 @@ Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Dis
 
 
 
-**4.2.X.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**  
+**4.2.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)**  
 <img src="assets/img/chapter-4/kanban.png" alt="kanban" style="object-fit:contain; display:inline-block;">
 
 [Link del kanban](https://hdarklesqc123.atlassian.net/jira/software/projects/CPG/boards/1?atlOrigin=eyJpIjoiYzU3NDNlODYxZGVmNGU5MmE2OWRmMTQxYTYxODEzMjMiLCJwIjoiaiJ9) 
