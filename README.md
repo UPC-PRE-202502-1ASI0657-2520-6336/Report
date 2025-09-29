@@ -2223,13 +2223,19 @@ Asegurar que la plataforma esté disponible en todo momento, especialmente para 
 **4.1.2 Approaches Statements Architectural Styles & Patterns**
 <br>
 
+Para el desarrollo de nuestra plataforma, decidimos utilizar el enfoque de Domain-Driven Design (DDD). Esta metodología permite organizar la estructura del software en función de las reglas y dinámicas propias del ámbito legal, lo que contribuye a construir una solución más coherente, sostenible y alineada con los requerimientos reales del negocio.
+
+### Architectural Styles & Patterns
+
+Para la implementación de Law Connect, se ha optado por utilizar una arquitectura basada en capas, acompañada de los patrones de diseño DAO (Data Access Object) y MVC (Modelo-Vista-Controlador), junto con el uso de APIs REST para la comunicación entre los componentes del sistema.
+
 **4.1.3 Context Diagram**
 <br>
 
 **4.1.4 Approach driven ViewPoints Diagrams**
 <br>
 
-**4.1.5 Relational/Non Relational Database Diagram **
+**4.1.5 Relational/Non Relational Database Diagram**
 <br>
 
 **4.1.6 Design Patterns**
