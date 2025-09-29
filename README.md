@@ -2412,12 +2412,106 @@ Riesgos tecnológicos: dependencia de terceros (pasarela de pago, proveedores de
 <br>
 **4.3 ADD Iterations**
 <br>
-**4.2.X Iteration N: <Iteration Name>**
+**4.2.1 Iteration 1: Quality Improvement**
 <br>
-**4.2.X.1 Architectural Design Backlog N**
+**4.2.1.1 Architectural Design Backlog 1**
 <br>
-**4.2.X.2 Establish Iteration Goal by Selecting Drivers**
+
+Para esta iteración, el enfoque se centrará en mejorar las áreas críticas de navegación, interacción del usuario, y el diseño, lo cual es clave para garantizar una experiencia fluida y confiable en la plataforma. A continuación, se detallan las áreas principales con las historias de usuario, tareas y criterios de aceptación.
+
+**1. Navegación y usabilidad:**
+Esta área busca mejorar la experiencia de navegación del usuario en la landing page, asegurando que la información sea clara y fácil de acceder.
+
+**Historias de Usuario**
+
+HU18 — Acceso rápido a funcionalidades principales
+Como cliente, quiero tener accesos rápidos a las funcionalidades principales desde la landing page para encontrar fácilmente lo que necesito, sin tener que hacer clics innecesarios.
+HU20 — Diseño atractivo y responsivo
+Como cliente, quiero que la landing page tenga un diseño atractivo y sea responsivo para una experiencia de usuario agradable desde cualquier dispositivo.
+
+**Tareas**
+
+- Accesos directos visibles a registro, búsqueda de abogados y contacto, con flujo
+- Layout mobile-first, accesibilidad, experiencia fluida en desktop/tablet/móvil.
+
+**Criterios de Aceptación**
+
+- El acceso debe ser rápido desde la Landing Page hacia la aplicación web.
+- El diseño debe cumplir con los parámetros del prototipo y los fundamentos de diseño
+- Se deben evitar problemas de responsabilidad 
+
+**2. Contenido dinámico y valor informativo:**
+El contenido presentado en la landing page debe ser atractivo y útil, mejorando la conversión de usuarios interesados.
+
+**Historias de Usuario**
+
+HU16 — Visualización de servicios destacados
+Como cliente, quiero ver los servicios legales más destacados en la landing page para entender rápidamente cómo la plataforma puede ayudarme a resolver mis problemas legales.
+
+HU19 — Información clara y concisa sobre el servicio
+Como cliente, quiero encontrar una descripción clara y concisa de los servicios ofrecidos en la landing page para entender de qué se trata la plataforma sin complicaciones.
+
+**Tareas**
+- Hero/intro que explique de forma simple qué es la plataforma y beneficios clave, con acceso a más info/FAQ
+- Mostrar cards de servicios más relevantes y populares en la landing, con fallback cuando no haya datos.
+
+**Criterios de Aceptación**
+- Visualización de Servicios Destacados de forma clara e intuitiva.
+- Información relevante sobre los servicios ofrecidos y bien organizada.
+
+
+**3. Interacción del usuario:**
+Mejorar la interacción y la comunicación con los usuarios para facilitar el contacto directo.
+
+**Historias de Usuario**
+
+HU17 — Testimonios de clientes satisfechos
+Como cliente, quiero leer testimonios de otros clientes satisfechos en la landing page para sentirme más confiado al contratar los servicios, lo que me ayudará a tomar una decisión informada.
+
+**Tareas**
+- Sección con testimonios filtrables
+- Secciones Call to action con invitación a contactar.
+
+**Criterios de Aceptación**
+- Visualización correcta de Testimonios reales sobre el uso de la aplicación.
+
+
+
+**4.2.1.2 Establish Iteration Goal by Selecting Drivers**
 <br>
+
+En esta iteración, nos centraremos en mejorar las áreas críticas de navegación, interacción del usuario y seguridad de la aplicación para Law Connect. Seleccionaremos drivers clave que aseguren una experiencia fluida y confiable en la plataforma. Los pilares principales serán navegación y usabilidad, seguridad y autenticación, y contenido dinámico.
+
+**Meta de Accesibilidad y Usabilidad**
+
+Objetivo:  El usuario debe comprender de inmediato qué es la plataforma y cuáles son sus beneficios.
+
+Acciones Claves:
+- Encontrar las funcionalidades más importantes como registrarme para comenzar a usar la aplicación web.
+- Mostrar los servicios legales más importantes al entrar al landing page
+
+**Meta de Contenido Dinámico**
+
+Objetivo: Garantizar un diseño atractivo, responsivo y accesible en cualquier dispositivo.
+
+Acciones Claves
+- Proporcionar información detallada y persuasiva sobre las características del servicio.
+- Implementar una sección de testimonios de usuarios previos para ofrecer referencias sobre la experiencia con el producto.
+
+**Meta de Disponibilidad y Eficiencia**
+
+Objetivo: Acceso a funcionalidades principales en un máximo de 3 interacciones desde la landing.
+
+Acciones Claves
+- Seguir el design system diseñado para un mejor flujo de uso del usuario.
+
+**Objetivo de la Iteración:**
+- Meta de Accesibilidad y Usabilidad: Garantizar que los usuarios comprendan de inmediato la propuesta de la plataforma y puedan navegar de forma básica en la landing.
+- Meta de Contenido Dinámico: Consolidar la experiencia del usuario garantizando un diseño atractivo, responsivo y accesible en cualquier dispositivo, con pruebas de usabilidad y accesibilidad.
+- Meta de Disponibilidad y Eficiencia: Ofrecer a los usuarios accesos rápidos e intuitivos a las funcionalidades principales y mostrar los servicios legales destacados en la landing.
+
+
+
 **4.2.X.3 Choose One or More Elements of the System to Refine**
 <br>
 **4.2.X.4 Choose One or More Design Concepts That Satisfy the Selected Drivers**
