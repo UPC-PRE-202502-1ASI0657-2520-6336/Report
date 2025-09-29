@@ -2236,7 +2236,16 @@ Para la implementación de Law Connect, se ha optado por utilizar una arquitectu
 <br>
 
 **4.1.5 Relational/Non Relational Database Diagram**
-<br>
+
+### Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/dbdiagram_law_connect.png" alt="db relational">
+</p>
+
+### Non Relational
+<p align="center">
+  <img src="assets/img/chapter-4/db/noRelational_dbdiagram_law_connect.png" alt="db norelational">
+</p>
 
 **4.1.6 Design Patterns**
 <br>
