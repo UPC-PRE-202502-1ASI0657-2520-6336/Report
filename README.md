@@ -50,6 +50,9 @@ Producto: Law Connect
 Se presenta el procedimiento seguido para la elaboración del informe en cada una de las entregas, acompañado de capturas de pantalla que evidencian los análisis de colaboración y los registros de commits realizados en GitHub dentro del repositorio correspondiente al informe.
 
 **URL del Repositorio del Informe:** https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report/tree/main
+**URL del Repositorio de Landing Page:**  https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Landing-Page-
+**URL del Repositorio del Frontend:**  https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Frontend-
+**URL del Repositorio del Backend:** https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Backend-
 
 **Entrega N°1: TB1:**
 
@@ -3114,6 +3117,9 @@ Comunicación: Discord y Google Meet para reuniones sincrónicas.
 El equipo centraliza la gestión del código fuente en GitHub, empleando Git como sistema de control de versiones.
 
 Repositorio de Código Fuente (Law Connect – Web Services):
+**URL del Repositorio de Landing Page:**  https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Landing-Page-
+**URL del Repositorio del Frontend:**  https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Frontend-
+**URL del Repositorio del Backend:** https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Backend-
 
 Modelo de Ramas – GitFlow
 
