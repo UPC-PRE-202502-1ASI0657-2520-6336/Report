@@ -42,6 +42,7 @@ Producto: Law Connect
 |---------|------------|---------|---------------------------------------|
 | 1.0     | 12/09/2025 | Paitan Pumacahua, Max Anthony <br>	Conde Isla, Camila Alessandra	<br> Pariona Lucas, Jose Manuel	<br> Méndez Vargas, Sebastian <br> Góngora Sánchez, Marco Antonio | Capítulo I <br> Capítulo II <br> Capítulo III       |
 | 2.0     | 28/09/2025 | Paitan Pumacahua, Max Anthony <br>	Conde Isla, Camila Alessandra	<br> Pariona Lucas, Jose Manuel	<br> Méndez Vargas, Sebastian <br> Góngora Sánchez, Marco Antonio | Capítulo IV <br>       |
+| 3.0     | 28/09/2025 | Paitan Pumacahua, Max Anthony <br>	Conde Isla, Camila Alessandra	<br> Pariona Lucas, Jose Manuel	<br> Méndez Vargas, Sebastian <br> Góngora Sánchez, Marco Antonio | Capítulo V <br>       |
 
 ---  
 # Project Report Collaboration Insights  
@@ -101,6 +102,33 @@ Networks Insights report:
 
 https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report/network
 
+
+**Entrega N°3: TP1:**
+
+Las tareas correspondientes a la entrega TP1 se completaron en el repositorio de GitHub de la organización del equipo, disponible en el enlace de repositorio del informe.
+
+Para la elaboración del informe se llevaron a cabo las siguientes acciones:
+
+Cada integrante del equipo redactó su parte y elaboró gráficos en formato Markdown de acuerdo con los puntos asignados, registrando posteriormente los avances mediante commits en el repositorio.
+
+Se generaron los artefactos requeridos utilizando las herramientas sugeridas, y las imágenes necesarias se obtuvieron a través de la opción de Issues dentro del repositorio del informe.
+
+Se realizaron reuniones periódicas para coordinar el desarrollo de los apartados del informe, las cuales también sirvieron para compartir el progreso alcanzado en cada etapa.
+
+**Contributors Insigts report:**
+
+Contributors Insights Report:
+
+
+https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report/graphs/contributors
+
+Networks Insights report:
+
+
+
+https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report/network
+
+
 ---  
 # Student Outcome  
 El curso contribuye al cumplimiento del Student Outcome ABET: **ABET – EAC - Student Outcome 7** <br> Criterio:   
@@ -109,8 +137,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 | - | - | - |
-| Criterio 1: Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño.<br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> ***TB2:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- 4.2.1.3 Choose One or More Elements of the System to Refine. <br>- 4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers. <br>- 4.2.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board). <br>- 4.2.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- 4.1.6 Design Patterns. <br>- 4.2.X.1 Architectural Design Backlog N. <br>- 4.2.X.2 Establish Iteration Goal by Selecting Drivers. <br><br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11 Constraints,  <br>- 4.1.12 Architectural Concerns <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- 4.1.1 Principles Statements. <br>- 4.1.2 Approaches Statements Architectural Styles & Patterns. <br>- 4.1.3 Context Diagram. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- 4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions. <br>- apoyé en el punto 4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces.  <br> | En conclusión, **TB1:** En esta etapa, los integrantes reforzaron y actualizaron conocimientos clave de ingeniería de software al aplicarlos directamente en la elaboración del proyecto. A través de actividades como el análisis de competidores, entrevistas, creación de artefactos de Lean UX y desarrollo de la propuesta conceptual, lograron integrar teoría y práctica de manera efectiva. Esto permitió no solo consolidar lo aprendido en el curso, sino también generar bases sólidas para el desarrollo del producto, demostrando que la actualización constante de conceptos es fundamental para afrontar con éxito los retos del proyecto.  <br> En conclusión, **TB2:** En esta etapa, los integrantes profundizaron y actualizaron conocimientos clave de diseño y arquitectura de software al aplicarlos directamente en la construcción de artefactos arquitectónicos. A través de la definición de estilos y patrones, la elaboración de diagramas de contexto, ER, C4 y UML, así como el desarrollo de tácticas y drivers de calidad, lograron conectar teoría y práctica de manera estructurada. Esto no solo consolidó competencias adquiridas previamente, sino que además permitió fortalecer habilidades en el diseño de arquitecturas robustas y escalables, evidenciando que la actualización constante de conocimientos resulta esencial para garantizar la calidad y sostenibilidad de las soluciones propuestas en el proyecto.| <br>
-| Criterio 2: Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian**  <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> <br> <br> ***TB2:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- 4.2.1.3 Choose One or More Elements of the System to Refine. <br>- 4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers. <br>- 4.2.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board). <br>- 4.2.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- 4.1.6 Design Patterns. <br>- 4.2.X.1 Architectural Design Backlog N. <br>- 4.2.X.2 Establish Iteration Goal by Selecting Drivers. <br><br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11 Constraints,  <br>- 4.1.12 Architectural Concerns <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- 4.1.1 Principles Statements. <br>- 4.1.2 Approaches Statements Architectural Styles & Patterns. <br>- 4.1.3 Context Diagram. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- 4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions. <br>- apoyé en el punto 4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces.  <br> | En conclusión, **TB1:** Los integrantes reconocieron que el aprendizaje permanente es esencial para el ejercicio profesional y para el éxito del proyecto. Durante el desarrollo de esta entrega, se enfrentaron a nuevas metodologías, herramientas y enfoques (como Lean UX, entrevistas a usuarios y construcción de artefactos de diseño), lo que demandó investigar, adaptarse y aprender de manera continua. Este proceso evidenció que la disposición al aprendizaje constante les permite no solo superar dificultades, sino también aportar soluciones innovadoras y alineadas a las necesidades reales del usuario y del mercado. <br> En conclusión, **TB2:** Los integrantes reafirmaron que el aprendizaje permanente es imprescindible para el desarrollo profesional y el éxito del proyecto. Durante esta entrega, se enfrentaron a nuevos enfoques de diseño arquitectónico, tales como la aplicación del método ADD, la definición de drivers, la construcción de vistas desde diferentes perspectivas y el uso de patrones de diseño. Este proceso demandó investigar y adaptarse de forma continua, lo que les permitió comprender mejor las implicancias técnicas y prácticas de una arquitectura bien diseñada. En consecuencia, demostraron que mantener una actitud de aprendizaje constante es clave no solo para superar los retos propios del diseño arquitectónico, sino también para generar soluciones innovadoras y alineadas a las necesidades del usuario y del mercado. |
+| Criterio 1: Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño.<br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> ***TB2:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- 4.2.1.3 Choose One or More Elements of the System to Refine. <br>- 4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers. <br>- 4.2.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board). <br>- 4.2.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- 4.1.6 Design Patterns. <br>- 4.2.X.1 Architectural Design Backlog N. <br>- 4.2.X.2 Establish Iteration Goal by Selecting Drivers. <br><br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11 Constraints,  <br>- 4.1.12 Architectural Concerns <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- 4.1.1 Principles Statements. <br>- 4.1.2 Approaches Statements Architectural Styles & Patterns. <br>- 4.1.3 Context Diagram. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- 4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions. <br>- apoyé en el punto 4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces.  <br> <br> ***TP1:*** <br> **Paitan Pumacahua, Max Anthony** <br>   <br><br>**Conde Isla, Camila Alessandra** <br> <br><br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- Capitulo V, 5.1, 5.1.1, 5.1.2, 5.1.3, 5.1.4, 5.2 <br>-(Software Configuration Management ), 5.2.1      <br>-Software Development Environment Configuration, <br>- 5.2.2 Source Code Management,  <br>- 5.2.3 Source Code Style Guide & Conventions ,  <br>- 5.2.4  Software Deployment Configuration <br> <br> **Méndez Vargas, Sebastian** <br>  <br> <br>  <br> **Góngora Sánchez, Marco Antonio** <br>  <br>| En conclusión, **TB1:** En esta etapa, los integrantes reforzaron y actualizaron conocimientos clave de ingeniería de software al aplicarlos directamente en la elaboración del proyecto. A través de actividades como el análisis de competidores, entrevistas, creación de artefactos de Lean UX y desarrollo de la propuesta conceptual, lograron integrar teoría y práctica de manera efectiva. Esto permitió no solo consolidar lo aprendido en el curso, sino también generar bases sólidas para el desarrollo del producto, demostrando que la actualización constante de conceptos es fundamental para afrontar con éxito los retos del proyecto.  <br> En conclusión, **TB2:** En esta etapa, los integrantes profundizaron y actualizaron conocimientos clave de diseño y arquitectura de software al aplicarlos directamente en la construcción de artefactos arquitectónicos. A través de la definición de estilos y patrones, la elaboración de diagramas de contexto, ER, C4 y UML, así como el desarrollo de tácticas y drivers de calidad, lograron conectar teoría y práctica de manera estructurada. Esto no solo consolidó competencias adquiridas previamente, sino que además permitió fortalecer habilidades en el diseño de arquitecturas robustas y escalables, evidenciando que la actualización constante de conocimientos resulta esencial para garantizar la calidad y sostenibilidad de las soluciones propuestas en el proyecto. <br> En conclusión, **TP1:** Durante la elaboración del TP1, el equipo reforzó y actualizó de manera significativa los conocimientos adquiridos en cursos previos de la carrera y los aplicó en un proyecto real de arquitectura y desarrollo de software. La implementación de suites de testing, el uso de patrones de diseño en backend y librerías personalizadas, junto con la configuración del entorno de desarrollo, control de versiones con GitFlow y convenciones de estilo, permitió afianzar competencias técnicas fundamentales. Asimismo, la incorporación de pipelines de despliegue (CI/CD), microservicios y diagramas de configuración fomentó la comprensión integral del ciclo de vida de un producto digital. Con estas prácticas, los integrantes no solo actualizaron conceptos técnicos, sino que también los aplicaron directamente en la construcción de una solución robusta y escalable, lo que evidencia un aprendizaje alineado con las demandas actuales de la industria de software.| <br>
+| Criterio 2: Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. | ***TB1:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- Definí los Lean UX Assumptions, estructurando las hipótesis iniciales que sustentan el proyecto. <br>- Formulé el Lean UX Hypothesis, relacionando los supuestos con los posibles resultados esperados en la validación con usuarios. <br>- Diseñé el Lean UX Canvas, integrando problemas, necesidades, métricas y propuesta de valor de manera clara. <br>- Segmenté los Segmentos Objetivos, identificando con detalle los perfiles prioritarios del público meta. <br>- Contribuí en las Entrevistas, validando y contrastando las suposiciones planteadas en los apartados anteriores. <br><br>De esta manera aseguré la alineación metodológica y estratégica del proyecto con Lean UX, facilitando la validación de nuestras decisiones de diseño. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- Construí la User Task Matrix, identificando las tareas clave que los usuarios necesitan realizar y priorizando aquellas de mayor impacto. <br>- Elaboré los Empathy Maps, logrando representar emociones, pensamientos y necesidades de los usuarios. <br>- Definí el As-Is Scenario, describiendo la situación actual del usuario frente al problema. <br>- Diseñé el To-Be Scenario, mostrando cómo nuestra solución mejorará la experiencia del usuario. <br>- Participé activamente en las Entrevistas, aportando insumos que enriquecieron la construcción de escenarios y mapas de empatía. <br><br>Con estos entregables aseguré una comprensión profunda de los usuarios y de cómo nuestro producto puede transformar su experiencia. <br><br> **Pariona Lucas, Jose Manuel** <br> Yo realicé lo siguiente: <br><br>- Redacté las User Stories, definiendo funcionalidades desde la perspectiva del usuario y priorizando de acuerdo a valor y necesidad. <br>- Construí el Impact Map, vinculando objetivos estratégicos, actores y entregables para guiar el desarrollo. <br>- Desarrollé el Product Backlog, organizando y jerarquizando las tareas necesarias para implementar el producto. <br>- Además, participé en las Entrevistas, lo que me permitió validar las historias de usuario con base en necesidades reales. <br><br>De esta forma aporté a la conexión entre la estrategia de negocio y el desarrollo del producto, garantizando que las funcionalidades respondan a objetivos claros y necesidades reales.  <br> <br> **Méndez Vargas, Sebastian**  <br> Yo realicé lo siguiente: <br><br>- Desarrollé la Descripción del proyecto, asegurando claridad y coherencia con la visión general. <br>- Propuse y definí el Nombre del Producto, buscando que sea atractivo, fácil de recordar y alineado a la problemática. <br>- Elaboré los Antecedentes y la Problemática, sustentando con información relevante y ejemplos concretos que justifican la necesidad de la solución. <br>- Redacté el Lean UX Problem Statement, identificando con precisión el problema principal desde la perspectiva del usuario. <br>- Participé en las Entrevistas, recopilando información clave tanto de abogados como de personas que requieren servicios legales. <br><br>Con esto aporté a la fundamentación inicial del proyecto, asegurando que la base conceptual y estratégica estuviera sólida. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- Realicé el análisis de Competidores, identificando sus fortalezas y debilidades para posicionar nuestro producto de manera diferenciada. <br>- Desarrollé el Needfinding, encontrando insights clave a partir de la observación y entrevistas a usuarios. <br>- Creé las User Personas, representaciones detalladas de usuarios tipo basadas en la información recopilada. <br>- Apoyé en las Entrevistas, tanto con abogados como con usuarios, para enriquecer la investigación. <br><br>Gracias a estos entregables, aporté una visión clara de mercado y de usuarios, fundamentales para guiar las decisiones de diseño y propuesta de valor.  <br> <br> <br> ***TB2:*** <br> **Paitan Pumacahua, Max Anthony** <br>  Yo realicé lo siguiente: <br><br>- 4.2.1.3 Choose One or More Elements of the System to Refine. <br>- 4.2.1.4 Choose One or More Design Concepts That Satisfy the Selected Drivers. <br>- 4.2.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board). <br>- 4.2.1.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces. <br><br>**Conde Isla, Camila Alessandra** <br> Yo realicé lo siguiente: <br><br>- 4.1.6 Design Patterns. <br>- 4.2.X.1 Architectural Design Backlog N. <br>- 4.2.X.2 Establish Iteration Goal by Selecting Drivers. <br><br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- 4.1.7 Tactics, 4.2 Architectural Drivers,  4.1.8 Design Purpose,  4.1.9 Primary Functionality <br>-(Primary User Stories), 4.1.10       <br>-           Quality Attribute Scenarios, <br>- 4.1.11 Constraints,  <br>- 4.1.12 Architectural Concerns <br> <br> **Méndez Vargas, Sebastian** <br> Yo realicé lo siguiente: <br><br>- 4.1.1 Principles Statements. <br>- 4.1.2 Approaches Statements Architectural Styles & Patterns. <br>- 4.1.3 Context Diagram. <br>  <br> **Góngora Sánchez, Marco Antonio** <br> Yo realicé lo siguiente: <br><br>- 4.2.X.6 Sketch Views (C4 & UML) and Record Design Decisions. <br>- apoyé en el punto 4.2.X.5 Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces.  <br> <br> ***TP1:*** <br> **Paitan Pumacahua, Max Anthony** <br>   <br><br>**Conde Isla, Camila Alessandra** <br> <br><br> **Pariona Lucas, Jose Manuel** <br>  Yo realicé lo siguiente: <br><br>- Capitulo V, 5.1, 5.1.1, 5.1.2, 5.1.3, 5.1.4, 5.2 <br>-(Software Configuration Management ), 5.2.1 <br>- Software Development Environment Configuration, <br>- 5.2.2 Source Code Management,  <br>- 5.2.3 Source Code Style Guide & Conventions ,  <br>- 5.2.4  Software Deployment Configuration <br> <br> **Méndez Vargas, Sebastian** <br>  <br> <br>  <br> **Góngora Sánchez, Marco Antonio** <br> | En conclusión, **TB1:** Los integrantes reconocieron que el aprendizaje permanente es esencial para el ejercicio profesional y para el éxito del proyecto. Durante el desarrollo de esta entrega, se enfrentaron a nuevas metodologías, herramientas y enfoques (como Lean UX, entrevistas a usuarios y construcción de artefactos de diseño), lo que demandó investigar, adaptarse y aprender de manera continua. Este proceso evidenció que la disposición al aprendizaje constante les permite no solo superar dificultades, sino también aportar soluciones innovadoras y alineadas a las necesidades reales del usuario y del mercado. <br> En conclusión, **TB2:** Los integrantes reafirmaron que el aprendizaje permanente es imprescindible para el desarrollo profesional y el éxito del proyecto. Durante esta entrega, se enfrentaron a nuevos enfoques de diseño arquitectónico, tales como la aplicación del método ADD, la definición de drivers, la construcción de vistas desde diferentes perspectivas y el uso de patrones de diseño. Este proceso demandó investigar y adaptarse de forma continua, lo que les permitió comprender mejor las implicancias técnicas y prácticas de una arquitectura bien diseñada. En consecuencia, demostraron que mantener una actitud de aprendizaje constante es clave no solo para superar los retos propios del diseño arquitectónico, sino también para generar soluciones innovadoras y alineadas a las necesidades del usuario y del mercado. <br> En conclusión,  **TP1: ** El desarrollo del TP1 también puso en evidencia que la formación profesional en ingeniería de software exige un aprendizaje constante y permanente. La necesidad de investigar y adoptar metodologías avanzadas como Conventional Commits, Semantic Versioning, GitHub Actions para CI/CD, testing basado en Gherkin, y despliegue en la nube con Docker y AWS, reforzó la importancia de mantenerse actualizado frente a las tendencias tecnológicas. Cada miembro del equipo se enfrentó a nuevos retos que requirieron búsqueda, adaptación y práctica continua, lo que demuestra que el aprendizaje no se limita al aula, sino que se prolonga en el ejercicio profesional. De esta forma, el TP1 contribuyó a desarrollar la conciencia de que solo a través de la actualización constante se pueden diseñar e implementar soluciones de software de calidad, sostenibles y alineadas con las necesidades del mercado.  |
 ---  
 # Contenido  
 ## Tabla de contenidos  
@@ -173,6 +201,30 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 4.2.X.5    Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 4.2.X.6    Sketch Views (C4 & UML) and Record Design Decisions
 4.2.X.7    Analysis of Current Design and Review Iteration Goal (Kanban Board)
+### Capítulo V: Product Implementation, Validation & Deployment
+
+**5.1 Testing Suites & General Patterns**
+
+**5.1.1 Backend Application Core Testing Suite**
+
+**5.1.2 Pattern Based Backend Application(s)**
+**5.1.3 Pattern Based Custom Software Library**
+**5.1.4 Framework Pattern Driven Refactoring Report**
+**5.2 Software Configuration Management**
+**5.2.1 Software Development Environment Configuration**
+**5.2.2  Source Code Management**
+**5.2.3 Source Code Style Guide & Conventions**
+**5.2.4  Software Deployment Configuration**
+**5.3 Microservices Implementation**
+**5.2.1  Sprint 1**
+**5.2.1.1     Sprint Backlog 1**
+**5.2.1.2     Development Evidence for Sprint Review**
+**5.2.1.3     Testing Suite Evidence for Sprint Review**
+**5.2.1.4     Execution Evidence for Sprint Review**
+**5.2.1.5     Microservices Documentation Evidence for Sprint Review**
+**5.2.1.6     Software Deployment Evidence for Sprint Review**
+**5.2.1.7     Team Collaboration Insights during Sprint**
+**5.2.1.8     Kanban Board --> TP1**
   
   
 ---
@@ -310,7 +362,7 @@ Para clientes: interfaz sencilla, confiable y clara que muestre perfiles compara
 - **Ventaja competitiva:** Transparencia, facilidad de uso, experiencia de usuario, inclusión de abogados independientes y creación de un ecosistema confiable.
 
 ##### **Technical Assumptions** 
-- **Tecnología utilizada:** Plataforma web responsive desarrollada con frameworks modernos (React/Angular y Node.js/Spring Boot), base de datos relacional (PostgreSQL) y APIs seguras.
+- **Tecnología utilizada:** Plataforma web responsive desarrollada con frameworks modernos (JavaScript + VUE.JS + C#), base de datos relacional (PostgreSQL) y APIs seguras.
 - **Integraciones:** Pasarelas de pago para honorarios, sistemas de verificación de identidad y validación de títulos profesionales.
 - **Escalabilidad:** Arquitectura en la nube para soportar múltiples usuarios concurrentes, videollamadas y gestión segura de documentos legales.
 - **Seguridad:** Autenticación robusta, encriptación de datos y protección de información sensible y el tratamiento correcto de información sensible.
@@ -2653,7 +2705,7 @@ Para continuar con el proceso de desarrollo de la aplicación y basándonos en l
 
 #### Aplicación Web Frontend (Vista de la Página de Destino):
 
-- **Elemento a Refinar:** La aplicación del lado del cliente que se renderiza en el navegador del usuario, abarcando HTML, CSS y JavaScript.  
+- **Elemento a Refinar:** La aplicación del lado del cliente que se renderiza en el navegador del usuario, abarcando HTML, CSS y JavaScript + VUE.js.  
 
 - **Razón para el Refinamiento:** Este elemento es el responsable directo de satisfacer los impulsores de HU20 (Diseño atractivo y responsivo) y HU18 (Acceso rápido a funcionalidades principales). La calidad de su implementación impacta directamente la percepción del usuario sobre la usabilidad y el rendimiento, que son atributos de calidad centrales para esta iteración.   
 
@@ -2682,7 +2734,7 @@ Luego de que identificamos los elementos del sistema que requieren refinamiento,
 
 - **Concepto de Diseño:** Arquitectura Basada en Componentes con un Framework de Aplicación de Página Única (SPA)
 
-    - **Descripción:** El frontend se estructurará como una colección de componentes reutilizables y autocontenidos (p. ej., un componente de Testimonio, un componente de Servicio Destacado) orquestados por un framework como React o Angular.
+    - **Descripción:** El frontend se estructurará como una colección de componentes reutilizables y autocontenidos (p. ej., un componente de Testimonio, un componente de Servicio Destacado) orquestados por un framework como VUE.js.
 
     - **Justificación:** Este concepto respalda directamente HU18 y HU20. Las SPAs proporcionan una experiencia de usuario fluida y sin recargas de página, lo que mejora la Usabilidad. La estructura basada en componentes aumenta la Modificabilidad y la Testeabilidad, ya que los componentes pueden ser desarrollados y probados de forma aislada.
 
@@ -2722,7 +2774,7 @@ Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Dis
 
 - **Módulo de Aplicación Frontend (SPA)**  
 
-  - **Elementos Arquitectónicos:**   Componentes de UI (React/Angular), Servicio de Cliente HTTP (Axios/Fetch), Enrutador del lado del cliente (Client-Side Router).
+  - **Elementos Arquitectónicos:**   Componentes de UI (VUE.js + JavaScript ), Servicio de Cliente HTTP (Axios/Fetch), Enrutador del lado del cliente (Client-Side Router).
 
   - **Responsabilidades:** Renderizar la interfaz de usuario de la página de destino, gestionar las interacciones del usuario (clics, navegación), consumir los datos expuestos por el API Gateway y adaptar la vista a diferentes tamaños de pantalla (diseño responsivo).
 
@@ -2821,6 +2873,381 @@ Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Dis
 <img src="assets/img/chapter-4/kanban.png" alt="kanban" style="object-fit:contain; display:inline-block;">
 
 [Link del kanban](https://hdarklesqc123.atlassian.net/jira/software/projects/CPG/boards/1?atlOrigin=eyJpIjoiYzU3NDNlODYxZGVmNGU5MmE2OWRmMTQxYTYxODEzMjMiLCJwIjoiaiJ9) 
+
+
+
+
+**Capítulo V: Product Implementation, Validation & Deployment**
+En este capítulo se documenta el proceso de implementación, validación, despliegue y verificación de la solución digital Law Connect. La solución está compuesta principalmente por RESTful Web Services que soportan los procesos core del negocio (por ejemplo: Gestión de Usuarios, Matching de Abogados y Clientes, Agenda de Citas, Comunicación mediante Chat/Videollamada) y procesos de soporte (Authentication & Authorization, Subscriptions, Payment Processing).
+
+El enfoque adoptado considera la organización del trabajo en Sprints, aplicando Scrum como marco ágil, y el uso de prácticas de Software Configuration Management (SCM) para garantizar consistencia en código, pruebas y despliegue.
+
+Cada Sprint incluyó:
+
+Implementación incremental de funcionalidades priorizadas en el Product Backlog.
+
+Pruebas automatizadas y manuales en cada iteración.
+
+Integración y despliegue continuo (CI/CD) mediante GitHub Actions y Render.
+
+Validación colaborativa por parte del equipo a través de revisiones de código, issues y pull requests en GitHub.
+
+
+**5.1 Testing Suites & General Patterns**
+
+El equipo adoptó un enfoque sistemático para las pruebas, estableciendo Testing Suites que cubren los diferentes componentes de la solución y utilizando patrones de diseño de software para asegurar mantenibilidad, escalabilidad y consistencia.
+
+Las pruebas se organizan en tres niveles:
+
+Unit Testing: Validación de módulos individuales (backend y frontend).
+
+Integration Testing: Verificación de interacción entre módulos y servicios.
+
+End-to-End (E2E) Testing: Validación completa del flujo de negocio digital.
+
+Adicionalmente, se han documentado patrones aplicados tanto en la implementación como en las pruebas, y se elaboraron reportes de refactorización guiada por patrones de diseño.
+
+**5.1.1 Backend Application Core Testing Suite**
+El núcleo del backend desarrollado en C# (.NET 7, ASP.NET Core) se valida con una Testing Suite compuesta por:
+
+Framework de pruebas:
+
+xUnit para pruebas unitarias.
+
+Moq para mocking de dependencias.
+
+FluentAssertions para validaciones expresivas.
+
+Cobertura de pruebas principales:
+
+Authentication & Authorization Service
+
+Verificación de login con credenciales válidas e inválidas.
+
+Validación de tokens JWT y expiración.
+
+User & Lawyer Management Service
+
+Creación, lectura, actualización y eliminación de perfiles.
+
+Validación de integridad de datos.
+
+Appointment Scheduling Service
+
+Creación y cancelación de citas.
+
+Verificación de conflictos de horario.
+
+Chat & Communication Service
+
+Persistencia de mensajes.
+
+Validación de integridad en tiempo real vía SignalR.
+
+Payment & Subscription Service
+
+Simulación de transacciones.
+
+Validación de niveles de suscripción y acceso a funcionalidades premium.
+
+Automatización en CI/CD:
+
+Pruebas ejecutadas automáticamente en GitHub Actions en cada pull request.
+
+Reporte de cobertura mínimo exigido: 80% de líneas cubiertas.
+
+**5.1.2 Pattern Based Backend Application(s)**
+El backend adopta patrones de diseño para garantizar consistencia:
+
+Repository Pattern
+
+Implementado para desacoplar la capa de acceso a datos.
+
+Facilita pruebas unitarias al permitir uso de repositorios en memoria.
+
+Service Layer Pattern
+
+Encapsula lógica de negocio en servicios independientes.
+
+Mejora la mantenibilidad y reusabilidad.
+
+Dependency Injection (DI)
+
+Configurado mediante el contenedor nativo de .NET.
+
+Permite sustituir implementaciones durante pruebas.
+
+DTO Pattern (Data Transfer Objects)
+
+Asegura separación entre entidades de dominio y respuestas REST.
+
+Evita exponer directamente modelos internos.
+
+Observer Pattern
+
+Utilizado en la capa de notificaciones (por ejemplo, para enviar actualizaciones a clientes cuando un abogado acepta una cita).
+
+**5.1.3 Pattern Based Custom Software Library**
+
+Se construyó una librería de utilitarios customizados reutilizable en múltiples partes del backend:
+
+LawConnect.Utils (C# Class Library):
+
+Helpers de seguridad: encriptación de contraseñas, validación de tokens.
+
+Helpers de validación: formatos de email, números de documento.
+
+Response Wrapper: clase estándar para respuestas de API (status, message, data).
+
+Logger centralizado: implementación basada en Decorator Pattern sobre la librería Serilog.
+
+Patrones aplicados en la librería:
+
+Singleton Pattern: para configuración global (ej. provider de seguridad).
+
+Factory Pattern: creación de servicios de notificación y pago bajo un contrato común.
+
+Adapter Pattern: integración con APIs externas de pasarelas de pago.
+**5.1.4 Framework Pattern Driven Refactoring Report**
+Durante el desarrollo, el equipo realizó refactorización incremental aplicando patrones de diseño orientados a frameworks utilizados (ASP.NET Core y Vue.js).
+
+Backend (C# – .NET 7)
+
+Refactor 01 – Controllers delgados (Thin Controllers)
+
+Inicialmente, parte de la lógica de negocio estaba en los controladores.
+
+Refactorización: mover lógica a la capa de servicios → Service Layer Pattern.
+
+Resultado: controladores más simples, alta cohesión.
+
+Refactor 02 – Manejo de errores y excepciones
+
+Antes: validación dispersa en cada servicio.
+
+Refactorización: middleware global de manejo de errores con Chain of Responsibility Pattern.
+
+Resultado: respuesta uniforme en APIs (códigos HTTP consistentes).
+
+Refactor 03 – Autenticación
+
+Antes: validaciones de token replicadas en cada controlador.
+
+Refactorización: implementación de Authorization Filter basado en Decorator Pattern.
+
+Resultado: simplificación de endpoints y mayor seguridad.
+
+Frontend (Vue.js)
+
+Refactor 01 – Componentes reutilizables
+
+Se detectó duplicación en formularios de login y registro.
+
+Refactorización: creación de un Form Component genérico (Pattern: Component Reusability).
+
+Refactor 02 – Gestión de estado
+
+Inicialmente se usaban props anidadas entre componentes.
+
+Refactorización: adopción de Pinia (state management) → patrón Flux.
+
+Resultado: mayor mantenibilidad y consistencia en datos compartidos.
+
+**5.2 Software Configuration Management**
+En esta sección se definen las decisiones, lineamientos y convenciones que permitirán mantener la consistencia y trazabilidad de los artefactos de software durante todo el ciclo de vida del producto digital Law Connect. Se abordan aspectos relacionados con el entorno de desarrollo, la gestión de código fuente, las guías de estilo y convenciones de programación, así como la configuración del despliegue de la solución.
+**5.2.1 Software Development Environment Configuration**
+El equipo utilizará un conjunto de herramientas que cubren todas las etapas del ciclo de vida de desarrollo de software, siguiendo las restricciones y lineamientos del curso.
+
+Entorno de Desarrollo
+
+Frontend:
+
+Lenguaje principal: JavaScript (ES6+)
+
+Framework: Vue.js 3
+
+Gestor de dependencias: npm
+
+Editor recomendado: Visual Studio Code
+
+Extensiones: ESLint, Prettier, Vetur
+
+Backend:
+
+Lenguaje principal: C#
+
+Framework: .NET 7 (ASP.NET Core)
+
+Entorno de ejecución: .NET SDK
+
+IDE recomendado: Visual Studio 2022 / Rider
+
+ORM: Entity Framework Core
+
+Base de Datos:
+
+Motor: PostgreSQL 14
+
+Cliente de administración: pgAdmin 4
+
+Herramientas de Apoyo en el Ciclo de Vida
+
+Gestión de Proyecto y Requerimientos: GitHub Projects, GitHub Issues.
+
+Diseño y Modelado: PlantUML, Draw.io, Miro.
+
+Gestión de Versiones: Git + GitHub.
+
+Testing:
+
+Frontend: Jest + Vue Test Utils.
+
+Backend: xUnit + Moq.
+
+Documentación: Markdown en repositorios GitHub.
+
+Comunicación: Discord y Google Meet para reuniones sincrónicas.
+
+
+**5.2.2  Source Code Management**
+
+El equipo centraliza la gestión del código fuente en GitHub, empleando Git como sistema de control de versiones.
+
+Repositorio de Código Fuente (Law Connect – Web Services):
+
+Modelo de Ramas – GitFlow
+
+Se adopta el workflow GitFlow propuesto por Vincent Driessen:
+
+Rama principal (main): versión estable en producción.
+
+Rama de desarrollo (develop): integración de nuevas funcionalidades.
+
+Ramas de funcionalidades (feature/<nombre>): para cada nueva funcionalidad.
+
+Ramas de release (release/x.y.z): preparación de versiones estables.
+
+Ramas de hotfix (hotfix/x.y.z): corrección de errores críticos en producción.
+
+Convenciones de Nombres de Ramas
+
+Features: feature/login-authentication
+
+Releases: release/1.0.0
+
+Hotfixes: hotfix/1.0.1
+
+Versionado Semántico
+
+Se emplea Semantic Versioning 2.0.0 con el formato MAJOR.MINOR.PATCH.
+Ejemplo: 1.2.0 (mayor = cambios incompatibles, menor = nuevas funciones, patch = bugfixes).
+
+Convenciones de Commits
+
+Se adoptan las reglas de Conventional Commits:
+
+feat: → nueva funcionalidad
+
+fix: → corrección de error
+
+docs: → documentación
+
+style: → formato, estilos
+
+refactor: → cambios de refactorización
+
+test: → pruebas
+
+chore: → tareas varias
+
+**5.2.3 Source Code Style Guide & Conventions**
+
+El equipo aplicará guías de estilo y convenciones que garanticen la legibilidad y mantenibilidad del código.
+
+Lenguaje de programación: Todo el código se escribirá en inglés (nombres de variables, funciones, clases y comentarios técnicos).
+
+Frontend (JavaScript + Vue.js)
+
+Basado en Google JavaScript Style Guide.
+
+Convenciones:
+
+Variables y funciones → camelCase.
+
+Clases y componentes → PascalCase.
+
+Constantes → UPPER_CASE.
+
+Archivos Vue → un componente por archivo (ComponentName.vue).
+
+Uso de ESLint + Prettier para asegurar estilo uniforme.
+
+Backend (C# – .NET 7)
+
+Convenciones de Microsoft C# Coding Conventions.
+
+Convenciones:
+
+Clases e Interfaces → PascalCase.
+
+Métodos → PascalCase.
+
+Variables locales y parámetros → camelCase.
+
+Uso obligatorio de async/await para operaciones asíncronas.
+
+Separación en capas: Controllers, Services, Repositories, Models.
+
+Pruebas con Gherkin (Cucumber)
+
+Se aplican las Gherkin Conventions for Readable Specifications:
+
+Uso de Given – When – Then.
+
+Lenguaje en inglés.
+
+Archivos .feature organizados en la carpeta /tests/features/.
+
+**5.2.4  Software Deployment Configuration**
+
+El despliegue de la solución Law Connect se realizará en la plataforma Render, que soporta aplicaciones web y APIs.
+
+Pipeline de Despliegue
+
+Integración Continua (CI):
+
+GitHub Actions ejecuta pruebas unitarias y de integración al realizar un push o PR en develop.
+
+Validación automática de estilo y convenciones (ESLint, Prettier, dotnet format).
+
+Entrega Continua (CD):
+
+Despliegue automático en entorno de staging en Render desde la rama develop.
+
+Despliegue en entorno de producción desde la rama main.
+
+Configuración de Servicios en Render:
+
+Frontend (Vue.js): servicio estático con build command npm run build.
+
+Backend (C# – .NET): servicio web con start command dotnet LawConnect.dll.
+
+Base de Datos: PostgreSQL gestionado por Render.
+Modelo de Despliegue - C4 Deployment Diagram
+![Impact Mapping](assets/img/develop/deploymentdiagramc42.png)
+
+**5.3 Microservices Implementation**
+**5.2.1  Sprint 1**
+**5.2.1.1     Sprint Backlog 1**
+**5.2.1.2     Development Evidence for Sprint Review**
+**5.2.1.3     Testing Suite Evidence for Sprint Review**
+**5.2.1.4     Execution Evidence for Sprint Review**
+**5.2.1.5     Microservices Documentation Evidence for Sprint Review**
+**5.2.1.6     Software Deployment Evidence for Sprint Review**
+**5.2.1.7     Team Collaboration Insights during Sprint**
+**5.2.1.8     Kanban Board --> TP1**
+
+
 
 # Conclusiones
 
