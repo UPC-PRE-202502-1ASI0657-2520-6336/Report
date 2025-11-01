@@ -3643,9 +3643,124 @@ Conclusión:
  
 
 
-5.2.2.6    Software Deployment Evidence for Sprint Review
-5.2.2.7    Team Collaboration Insights during Sprint
-5.2.2.8    Kanban Board --> (Avance 3)
+**5.2.2.6 Software Deployment Evidence for Sprint Review**
+
+Durante el **Sprint 2** se realizó el proceso de despliegue e integración continua de la aplicación, consolidando la entrega del **backend** y **frontend** bajo una arquitectura distribuida y modular.
+
+---
+
+## Despliegue del Backend
+
+El servicio backend fue desarrollado en **ASP.NET Core 8.0**, empaquetado como una imagen **Docker** y posteriormente publicado en **Docker Hub**.  
+Esta imagen fue utilizada para la creación del servicio web en **Render**, configurando las variables de entorno necesarias para la conexión con la base de datos y los mecanismos de autenticación.
+
+### Pasos realizados
+
+1. Construcción y publicación de la imagen Docker
+
+```bash
+# Construcción de la imagen
+docker build -t lawconnect-backend .
+
+# Etiquetado de la imagen
+docker tag lawconnect-backend m4rcous/lawconnect-backend:latest
+
+# Publicación en Docker Hub
+docker push m4rcous/lawconnect-backend:latest
+```
+
+2. Creación del servicio web en Render
+
+- Se configuró el servicio en **Docker Environment** usando la imagen publicada.
+- Se definieron variables de entorno como:
+- `JWT_SECRET`
+- `DB_CONNECTION_STRING`
+- `CORS_ALLOWED_ORIGINS`
+- Se configuró la política **CORS** para permitir solicitudes desde:
+- `http://localhost:5173` (pruebas locales)
+- `https://frontendgit-09482557-4f090.web.app` (frontend en producción)
+
+![CORS](assets/img/chapter-5/cors.png)
+
+![E1_Render](assets/img/chapter-5/evidence_render.png)
+
+![E2_Render](assets/img/chapter-5/evidence2_render.png)
+
+![E_Backend](assets/img/chapter-5/evidence_backend.png)
+
+3. Pruebas de conectividad
+
+Se verificaron los endpoints:
+
+
+- `api/auth/login`
+- `api/users`
+
+
+confirmando respuestas correctas mediante **JWT**.
+*(Evidencias documentadas en el punto anterior del informe)*
+
+
+4. URL del servicio desplegado
+
+**Backend disponible en:**
+[https://lawconnect-backend-latest.onrender.com/](https://lawconnect-backend-latest.onrender.com/)
+
+![E_Frontend](assets/img/chapter-5/evidence_frontend.png)
+
+---
+
+**Despliegue del Frontend**
+
+El módulo frontend, desarrollado en **Vue.js**, fue desplegado mediante **Firebase Hosting**.
+Se creó un proyecto en Firebase Studio y se vinculó directamente con el repositorio de GitHub del frontend.
+
+**Pasos realizados**
+
+
+1. Clonación del repositorio
+
+```bash
+git clone https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Frontend.git
+cd Frontend
+```
+
+2. Inicialización y configuración de Firebase 
+
+```bash
+firebase login 
+
+firebase init
+```
+
+3. Despliegue 
+
+```bash
+npm run build 
+
+firebase deploy
+```
+
+4. URL del frontend desplegado
+
+**Backend disponible en:**
+[https://lawconnect-backend-latest.onrender.com/](https://frontendgit-09482557-4f090.web.app/)
+
+**5.2.2.7 Team Collaboration Insights during Sprint**
+
+Durante el Sprint 2, el equipo de desarrollo mantuvo una colaboración constante a través de herramientas de control de versiones (GitHub) y comunicación (WhatsApp).
+
+La distribución de tareas se realizó de acuerdo con los roles definidos en el equipo, asegurando que todos los miembros participaran activamente en la implementación de los Web Services, frontend web e informe. 
+
+Backend: [https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Backend-.git](https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Backend-.git)
+
+Frontend: [https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Frontend.git](https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Frontend.git)
+
+Informe: [upc-pre-202502-si657-6336-Law Connect-performance-pc1.docx ](https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Report.git)
+
+**5.2.2.8 Kanban Board**
+
+![Kandban Board Sprint 2](assets/img/chapter-5/kanban_board_sprint_2.png)
 
 
 # Conclusiones
