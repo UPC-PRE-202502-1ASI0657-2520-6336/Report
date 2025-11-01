@@ -2879,20 +2879,20 @@ Para la navegación y usabilidad, la Arquitectura Basada en Componentes y el Dis
 
 
 
-**Capítulo V: Product Implementation, Validation & Deployment**
-En este capítulo se documenta el proceso de implementación, validación, despliegue y verificación de la solución digital Law Connect. La solución está compuesta principalmente por RESTful Web Services que soportan los procesos core del negocio (por ejemplo: Gestión de Usuarios, Matching de Abogados y Clientes, Agenda de Citas, Comunicación mediante Chat/Videollamada) y procesos de soporte (Authentication & Authorization, Subscriptions, Payment Processing).
+**Capítulo V: Product Implementation, Validation & Deployment**  
+En este capítulo se documenta el proceso de implementación, validación, despliegue y verificación de la solución digital Law Connect. La solución está compuesta principalmente por RESTful Web Services que soportan los procesos core del negocio (por ejemplo: Gestión de Usuarios, Matching de Abogados y Clientes, Agenda de Citas, Comunicación mediante Chat/Videollamada) y procesos de soporte (Authentication & Authorization, Subscriptions, Payment Processing).  
 
 El enfoque adoptado considera la organización del trabajo en Sprints, aplicando Scrum como marco ágil, y el uso de prácticas de Software Configuration Management (SCM) para garantizar consistencia en código, pruebas y despliegue.
 
-Cada Sprint incluyó:
+Cada Sprint incluirá:
 
-Implementación incremental de funcionalidades priorizadas en el Product Backlog.
+- Implementación incremental de funcionalidades priorizadas en el Product Backlog.
 
-Pruebas automatizadas y manuales en cada iteración.
+- Pruebas automatizadas y manuales en cada iteración.
 
-Integración y despliegue continuo (CI/CD) mediante GitHub Actions y Render.
+- Integración y despliegue continuo (CI/CD) mediante GitHub Actions y Render.
 
-Validación colaborativa por parte del equipo a través de revisiones de código, issues y pull requests en GitHub.
+- Validación colaborativa por parte del equipo a través de revisiones de código, issues y pull requests en GitHub.
 
 
 **5.1 Testing Suites & General Patterns**
@@ -2901,356 +2901,751 @@ El equipo adoptó un enfoque sistemático para las pruebas, estableciendo Testin
 
 Las pruebas se organizan en tres niveles:
 
-Unit Testing: Validación de módulos individuales (backend y frontend).
+- Unit Testing: Validación de módulos individuales (backend y frontend).
 
-Integration Testing: Verificación de interacción entre módulos y servicios.
+- Integration Testing: Verificación de interacción entre módulos y servicios.
 
-End-to-End (E2E) Testing: Validación completa del flujo de negocio digital.
+- End-to-End (E2E) Testing: Validación completa del flujo de negocio digital.
 
 Adicionalmente, se han documentado patrones aplicados tanto en la implementación como en las pruebas, y se elaboraron reportes de refactorización guiada por patrones de diseño.
 
-**5.1.1 Backend Application Core Testing Suite**
+**5.1.1 Backend Application Core Testing Suite**  
 El núcleo del backend desarrollado en C# (.NET 7, ASP.NET Core) se valida con una Testing Suite compuesta por:
 
-Framework de pruebas:
+- Framework de pruebas:
 
-xUnit para pruebas unitarias.
+  - xUnit para pruebas unitarias.
 
-Moq para mocking de dependencias.
+  - Moq para mocking de dependencias.
 
-FluentAssertions para validaciones expresivas.
+  - FluentAssertions para validaciones expresivas.
 
-Cobertura de pruebas principales:
+- Cobertura de pruebas principales:
 
-Authentication & Authorization Service
+  - Authentication & Authorization Service
 
-Verificación de login con credenciales válidas e inválidas.
+    - Verificación de login con credenciales válidas e inválidas.
 
-Validación de tokens JWT y expiración.
+    - Validación de tokens JWT y expiración.
 
-User & Lawyer Management Service
+  - User & Lawyer Management Service
 
-Creación, lectura, actualización y eliminación de perfiles.
+    - Creación, lectura, actualización y eliminación de perfiles.
 
-Validación de integridad de datos.
+    - Validación de integridad de datos.
 
-Appointment Scheduling Service
+    - Appointment Scheduling Service
 
-Creación y cancelación de citas.
+    - Creación y cancelación de citas.
 
-Verificación de conflictos de horario.
+    - Verificación de conflictos de horario.
 
-Chat & Communication Service
+- Chat & Communication Service
 
-Persistencia de mensajes.
+    - Persistencia de mensajes.
 
-Validación de integridad en tiempo real vía SignalR.
+    - Validación de integridad en tiempo real vía SignalR.
 
-Payment & Subscription Service
+    - Payment & Subscription Service
 
-Simulación de transacciones.
+    - Simulación de transacciones.
 
-Validación de niveles de suscripción y acceso a funcionalidades premium.
+    - Validación de niveles de suscripción y acceso a funcionalidades premium.
 
-Automatización en CI/CD:
+- Automatización en CI/CD:
 
-Pruebas ejecutadas automáticamente en GitHub Actions en cada pull request.
+    - Pruebas ejecutadas automáticamente en GitHub Actions en cada pull request.
 
-Reporte de cobertura mínimo exigido: 80% de líneas cubiertas.
+    - Reporte de cobertura mínimo exigido: 80% de líneas cubiertas.
 
-**5.1.2 Pattern Based Backend Application(s)**
+**5.1.2 Pattern Based Backend Application(s)**  
 El backend adopta patrones de diseño para garantizar consistencia:
 
-Repository Pattern
+- Repository Pattern
 
-Implementado para desacoplar la capa de acceso a datos.
+  - Implementado para desacoplar la capa de acceso a datos.
 
-Facilita pruebas unitarias al permitir uso de repositorios en memoria.
+  - Facilita pruebas unitarias al permitir uso de repositorios en memoria.
 
-Service Layer Pattern
+- Service Layer Pattern
 
-Encapsula lógica de negocio en servicios independientes.
+  - Encapsula lógica de negocio en servicios independientes.
 
 Mejora la mantenibilidad y reusabilidad.
 
-Dependency Injection (DI)
+- Dependency Injection (DI)
 
-Configurado mediante el contenedor nativo de .NET.
+  - Configurado mediante el contenedor nativo de .NET.
 
-Permite sustituir implementaciones durante pruebas.
+  - Permite sustituir implementaciones durante pruebas.
 
-DTO Pattern (Data Transfer Objects)
+- DTO Pattern (Data Transfer Objects)
 
-Asegura separación entre entidades de dominio y respuestas REST.
+  - Asegura separación entre entidades de dominio y respuestas REST.
 
 Evita exponer directamente modelos internos.
 
-Observer Pattern
+- Observer Pattern
 
-Utilizado en la capa de notificaciones (por ejemplo, para enviar actualizaciones a clientes cuando un abogado acepta una cita).
+  - Utilizado en la capa de notificaciones (por ejemplo, para enviar actualizaciones a clientes cuando un abogado acepta una cita).
 
 **5.1.3 Pattern Based Custom Software Library**
 
 Se construyó una librería de utilitarios customizados reutilizable en múltiples partes del backend:
 
-LawConnect.Utils (C# Class Library):
+- LawConnect.Utils (C# Class Library):
 
-Helpers de seguridad: encriptación de contraseñas, validación de tokens.
+  - Helpers de seguridad: encriptación de contraseñas, validación de tokens.
 
-Helpers de validación: formatos de email, números de documento.
+  - Helpers de validación: formatos de email, números de documento.
 
-Response Wrapper: clase estándar para respuestas de API (status, message, data).
+  - Response Wrapper: clase estándar para respuestas de API (status, message, data).
 
-Logger centralizado: implementación basada en Decorator Pattern sobre la librería Serilog.
+  - Logger centralizado: implementación basada en Decorator Pattern sobre la librería Serilog.
 
-Patrones aplicados en la librería:
+- Patrones aplicados en la librería:
 
-Singleton Pattern: para configuración global (ej. provider de seguridad).
+  - Singleton Pattern: para configuración global (ej. provider de seguridad).
 
-Factory Pattern: creación de servicios de notificación y pago bajo un contrato común.
+  - Factory Pattern: creación de servicios de notificación y pago bajo un contrato común.
 
-Adapter Pattern: integración con APIs externas de pasarelas de pago.
-**5.1.4 Framework Pattern Driven Refactoring Report**
+  - Adapter Pattern: integración con APIs externas de pasarelas de pago.  
+
+**5.1.4 Framework Pattern Driven Refactoring Report**  
 Durante el desarrollo, el equipo realizó refactorización incremental aplicando patrones de diseño orientados a frameworks utilizados (ASP.NET Core y Vue.js).
 
-Backend (C# – .NET 7)
+- Backend (C# – .NET 7)
 
-Refactor 01 – Controllers delgados (Thin Controllers)
+  - Refactor 01 – Controllers delgados (Thin Controllers)
 
-Inicialmente, parte de la lógica de negocio estaba en los controladores.
+    - Inicialmente, parte de la lógica de negocio estaba en los controladores.
 
-Refactorización: mover lógica a la capa de servicios → Service Layer Pattern.
+    - Refactorización: mover lógica a la capa de servicios → Service Layer Pattern.
 
-Resultado: controladores más simples, alta cohesión.
+    - Resultado: controladores más simples, alta cohesión.
 
-Refactor 02 – Manejo de errores y excepciones
+  - Refactor 02 – Manejo de errores y excepciones
 
-Antes: validación dispersa en cada servicio.
+    - Antes: validación dispersa en cada servicio.
 
-Refactorización: middleware global de manejo de errores con Chain of Responsibility Pattern.
+    - Refactorización: middleware global de manejo de errores con Chain of Responsibility Pattern.
 
-Resultado: respuesta uniforme en APIs (códigos HTTP consistentes).
+    - Resultado: respuesta uniforme en APIs (códigos HTTP consistentes).
 
-Refactor 03 – Autenticación
+  - Refactor 03 – Autenticación
 
-Antes: validaciones de token replicadas en cada controlador.
+    - Antes: validaciones de token replicadas en cada controlador.
 
-Refactorización: implementación de Authorization Filter basado en Decorator Pattern.
+    - Refactorización: implementación de Authorization Filter basado en Decorator Pattern.
 
-Resultado: simplificación de endpoints y mayor seguridad.
+    - Resultado: simplificación de endpoints y mayor seguridad.
 
-Frontend (Vue.js)
+- Frontend (Vue.js)
 
-Refactor 01 – Componentes reutilizables
+  - Refactor 01 – Componentes reutilizables
 
-Se detectó duplicación en formularios de login y registro.
+    - Se detectó duplicación en formularios de login y registro.
 
-Refactorización: creación de un Form Component genérico (Pattern: Component Reusability).
+    - Refactorización: creación de un Form Component genérico (Pattern: Component Reusability).
 
-Refactor 02 – Gestión de estado
+  - Refactor 02 – Gestión de estado
 
-Inicialmente se usaban props anidadas entre componentes.
+    - Inicialmente se usaban props anidadas entre componentes.
 
-Refactorización: adopción de Pinia (state management) → patrón Flux.
+    - Refactorización: adopción de Pinia (state management) → patrón Flux.
 
-Resultado: mayor mantenibilidad y consistencia en datos compartidos.
+    - Resultado: mayor mantenibilidad y consistencia en datos compartidos.
 
-**5.2 Software Configuration Management**
+**5.2 Software Configuration Management**  
+
 En esta sección se definen las decisiones, lineamientos y convenciones que permitirán mantener la consistencia y trazabilidad de los artefactos de software durante todo el ciclo de vida del producto digital Law Connect. Se abordan aspectos relacionados con el entorno de desarrollo, la gestión de código fuente, las guías de estilo y convenciones de programación, así como la configuración del despliegue de la solución.
-**5.2.1 Software Development Environment Configuration**
+
+**5.2.1 Software Development Environment Configuration**  
 El equipo utilizará un conjunto de herramientas que cubren todas las etapas del ciclo de vida de desarrollo de software, siguiendo las restricciones y lineamientos del curso.
 
 Entorno de Desarrollo
 
-Frontend:
+- Frontend:
 
-Lenguaje principal: JavaScript (ES6+)
+  - Lenguaje principal: JavaScript (ES6+)
 
-Framework: Vue.js 3
+  - Framework: Vue.js 3
 
-Gestor de dependencias: npm
+  - Gestor de dependencias: npm
 
-Editor recomendado: Visual Studio Code
+  - Editor recomendado: Visual Studio Code
 
-Extensiones: ESLint, Prettier, Vetur
+  - Extensiones: ESLint, Prettier, Vetur
 
-Backend:
+- Backend:
 
-Lenguaje principal: C#
+  - Lenguaje principal: C#
 
-Framework: .NET 7 (ASP.NET Core)
+  - Framework: .NET 7 (ASP.NET Core)
 
-Entorno de ejecución: .NET SDK
+  - Entorno de ejecución: .NET SDK
 
-IDE recomendado: Visual Studio 2022 / Rider
+  - IDE: Visual Studio 2022 / Rider
 
-ORM: Entity Framework Core
+  - ORM: Entity Framework Core
 
-Base de Datos:
+- Base de Datos:
 
-Motor: PostgreSQL 14
+  - Motor: PostgreSQL 14
 
-Cliente de administración: pgAdmin 4
+  - Cliente de administración: pgAdmin 4
 
-Herramientas de Apoyo en el Ciclo de Vida
+  - Herramientas de Apoyo en el Ciclo de Vida
 
-Gestión de Proyecto y Requerimientos: GitHub Projects, GitHub Issues.
+  - Gestión de Proyecto y Requerimientos: GitHub Projects, GitHub Issues.
 
-Diseño y Modelado: PlantUML, Draw.io, Miro.
+  - Diseño y Modelado: PlantUML, Draw.io, Miro.
 
-Gestión de Versiones: Git + GitHub.
+  - Gestión de Versiones: Git + GitHub.
 
-Testing:
+- Testing:
 
-Frontend: Jest + Vue Test Utils.
+  - Frontend: Jest + Vue Test Utils.
 
-Backend: xUnit + Moq.
+  - Backend: xUnit + Moq.
 
-Documentación: Markdown en repositorios GitHub.
+  - Documentación: Markdown en repositorios GitHub.
 
-Comunicación: Discord y Google Meet para reuniones sincrónicas.
+  - Comunicación: Discord y Google Meet para reuniones sincrónicas.
 
 
 **5.2.2  Source Code Management**
 
 El equipo centraliza la gestión del código fuente en GitHub, empleando Git como sistema de control de versiones.
 
-Repositorio de Código Fuente (Law Connect – Web Services):
-**URL del Repositorio del Frontend:**  https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Frontend-
+Repositorio de Código Fuente (Law Connect – Web Services):  
+
+**URL del Repositorio del Frontend:**  https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Frontend-  
 **URL del Repositorio del Backend:** https://github.com/UPC-PRE-202502-1ASI0657-2520-6336/Backend-
 
-Modelo de Ramas – GitFlow
+**Modelo de Ramas – GitFlow**
 
 Se adopta el workflow GitFlow propuesto por Vincent Driessen:
 
-Rama principal (main): versión estable en producción.
+- Rama principal (main): versión estable en producción.
 
-Rama de desarrollo (develop): integración de nuevas funcionalidades.
+- Rama de desarrollo (develop): integración de nuevas funcionalidades.
 
-Ramas de funcionalidades (feature/<nombre>): para cada nueva funcionalidad.
+- Ramas de funcionalidades (feature/<nombre>): para cada nueva funcionalidad.
 
-Ramas de release (release/x.y.z): preparación de versiones estables.
+- Ramas de release (release/x.y.z): preparación de versiones estables.
 
-Ramas de hotfix (hotfix/x.y.z): corrección de errores críticos en producción.
+- Ramas de hotfix (hotfix/x.y.z): corrección de errores críticos en producción.
 
-Convenciones de Nombres de Ramas
+**Convenciones de Nombres de Ramas**
 
-Features: feature/login-authentication
+- Features: feature/login-authentication
 
-Releases: release/1.0.0
+- Releases: release/1.0.0
 
-Hotfixes: hotfix/1.0.1
+- Hotfixes: hotfix/1.0.1
 
-Versionado Semántico
+**Versionado Semántico**
 
 Se emplea Semantic Versioning 2.0.0 con el formato MAJOR.MINOR.PATCH.
 Ejemplo: 1.2.0 (mayor = cambios incompatibles, menor = nuevas funciones, patch = bugfixes).
 
-Convenciones de Commits
+**Convenciones de Commits**
 
 Se adoptan las reglas de Conventional Commits:
 
-feat: → nueva funcionalidad
+- feat: → nueva funcionalidad
 
-fix: → corrección de error
+- fix: → corrección de error
 
-docs: → documentación
+- docs: → documentación
 
-style: → formato, estilos
+- style: → formato, estilos
 
-refactor: → cambios de refactorización
+- refactor: → cambios de refactorización
 
-test: → pruebas
+- test: → pruebas
 
-chore: → tareas varias
+- chore: → tareas varias
 
 **5.2.3 Source Code Style Guide & Conventions**
 
 El equipo aplicará guías de estilo y convenciones que garanticen la legibilidad y mantenibilidad del código.
 
-Lenguaje de programación: Todo el código se escribirá en inglés (nombres de variables, funciones, clases y comentarios técnicos).
+- Lenguaje de programación: Todo el código se escribirá en inglés (nombres de variables, funciones, clases y comentarios técnicos).
 
-Frontend (JavaScript + Vue.js)
+- Frontend (JavaScript + Vue.js)
 
-Basado en Google JavaScript Style Guide.
+  - Basado en Google JavaScript Style Guide.
 
-Convenciones:
+  - Convenciones:
 
-Variables y funciones → camelCase.
+    - Variables y funciones → camelCase.
 
-Clases y componentes → PascalCase.
+    - Clases y componentes → PascalCase.
 
-Constantes → UPPER_CASE.
+    - Constantes → UPPER_CASE.
 
-Archivos Vue → un componente por archivo (ComponentName.vue).
+    - Archivos Vue → un componente por archivo (ComponentName.vue).
 
-Uso de ESLint + Prettier para asegurar estilo uniforme.
+  - Uso de ESLint + Prettier para asegurar estilo uniforme.
 
-Backend (C# – .NET 7)
+- Backend (C# – .NET 7)
 
-Convenciones de Microsoft C# Coding Conventions.
+  - Convenciones de Microsoft C# Coding Conventions.
 
-Convenciones:
+  - Convenciones:
 
-Clases e Interfaces → PascalCase.
+    - Clases e Interfaces → PascalCase.
 
-Métodos → PascalCase.
+    - Métodos → PascalCase.
 
-Variables locales y parámetros → camelCase.
+    - Variables locales y parámetros → camelCase.
 
-Uso obligatorio de async/await para operaciones asíncronas.
+    - Uso obligatorio de async/await para operaciones asíncronas.
 
-Separación en capas: Controllers, Services, Repositories, Models.
+    - Separación en capas: Controllers, Services, Repositories, Models.
 
-Pruebas con Gherkin (Cucumber)
+    - Pruebas con Gherkin (Cucumber)
 
-Se aplican las Gherkin Conventions for Readable Specifications:
+    - Se aplican las Gherkin Conventions for Readable Specifications:
 
-Uso de Given – When – Then.
+    - Uso de Given – When – Then.
 
-Lenguaje en inglés.
+    - Lenguaje en inglés.
 
-Archivos .feature organizados en la carpeta /tests/features/.
+    - Archivos .feature organizados en la carpeta /tests/features/.
 
 **5.2.4  Software Deployment Configuration**
 
 El despliegue de la solución Law Connect se realizará en la plataforma Render, que soporta aplicaciones web y APIs.
 
-Pipeline de Despliegue
+**Pipeline de Despliegue**
 
-Integración Continua (CI):
+- Integración Continua (CI):
 
-GitHub Actions ejecuta pruebas unitarias y de integración al realizar un push o PR en develop.
+    - GitHub Actions ejecuta pruebas unitarias y de integración al realizar un push o PR en develop.
 
-Validación automática de estilo y convenciones (ESLint, Prettier, dotnet format).
+    - Validación automática de estilo y convenciones (ESLint, Prettier, dotnet format).
 
-Entrega Continua (CD):
+- Entrega Continua (CD):
 
-Despliegue automático en entorno de staging en Render desde la rama develop.
+    - Despliegue automático en entorno de staging en Render desde la rama develop.
 
-Despliegue en entorno de producción desde la rama main.
+    - Despliegue en entorno de producción desde la rama main.
 
-Configuración de Servicios en Render:
+- Configuración de Servicios en Render:
 
-Frontend (Vue.js): servicio estático con build command npm run build.
+    - Frontend (Vue.js): servicio estático con build command npm run build.
 
-Backend (C# – .NET): servicio web con start command dotnet LawConnect.dll.
+    - Backend (C# – .NET): servicio web con start command dotnet LawConnect.dll.
 
-Base de Datos: PostgreSQL gestionado por Render.
-Modelo de Despliegue - C4 Deployment Diagram
+    - Base de Datos: PostgreSQL gestionado por Render.  
+
+Modelo de Despliegue - C4 Deployment Diagram  
 ![Impact Mapping](assets/img/develop/deploymentdiagramc42.png)
 
-**5.3 Microservices Implementation**
-**5.2.1  Sprint 1**
-**5.2.1.1     Sprint Backlog 1**
-**5.2.1.2     Development Evidence for Sprint Review**
-**5.2.1.3     Testing Suite Evidence for Sprint Review**
-**5.2.1.4     Execution Evidence for Sprint Review**
-**5.2.1.5     Microservices Documentation Evidence for Sprint Review**
-**5.2.1.6     Software Deployment Evidence for Sprint Review**
-**5.2.1.7     Team Collaboration Insights during Sprint**
-**5.2.1.8     Kanban Board --> TP1**
+**5.3 Microservices Implementation**  
+**5.2.1  Sprint 1**  
+**5.2.1.1     Sprint Backlog 1**  
+**5.2.1.2     Development Evidence for Sprint Review**  
+**5.2.1.3     Testing Suite Evidence for Sprint Review**  
+**5.2.1.4     Execution Evidence for Sprint Review**  
+**5.2.1.5     Microservices Documentation Evidence for Sprint Review**  
+**5.2.1.6     Software Deployment Evidence for Sprint Review**  
+**5.2.1.7     Team Collaboration Insights during Sprint**  
+**5.2.1.8     Kanban Board --> TP1**  
 
+5.2.2  Sprint 2
+5.2.2.1    Sprint Backlog 2
+5.2.2.2    Development Evidence for Sprint Review
+5.2.2.3    Testing Suite Evidence for Sprint Review
+5.2.2.4    Execution Evidence for Sprint Review
+5.2.2.5    Microservices Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se completó la implementación y validación de la arquitectura modular del sistema LawConnect, bajo un enfoque orientado a servicios independientes y comunicantes. Se consolidaron los mecanismos de seguridad basados en autenticación mediante JWT, autorización por roles, protección de endpoints en backend y restricción de rutas en frontend, asegurando el cumplimiento del driver de seguridad solicitado, el cual exige que el sistema rechace de manera explícita los intentos de autenticación de usuarios no registrados. 
+
+Adicionalmente, se verificaron las funciones principales del sistema: gestión de usuarios, agenda de citas entre abogado y cliente, manejo de documentos y comunicación en tiempo real mediante SignalR. La interacción entre el frontend (Vue/JS) y el backend (ASP.NET Core) se realizó de forma consistente, mediante el envío del token JWT en cada solicitud autenticada. 
+
+Arquitectura del Sistema y Servicios 
+
+La plataforma se encuentra organizada en módulos de responsabilidad separada, facilitando escalabilidad, mantenibilidad y trazabilidad: 
+
+Servicio 
+
+Responsabilidad Principal 
+
+Ubicación en Repositorio 
+
+Auth Service 
+
+Registro, inicio de sesión, emisión de tokens JWT 
+
+backend/Controllers/AuthController.cs + backend/Services/JwtService.cs 
+
+User Service 
+
+Consulta, edición y administración de perfiles 
+
+backend/Controllers/UsersController.cs 
+
+Appointments Service 
+
+Registro, actualización y visualización de citas 
+
+backend/Controllers/AppointmentsController.cs 
+
+Documents Service 
+
+Subida, almacenamiento y gestión de documentos legales 
+
+backend/Controllers/DocumentsController.cs + backend/wwwroot/uploads/ 
+
+Communication Service (Chat) 
+
+Comunicación abogado–cliente en tiempo real 
+
+backend/Hubs/ChatHub.cs (con autorización obligatoria) 
+
+Este diseño permite que cada módulo pueda evolucionar de manera independiente sin afectar la operación central del sistema. 
+
+Autenticación y Manejo Seguro de Sesiones 
+
+El sistema implementa autenticación mediante JSON Web Tokens (JWT). 
+ La generación del token incluye la identidad del usuario y su rol, lo cual permite validar accesos y permisos en etapas posteriores. 
+
+Fragmento original en Services/JwtService.cs: 
+
+new Claim(JwtRegisteredClaimNames.Sub, email), 
+
+new Claim("id", userId.ToString()), 
+
+new Claim(ClaimTypes.Role, role ?? "client"), 
+
+new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()) 
+
+Este token se devuelve al frontend tras una autenticación exitosa. Luego, el frontend lo almacena y lo envía automáticamente en cada solicitud. 
+
+Validación del Driver de Seguridad  
+
+Se probó el comportamiento ante el intento de iniciar sesión con una cuenta no registrada, lo cual constituye el driver de seguridad principal: 
+
+El usuario ingresa un correo inexistente. 
+
+El backend busca el correo en la base de datos. 
+
+Si no existe, devuelve: 
+
+HTTP 401 Unauthorized 
+
+{ "message": "Invalid credentials" } 
+
+No se genera token. 
+
+El sistema no permite el acceso a rutas protegidas. 
+
+El frontend permanece en la pantalla de login. 
+
+Esto demuestra que el sistema no expone accesos involuntarios, cumpliendo el requerimiento explícito. 
+
+ 
+
+Mecanismos de Autorización 
+
+El token contiene el rol del usuario, el cual se utiliza para controlar el acceso: 
+
+Backend: verificaciones mediante [Authorize] y claims del rol. 
+
+Frontend: restricciones mediante guardias de rutas. 
+
+Fragmento real en src/router/index.js: 
+
+if (to.meta.requiresAuth && !isLoggedIn) { 
+
+    next('/login') 
+
+} else if (to.meta.adminOnly && !adminAccess) { 
+
+    next('/') 
+
+} else { 
+
+    next() 
+
+} 
+
+ 
+
+De esta manera, rutas como gestión de citas, documentos y chat quedan protegidas. 
+
+ 
+
+Intercambio Seguro entre Frontend y Backend 
+
+El frontend adjunta automáticamente el token en cada solicitud: 
+
+Archivo src/services/api.js: 
+
+API.interceptors.request.use(cfg => { 
+
+  const t = localStorage.getItem('token'); 
+
+  if (t) cfg.headers.Authorization = `Bearer ${t}`; 
+
+  return cfg; 
+
+}); 
+
+Con esto se garantiza que ninguna operación crítica se realiza sin autorización. 
+
+ 
+
+Chat Seguro en Tiempo Real (SignalR) 
+
+El chat está protegido a nivel de servidor: 
+
+[Authorize] 
+public class ChatHub : Hub { ... } 
+ 
+
+Esto impide que usuarios no autenticados puedan observar o intervenir en la comunicación. 
+
+EVIDENCIAS FORMALMENTE DOCUMENTADAS: 
+
+Evidencia 
+
+Descripción 
+
+Resultado esperado 
+
+E1: Inicio de sesión exitoso 
+
+Token y datos del usuario devueltos correctamente 
+
+Se recibe token y estructura user 
+
+E2: Inicio de sesión fallido con usuario no existente 
+
+El backend rechaza la solicitud 
+
+Respuesta: 401 Unauthorized 
+
+E3: Token almacenado en navegador 
+
+Persistencia en localStorage 
+
+localStorage.getItem('token') ≠ null 
+
+E4: Autorización de rutas 
+
+El usuario no autenticado no puede acceder 
+
+Redirección automática a /login 
+
+E5: Conexión protegida a ChatHub 
+
+Sin token → acceso denegado 
+
+Mensaje de rechazo 
+
+E6: Subida de documentos 
+
+Archivo almacenado en /uploads/ 
+
+Evidencia visual de archivo creado 
+
+E7: Agenda de citas funcional 
+
+Registro y visualización desde UI 
+
+Cita aparece en la vista correspondiente 
+
+ 
+
+Conclusión 
+
+El sistema cumple al 100% con los lineamientos solicitados en el Sprint 2: 
+
+Seguridad basada en JWT correctamente implementada. 
+
+Control de acceso por roles aplicado en frontend y backend. 
+
+Driver de seguridad validado mediante pruebas con cuenta no registrada. 
+
+Servicios de agenda, documentos y chat completamente operativos. 
+
+Arquitectura modular lista para escalar y mantener. 
+
+Se encuentra listo para presentación y revisión. 
+
+ 
+
+Evidencias: 
+
+Evidencia 1 — Inicio de sesión exitoso con usuario registrado 
+
+Solicitud: 
+
+POST /api/auth/login 
+Content-Type: application/json 
+ 
+{ 
+  "email": "user1@example.com", 
+  "password": "password" 
+} 
+ 
+
+Respuesta del servidor (200 OK): 
+
+{ 
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXV...", 
+  "user": { 
+    "id": 1, 
+    "fullName": "Demo User 1", 
+    "email": "user1@example.com", 
+    "role": "client", 
+    "specialization": null, 
+    "bio": null 
+  } 
+} 
+ 
+
+Conclusión: 
+ El servidor valida credenciales, genera token JWT, y devuelve datos del usuario autenticado. 
+
+ 
+
+Evidencia 2 — Intento de inicio de sesión con usuario no registrado (Driver de Seguridad Validado) 
+
+Solicitud: 
+
+POST /api/auth/login 
+Content-Type: application/json 
+ 
+{ 
+  "email": "noexiste@example.com", 
+  "password": "123456" 
+} 
+ 
+
+Respuesta del servidor (401 Unauthorized): 
+
+{ 
+  "message": "Invalid credentials" 
+} 
+ 
+
+Conclusión: 
+ El sistema rechaza el acceso, no genera token, y cumple el driver de seguridad exigido. 
+
+ 
+
+Evidencia 3 — Token almacenado en el navegador (Frontend) 
+
+Comando ejecutado desde la consola del navegador: 
+
+localStorage.getItem('token') 
+ 
+
+Resultado: 
+
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXV..." 
+ 
+
+Conclusión: 
+ El frontend guarda el token de forma persistente para autorizar solicitudes posteriores. 
+
+ 
+
+Evidencia 4 — Envío automático del token en peticiones (Interceptor Axios) 
+
+Archivo: frontend/src/services/api.js 
+
+API.interceptors.request.use(cfg => { 
+  const t = localStorage.getItem('token'); 
+  if (t) cfg.headers.Authorization = `Bearer ${t}`; 
+  return cfg; 
+}); 
+ 
+
+Conclusión: 
+ Todas las solicitudes autenticadas adjuntan el token automáticamente. 
+
+ 
+
+Evidencia 5 — Protección de rutas según autenticación y rol (Frontend) 
+
+Archivo: frontend/src/router/index.js 
+
+if (to.meta.requiresAuth && !isLoggedIn) { 
+    next('/login') 
+} else if (to.meta.adminOnly && !adminAccess) { 
+    next('/') 
+} else { 
+    next() 
+} 
+ 
+
+Conclusión: 
+ Las vistas protegidas no pueden abrirse sin autenticación y las rutas se restringen por rol. 
+
+ 
+
+Evidencia 6 — Chat protegido con autorización (Backend) 
+
+Archivo: backend/Hubs/ChatHub.cs 
+
+[Authorize] 
+public class ChatHub : Hub { } 
+ 
+
+Conclusión: 
+ El chat requiere token válido, evitando acceso de usuarios no autenticados. 
+
+ 
+
+Evidencia 7 — Subida de documentos funcionando 
+
+Solicitud: 
+
+POST /api/documents/upload 
+Form-Data: 
+file: contrato.pdf 
+ 
+
+Resultado en el servidor: 
+
+Archivo guardado en backend/wwwroot/uploads/contrato.pdf 
+ 
+
+Conclusión: 
+ El sistema permite almacenamiento de archivos legales correctamente. 
+
+ 
+
+Evidencia 8 — Registro y visualización de citas en agenda 
+
+Acción: 
+ Un usuario cliente registra una cita desde la vista de agenda. 
+
+Resultado visual en interfaz: 
+ La cita aparece listada con: 
+
+Nombre del abogado 
+
+Fecha y hora 
+
+Estado 
+
+Conclusión: 
+ La interacción agenda cliente–abogado funciona correctamente. 
+
+ 
+
+
+5.2.2.6    Software Deployment Evidence for Sprint Review
+5.2.2.7    Team Collaboration Insights during Sprint
+5.2.2.8    Kanban Board --> (Avance 3)
 
 
 # Conclusiones
