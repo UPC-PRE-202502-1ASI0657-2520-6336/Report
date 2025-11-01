@@ -3256,6 +3256,396 @@ Modelo de Despliegue - C4 Deployment Diagram
 **5.2.1.7     Team Collaboration Insights during Sprint**  
 **5.2.1.8     Kanban Board --> TP1**  
 
+5.2.2  Sprint 2
+5.2.2.1    Sprint Backlog 2
+5.2.2.2    Development Evidence for Sprint Review
+5.2.2.3    Testing Suite Evidence for Sprint Review
+5.2.2.4    Execution Evidence for Sprint Review
+5.2.2.5    Microservices Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 se completó la implementación y validación de la arquitectura modular del sistema LawConnect, bajo un enfoque orientado a servicios independientes y comunicantes. Se consolidaron los mecanismos de seguridad basados en autenticación mediante JWT, autorización por roles, protección de endpoints en backend y restricción de rutas en frontend, asegurando el cumplimiento del driver de seguridad solicitado, el cual exige que el sistema rechace de manera explícita los intentos de autenticación de usuarios no registrados. 
+
+Adicionalmente, se verificaron las funciones principales del sistema: gestión de usuarios, agenda de citas entre abogado y cliente, manejo de documentos y comunicación en tiempo real mediante SignalR. La interacción entre el frontend (Vue/JS) y el backend (ASP.NET Core) se realizó de forma consistente, mediante el envío del token JWT en cada solicitud autenticada. 
+
+Arquitectura del Sistema y Servicios 
+
+La plataforma se encuentra organizada en módulos de responsabilidad separada, facilitando escalabilidad, mantenibilidad y trazabilidad: 
+
+Servicio 
+
+Responsabilidad Principal 
+
+Ubicación en Repositorio 
+
+Auth Service 
+
+Registro, inicio de sesión, emisión de tokens JWT 
+
+backend/Controllers/AuthController.cs + backend/Services/JwtService.cs 
+
+User Service 
+
+Consulta, edición y administración de perfiles 
+
+backend/Controllers/UsersController.cs 
+
+Appointments Service 
+
+Registro, actualización y visualización de citas 
+
+backend/Controllers/AppointmentsController.cs 
+
+Documents Service 
+
+Subida, almacenamiento y gestión de documentos legales 
+
+backend/Controllers/DocumentsController.cs + backend/wwwroot/uploads/ 
+
+Communication Service (Chat) 
+
+Comunicación abogado–cliente en tiempo real 
+
+backend/Hubs/ChatHub.cs (con autorización obligatoria) 
+
+Este diseño permite que cada módulo pueda evolucionar de manera independiente sin afectar la operación central del sistema. 
+
+Autenticación y Manejo Seguro de Sesiones 
+
+El sistema implementa autenticación mediante JSON Web Tokens (JWT). 
+ La generación del token incluye la identidad del usuario y su rol, lo cual permite validar accesos y permisos en etapas posteriores. 
+
+Fragmento original en Services/JwtService.cs: 
+
+new Claim(JwtRegisteredClaimNames.Sub, email), 
+
+new Claim("id", userId.ToString()), 
+
+new Claim(ClaimTypes.Role, role ?? "client"), 
+
+new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()) 
+
+Este token se devuelve al frontend tras una autenticación exitosa. Luego, el frontend lo almacena y lo envía automáticamente en cada solicitud. 
+
+Validación del Driver de Seguridad  
+
+Se probó el comportamiento ante el intento de iniciar sesión con una cuenta no registrada, lo cual constituye el driver de seguridad principal: 
+
+El usuario ingresa un correo inexistente. 
+
+El backend busca el correo en la base de datos. 
+
+Si no existe, devuelve: 
+
+HTTP 401 Unauthorized 
+
+{ "message": "Invalid credentials" } 
+
+No se genera token. 
+
+El sistema no permite el acceso a rutas protegidas. 
+
+El frontend permanece en la pantalla de login. 
+
+Esto demuestra que el sistema no expone accesos involuntarios, cumpliendo el requerimiento explícito. 
+
+ 
+
+Mecanismos de Autorización 
+
+El token contiene el rol del usuario, el cual se utiliza para controlar el acceso: 
+
+Backend: verificaciones mediante [Authorize] y claims del rol. 
+
+Frontend: restricciones mediante guardias de rutas. 
+
+Fragmento real en src/router/index.js: 
+
+if (to.meta.requiresAuth && !isLoggedIn) { 
+
+    next('/login') 
+
+} else if (to.meta.adminOnly && !adminAccess) { 
+
+    next('/') 
+
+} else { 
+
+    next() 
+
+} 
+
+ 
+
+De esta manera, rutas como gestión de citas, documentos y chat quedan protegidas. 
+
+ 
+
+Intercambio Seguro entre Frontend y Backend 
+
+El frontend adjunta automáticamente el token en cada solicitud: 
+
+Archivo src/services/api.js: 
+
+API.interceptors.request.use(cfg => { 
+
+  const t = localStorage.getItem('token'); 
+
+  if (t) cfg.headers.Authorization = `Bearer ${t}`; 
+
+  return cfg; 
+
+}); 
+
+Con esto se garantiza que ninguna operación crítica se realiza sin autorización. 
+
+ 
+
+Chat Seguro en Tiempo Real (SignalR) 
+
+El chat está protegido a nivel de servidor: 
+
+[Authorize] 
+public class ChatHub : Hub { ... } 
+ 
+
+Esto impide que usuarios no autenticados puedan observar o intervenir en la comunicación. 
+
+EVIDENCIAS FORMALMENTE DOCUMENTADAS: 
+
+Evidencia 
+
+Descripción 
+
+Resultado esperado 
+
+E1: Inicio de sesión exitoso 
+
+Token y datos del usuario devueltos correctamente 
+
+Se recibe token y estructura user 
+
+E2: Inicio de sesión fallido con usuario no existente 
+
+El backend rechaza la solicitud 
+
+Respuesta: 401 Unauthorized 
+
+E3: Token almacenado en navegador 
+
+Persistencia en localStorage 
+
+localStorage.getItem('token') ≠ null 
+
+E4: Autorización de rutas 
+
+El usuario no autenticado no puede acceder 
+
+Redirección automática a /login 
+
+E5: Conexión protegida a ChatHub 
+
+Sin token → acceso denegado 
+
+Mensaje de rechazo 
+
+E6: Subida de documentos 
+
+Archivo almacenado en /uploads/ 
+
+Evidencia visual de archivo creado 
+
+E7: Agenda de citas funcional 
+
+Registro y visualización desde UI 
+
+Cita aparece en la vista correspondiente 
+
+ 
+
+Conclusión 
+
+El sistema cumple al 100% con los lineamientos solicitados en el Sprint 2: 
+
+Seguridad basada en JWT correctamente implementada. 
+
+Control de acceso por roles aplicado en frontend y backend. 
+
+Driver de seguridad validado mediante pruebas con cuenta no registrada. 
+
+Servicios de agenda, documentos y chat completamente operativos. 
+
+Arquitectura modular lista para escalar y mantener. 
+
+Se encuentra listo para presentación y revisión. 
+
+ 
+
+Evidencias: 
+
+Evidencia 1 — Inicio de sesión exitoso con usuario registrado 
+
+Solicitud: 
+
+POST /api/auth/login 
+Content-Type: application/json 
+ 
+{ 
+  "email": "user1@example.com", 
+  "password": "password" 
+} 
+ 
+
+Respuesta del servidor (200 OK): 
+
+{ 
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXV...", 
+  "user": { 
+    "id": 1, 
+    "fullName": "Demo User 1", 
+    "email": "user1@example.com", 
+    "role": "client", 
+    "specialization": null, 
+    "bio": null 
+  } 
+} 
+ 
+
+Conclusión: 
+ El servidor valida credenciales, genera token JWT, y devuelve datos del usuario autenticado. 
+
+ 
+
+Evidencia 2 — Intento de inicio de sesión con usuario no registrado (Driver de Seguridad Validado) 
+
+Solicitud: 
+
+POST /api/auth/login 
+Content-Type: application/json 
+ 
+{ 
+  "email": "noexiste@example.com", 
+  "password": "123456" 
+} 
+ 
+
+Respuesta del servidor (401 Unauthorized): 
+
+{ 
+  "message": "Invalid credentials" 
+} 
+ 
+
+Conclusión: 
+ El sistema rechaza el acceso, no genera token, y cumple el driver de seguridad exigido. 
+
+ 
+
+Evidencia 3 — Token almacenado en el navegador (Frontend) 
+
+Comando ejecutado desde la consola del navegador: 
+
+localStorage.getItem('token') 
+ 
+
+Resultado: 
+
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXV..." 
+ 
+
+Conclusión: 
+ El frontend guarda el token de forma persistente para autorizar solicitudes posteriores. 
+
+ 
+
+Evidencia 4 — Envío automático del token en peticiones (Interceptor Axios) 
+
+Archivo: frontend/src/services/api.js 
+
+API.interceptors.request.use(cfg => { 
+  const t = localStorage.getItem('token'); 
+  if (t) cfg.headers.Authorization = `Bearer ${t}`; 
+  return cfg; 
+}); 
+ 
+
+Conclusión: 
+ Todas las solicitudes autenticadas adjuntan el token automáticamente. 
+
+ 
+
+Evidencia 5 — Protección de rutas según autenticación y rol (Frontend) 
+
+Archivo: frontend/src/router/index.js 
+
+if (to.meta.requiresAuth && !isLoggedIn) { 
+    next('/login') 
+} else if (to.meta.adminOnly && !adminAccess) { 
+    next('/') 
+} else { 
+    next() 
+} 
+ 
+
+Conclusión: 
+ Las vistas protegidas no pueden abrirse sin autenticación y las rutas se restringen por rol. 
+
+ 
+
+Evidencia 6 — Chat protegido con autorización (Backend) 
+
+Archivo: backend/Hubs/ChatHub.cs 
+
+[Authorize] 
+public class ChatHub : Hub { } 
+ 
+
+Conclusión: 
+ El chat requiere token válido, evitando acceso de usuarios no autenticados. 
+
+ 
+
+Evidencia 7 — Subida de documentos funcionando 
+
+Solicitud: 
+
+POST /api/documents/upload 
+Form-Data: 
+file: contrato.pdf 
+ 
+
+Resultado en el servidor: 
+
+Archivo guardado en backend/wwwroot/uploads/contrato.pdf 
+ 
+
+Conclusión: 
+ El sistema permite almacenamiento de archivos legales correctamente. 
+
+ 
+
+Evidencia 8 — Registro y visualización de citas en agenda 
+
+Acción: 
+ Un usuario cliente registra una cita desde la vista de agenda. 
+
+Resultado visual en interfaz: 
+ La cita aparece listada con: 
+
+Nombre del abogado 
+
+Fecha y hora 
+
+Estado 
+
+Conclusión: 
+ La interacción agenda cliente–abogado funciona correctamente. 
+
+ 
+
+
+5.2.2.6    Software Deployment Evidence for Sprint Review
+5.2.2.7    Team Collaboration Insights during Sprint
+5.2.2.8    Kanban Board --> (Avance 3)
 
 
 # Conclusiones
