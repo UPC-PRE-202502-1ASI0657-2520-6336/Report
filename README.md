@@ -3762,9 +3762,31 @@ Informe: [upc-pre-202502-si657-6336-Law Connect-performance-pc1.docx ](https://g
 
 ![Kandban Board Sprint 2](assets/img/chapter-5/kanban_board_sprint_2.png)
 
+**5.2.3 Sprint 3**
+<br>
+**5.2.3.1 Sprint Backlog 3**
+<br>
+**5.2.3.2 Development Evidence for Sprint Review**
+<br>
+**5.2.3.3 Testing Suite Evidence for Sprint Review**
+<br>
+**5.2.3.4 Execution Evidence for Sprint Review**
+<br>
+**5.2.3.5 Microservices Documentation Evidence for Sprint Review**
+<br>
+**5.2.3.6 Software Deployment Evidence for Sprint Review**
+<br>
+**5.2.3.7 Team Collaboration Insights during Sprint**
+<br>
+**5.2.3.8 Kanban Board**
+![Kandban Board Sprint 2](assets/img/chapter-5/sprint3kanban.png)
+Link: 
 
+https://trello.com/invite/b/690d5a7a575a51936ddd6e24/ATTIc2d23732bb075cb827d2f53eea84adc839961032/kanban-board-sprint-3
+
+<br>
 # Conclusiones
-
+<br>
 ### Conclusiones y recomendaciones
 
 <!-- contenido -->
