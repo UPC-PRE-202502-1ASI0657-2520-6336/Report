@@ -3765,9 +3765,264 @@ Informe: [upc-pre-202502-si657-6336-Law Connect-performance-pc1.docx ](https://g
 **5.2.3 Sprint 3**
 <br>
 **5.2.3.1 Sprint Backlog 3**
-<br>
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th rowspan="2" style="border: 1px solid #000; padding: 4px;">Sprint #</th>
+      <th colspan="7" style="border: 1px solid #000; padding: 4px;">Sprint 3</th>
+    </tr>
+    <tr>
+      <th colspan="2" style="border: 1px solid #000; padding: 4px;">User Story</th>
+      <th colspan="6" style="border: 1px solid #000; padding: 4px;">Work-Item / Task</th>
+    </tr>
+    <tr>
+      <th style="border: 1px solid #000; padding: 4px;">Id</th>
+      <th style="border: 1px solid #000; padding: 4px;">Title</th>
+      <th style="border: 1px solid #000; padding: 4px;">Id</th>
+      <th style="border: 1px solid #000; padding: 4px;">Title</th>
+      <th style="border: 1px solid #000; padding: 4px;">Descripción</th>
+      <th style="border: 1px solid #000; padding: 4px;">Estimation</th>
+      <th style="border: 1px solid #000; padding: 4px;">Assigned To</th>
+      <th style="border: 1px solid #000; padding: 4px;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #000; padding: 4px;">HU06</td>
+      <td style="border: 1px solid #000; padding: 4px;">Gestión de Documentos Personales</td>
+      <td style="border: 1px solid #000; padding: 4px;">W06</td>
+      <td style="border: 1px solid #000; padding: 4px;">Implementación del endpoint de subida y protección de documentos</td>
+      <td style="border: 1px solid #000; padding: 4px;">Implementar subida y acceso protegido de documentos.</td>
+      <td style="border: 1px solid #000; padding: 4px;">3</td>
+      <td style="border: 1px solid #000; padding: 4px;">Sebastian</td>
+      <td style="border: 1px solid #000; padding: 4px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 4px;">HU11</td>
+      <td style="border: 1px solid #000; padding: 4px;">Visualización de Consultas Pendientes</td>
+      <td style="border: 1px solid #000; padding: 4px;">W11</td>
+      <td style="border: 1px solid #000; padding: 4px;">Listado de citas pendientes en UI + endpoints</td>
+      <td style="border: 1px solid #000; padding: 4px;">Mostrar citas pendientes mediante CRUD de agenda.</td>
+      <td style="border: 1px solid #000; padding: 4px;">3</td>
+      <td style="border: 1px solid #000; padding: 4px;">Marco</td>
+      <td style="border: 1px solid #000; padding: 4px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 4px;">HU12</td>
+      <td style="border: 1px solid #000; padding: 4px;">Visualización de Historial de Consultas</td>
+      <td style="border: 1px solid #000; padding: 4px;">W12</td>
+      <td style="border: 1px solid #000; padding: 4px;">Renderizado de historial en la UI + consumo de API</td>
+      <td style="border: 1px solid #000; padding: 4px;">Listar historial de citas desde API en la UI.</td>
+      <td style="border: 1px solid #000; padding: 4px;">3</td>
+      <td style="border: 1px solid #000; padding: 4px;">Max</td>
+      <td style="border: 1px solid #000; padding: 4px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 4px;">HU14</td>
+      <td style="border: 1px solid #000; padding: 4px;">Acceso a Documentos Relevantes</td>
+      <td style="border: 1px solid #000; padding: 4px;">W14</td>
+      <td style="border: 1px solid #000; padding: 4px;">Descarga y visualización segura de documentos</td>
+      <td style="border: 1px solid #000; padding: 4px;">Habilitar descarga segura de documentos del caso.</td>
+      <td style="border: 1px solid #000; padding: 4px;">3</td>
+      <td style="border: 1px solid #000; padding: 4px;">Camila</td>
+      <td style="border: 1px solid #000; padding: 4px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 4px;">HU21</td>
+      <td style="border: 1px solid #000; padding: 4px;">Consulta de Disponibilidad de Abogados</td>
+      <td style="border: 1px solid #000; padding: 4px;">W21</td>
+      <td style="border: 1px solid #000; padding: 4px;">Integración del motor de agenda + ver disponibilidad</td>
+      <td style="border: 1px solid #000; padding: 4px;">Integrar disponibilidad de abogados desde motor de agenda.</td>
+      <td style="border: 1px solid #000; padding: 4px;">3</td>
+      <td style="border: 1px solid #000; padding: 4px;">Jose</td>
+      <td style="border: 1px solid #000; padding: 4px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 4px;">HU22</td>
+      <td style="border: 1px solid #000; padding: 4px;">Solicitud de Cita con Abogado</td>
+      <td style="border: 1px solid #000; padding: 4px;">W22</td>
+      <td style="border: 1px solid #000; padding: 4px;">Creación de citas desde UI + API</td>
+      <td style="border: 1px solid #000; padding: 4px;">Implementar flujo para solicitar una cita desde la UI.</td>
+      <td style="border: 1px solid #000; padding: 4px;">3</td>
+      <td style="border: 1px solid #000; padding: 4px;">Sebastian</td>
+      <td style="border: 1px solid #000; padding: 4px;">Done</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 4px;">HU32</td>
+      <td style="border: 1px solid #000; padding: 4px;">Compatibilidad con Tecnologías de Asistencia</td>
+      <td style="border: 1px solid #000; padding: 4px;">W32</td>
+      <td style="border: 1px solid #000; padding: 4px;">Ajustes de accesibilidad (ARIA, landmarks) + Lighthouse/Axe CI</td>
+      <td style="border: 1px solid #000; padding: 4px;">Añadir ARIA y validaciones de accesibilidad (Axe/Lighthouse).</td>
+      <td style="border: 1px solid #000; padding: 4px;">3</td>
+      <td style="border: 1px solid #000; padding: 4px;">Marco</td>
+      <td style="border: 1px solid #000; padding: 4px;">Done</td>
+    </tr>
+  </tbody>
+</table>
+
+
 **5.2.3.2 Development Evidence for Sprint Review**
-<br>
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid #000; padding: 6px;">Repository</th>
+      <th style="border: 1px solid #000; padding: 6px;">Branch</th>
+      <th style="border: 1px solid #000; padding: 6px;">Commit Id</th>
+      <th style="border: 1px solid #000; padding: 6px;">Commit Message</th>
+      <th style="border: 1px solid #000; padding: 6px;">Commit Message Body</th>
+      <th style="border: 1px solid #000; padding: 6px;">Commit On (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">73222c2</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via upload</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">b3793e0</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via upload</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">1437fff</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via upload</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">78745a2a</td>
+      <td style="border: 1px solid #000; padding: 6px;">Create Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">cca8fc4</td>
+      <td style="border: 1px solid #000; padding: 6px;">Delete Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">85c464e</td>
+      <td style="border: 1px solid #000; padding: 6px;">Create Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">a32e0e4</td>
+      <td style="border: 1px solid #000; padding: 6px;">Update Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">45ef51a</td>
+      <td style="border: 1px solid #000; padding: 6px;">Delete Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">f271067</td>
+      <td style="border: 1px solid #000; padding: 6px;">Create Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">ffd0986</td>
+      <td style="border: 1px solid #000; padding: 6px;">Update Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Backend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">63e0722</td>
+      <td style="border: 1px solid #000; padding: 6px;">Delete Dockerfile</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Frontend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">037ac59</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via load</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Frontend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">06aadb0</td>
+      <td style="border: 1px solid #000; padding: 6px;">Create s</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Frontend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">7ad91ed</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via upload</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Frontend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">819b15c</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via upload</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Frontend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">f92f7a4</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via upload</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Frontend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">f32c75d</td>
+      <td style="border: 1px solid #000; padding: 6px;">Add files via upload</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #000; padding: 6px;">Frontend</td>
+      <td style="border: 1px solid #000; padding: 6px;">main</td>
+      <td style="border: 1px solid #000; padding: 6px;">a99b391</td>
+      <td style="border: 1px solid #000; padding: 6px;">Update ChatWidget.vue</td>
+      <td style="border: 1px solid #000; padding: 6px;">-</td>
+      <td style="border: 1px solid #000; padding: 6px;">10/10/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+
 **5.2.3.3 Testing Suite Evidence for Sprint Review**
 <br>
 **5.2.3.4 Execution Evidence for Sprint Review**
